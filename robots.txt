@@ -1,0 +1,12 @@
+# robots.txt for balkon-moestuin.nl
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://balkon-moestuin.nl/sitemap.xml
+
+# Block admin/private folders (if any)
+Disallow: /assets/
+Disallow: /*.py$
+Disallow: /*.sh$
