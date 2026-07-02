@@ -107,7 +107,7 @@ def generate_page(p, all_products):
     similar_html = ''
     for s in similar:
         sp = f"€{s['price']:,.2f}".replace(',', 'X').replace('.', ',').replace('X', '.')
-        similar_html += f'''                <a href="{s['slug']}.html" class="similar-card">
+        similar_html += f'''                <a href="/producten/{s['slug']}.html" class="similar-card">
                     <img src="{h(s.get('image',''))}" alt="{h(s['name'][:60])}" loading="lazy" onerror="this.style.display='none'">
                     <h4>{h(s['name'][:65])}</h4>
                     <span class="card-price">{sp}</span>
@@ -152,9 +152,9 @@ def generate_page(p, all_products):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{name} kopen | Balkon-Moestuin.nl</title>
     <meta name="description" content="{name} kopen? Prijs: {price_display}. {h(cat_label)}. Direct leverbaar via Bol.com met gratis verzending.">
-    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="canonical" href="{SITE}/producten/{slug}.html">
-    <link rel="icon" type="image/svg+xml" href="../assets/img/pixel-plant.svg">
+    <link rel="icon" type="image/svg+xml" href="/assets/img/pixel-plant.svg">
     <meta name="theme-color" content="#6b9e48">
     <script type="application/ld+json">{ld_json}</script>
     <style>
@@ -199,46 +199,49 @@ def generate_page(p, all_products):
 </head>
 <body>
     <nav class="navbar">
-        <div class="container"><div class="nav-container">
-            <a href="../index.html" class="nav-brand">Balkon-Moestuin.nl</a>
-            <button class="mobile-menu-toggle" id="menuToggle" aria-label="Menu"><span></span><span></span><span></span></button>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="../index.html" class="nav-link">Home</a></li>
-                <li class="nav-item dropdown"><a href="../gidsen/index.html" class="nav-link dropdown-toggle">Gidsen</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="../gidsen/index.html" class="dropdown-link">Alle gidsen</a></li>
-                        <li><a href="../planten/index.html" class="dropdown-link">Planten</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown"><a href="../shop/index.html" class="nav-link dropdown-toggle active">Shop</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="../shop/index.html" class="dropdown-link">Alle producten</a></li>
-                        <li><a href="../shop/categories/balkonbakken.html" class="dropdown-link">Balkonbakken</a></li>
-                        <li><a href="../shop/categories/bewatering.html" class="dropdown-link">Bewatering</a></li>
-                        <li><a href="../shop/categories/potgrond.html" class="dropdown-link">Potgrond</a></li>
-                        <li><a href="../shop/categories/meststoffen.html" class="dropdown-link">Meststoffen</a></li>
-                        <li><a href="../shop/categories/gereedschap.html" class="dropdown-link">Gereedschap</a></li>
-                        <li><a href="../shop/categories/kweeklampen.html" class="dropdown-link">Kweeklampen</a></li>
-                        <li><a href="../shop/categories/zaden.html" class="dropdown-link">Zaden</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div></div>
-    </nav>
-    <div class="mobile-menu-overlay" id="menuOverlay"></div>
-    <script>(function(){{var t=document.getElementById('menuToggle'),m=document.getElementById('navMenu'),o=document.getElementById('menuOverlay');function c(){{m.classList.remove('active');t.classList.remove('active');o.classList.remove('active');}}t.addEventListener('click',function(){{m.classList.toggle('active');t.classList.toggle('active');o.classList.toggle('active');}});o.addEventListener('click',c);}})();</script>
+<div class="container"><div class="nav-container">
+<a class="nav-brand" href="/">Balkon-Moestuin.nl</a>
+<button class="mobile-menu-toggle" id="menuToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+<ul class="nav-menu" id="navMenu">
+<li><a class="nav-link" href="/">Home</a></li>
+<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="/gidsen/">Gidsen</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-link" href="/start-hier/">Start hier</a></li>
+<li><a class="dropdown-link" href="/gidsen/">Alle gidsen</a></li>
+<li><a class="dropdown-link" href="/gidsen/zaai-oogstkalender/">Seizoenskalender</a></li>
+<li><a class="dropdown-link" href="/problemen/">Problemen</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="/planten/">Planten</a></li>
+<li class="nav-item dropdown"><a class="nav-link dropdown-toggle active" href="/shop/">Shop</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-link" href="/shop/">Alle producten</a></li>
+<li><a class="dropdown-link" href="/shop/categories/balkonbakken.html">Balkonbakken</a></li>
+<li><a class="dropdown-link" href="/shop/categories/bewatering.html">Bewatering</a></li>
+<li><a class="dropdown-link" href="/shop/categories/potgrond.html">Potgrond</a></li>
+<li><a class="dropdown-link" href="/shop/categories/meststoffen.html">Meststoffen</a></li>
+<li><a class="dropdown-link" href="/shop/categories/gereedschap.html">Gereedschap</a></li>
+<li><a class="dropdown-link" href="/shop/categories/kweeklampen.html">Kweeklampen</a></li>
+<li><a class="dropdown-link" href="/shop/categories/zaden.html">Zaden</a></li>
+</ul>
+</li>
+</ul>
+</div></div>
+</nav>
+<div class="mobile-menu-overlay" id="menuOverlay"></div>
+<script>(function(){{var t=document.getElementById('menuToggle'),m=document.getElementById('navMenu'),o=document.getElementById('menuOverlay');function c(){{m.classList.remove('active');t.classList.remove('active');o.classList.remove('active');}}t.addEventListener('click',function(){{m.classList.toggle('active');t.classList.toggle('active');o.classList.toggle('active');}});o.addEventListener('click',c);}})();</script>
 
     <main>
     <div class="product-layout">
         <nav class="product-breadcrumb">
-            <a href="../index.html">Home</a> /
-            <a href="../{cat_shop}">{h(cat_label)}</a> /
+            <a href="/">Home</a> /
+            <a href="/{cat_shop}">{h(cat_label)}</a> /
             <strong>{h(p['name'][:55])}{"…" if len(p["name"])>55 else ""}</strong>
         </nav>
 
         <div class="product-hero">
             <div class="product-gallery">
-                <img src="{h(image)}" alt="{name}" onerror="this.src='../assets/img/pixel-plant.svg'" loading="eager">
+                <img src="{h(image)}" alt="{name}" onerror="this.src='/assets/img/pixel-plant.svg'" loading="eager">
             </div>
             <div class="product-summary">
                 <p class="product-kicker">{brand}{f" · {p.get('subgroup','')}" if p.get('subgroup') else ""}</p>
@@ -300,11 +303,11 @@ def generate_page(p, all_products):
     <footer class="footer"><div class="container">
         <div class="footer-content">
             <div><p style="font-family:var(--font-serif);font-size:1.2rem;color:white;margin-bottom:1rem;">Balkon-Moestuin.nl</p><p style="color:#999;font-size:.85rem;line-height:1.7;margin-bottom:0;">Onafhankelijke gids voor balkontuin en moestuin op kleine ruimtes.</p></div>
-            <div><h4>Gidsen</h4><a href="../gidsen/index.html">Alle gidsen</a><a href="../planten/index.html">Planten</a></div>
-            <div><h4>Shop</h4><a href="../shop/categories/balkonbakken.html">Balkonbakken</a><a href="../shop/categories/bewatering.html">Bewatering</a><a href="../shop/categories/meststoffen.html">Meststoffen</a><a href="../shop/categories/zaden.html">Zaden</a></div>
-            <div><h4>Info</h4><a href="../over-ons/index.html">Over ons</a><a href="../disclaimer-affiliatie/index.html">Affiliate</a><a href="../privacybeleid/index.html">Privacy</a></div>
+            <div><h4>Gidsen</h4><a href="/gidsen/">Alle gidsen</a><a href="/planten/">Planten</a></div>
+            <div><h4>Shop</h4><a href="/shop/categories/balkonbakken.html">Balkonbakken</a><a href="/shop/categories/bewatering.html">Bewatering</a><a href="/shop/categories/meststoffen.html">Meststoffen</a><a href="/shop/categories/zaden.html">Zaden</a></div>
+            <div><h4>Info</h4><a href="/over-ons/">Over ons</a><a href="/disclaimer-affiliatie/">Affiliate</a><a href="/privacybeleid/">Privacy</a></div>
         </div>
-        <div class="footer-bottom">© 2025 Balkon-Moestuin.nl · <a href="../disclaimer-affiliatie/index.html" style="color:#9CA3AF;">Affiliate disclaimer</a></div>
+        <div class="footer-bottom">© 2025 Balkon-Moestuin.nl · <a href="/disclaimer-affiliatie/" style="color:#9CA3AF;">Affiliate disclaimer</a></div>
     </div></footer>
 </body>
 </html>'''

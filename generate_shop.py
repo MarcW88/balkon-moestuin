@@ -124,45 +124,38 @@ CATEGORY_CONFIG = {
     },
 }
 
-NAV = '''    <nav class="navbar">
-        <div class="container"><div class="nav-container">
-            <a href="{prefix}index.html" class="nav-brand">Balkon-Moestuin.nl</a>
-            <button class="mobile-menu-toggle" id="menuToggle" aria-label="Menu">
-                <span></span><span></span><span></span>
-            </button>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="{prefix}index.html" class="nav-link">Home</a></li>
-                <li class="nav-item dropdown"><a href="{prefix}gidsen/index.html" class="nav-link dropdown-toggle">Gidsen</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="{prefix}gidsen/index.html" class="dropdown-link">Alle gidsen</a></li>
-                        <li><a href="{prefix}planten/index.html" class="dropdown-link">Planten</a></li>
-                        <li><a href="{prefix}problemen/index.html" class="dropdown-link">Problemen</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown"><a href="{prefix}shop/index.html" class="nav-link dropdown-toggle active">Shop</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="{prefix}shop/index.html" class="dropdown-link">Alle producten</a></li>
-                        <li><a href="{prefix}shop/categories/balkonbakken.html" class="dropdown-link">Balkonbakken</a></li>
-                        <li><a href="{prefix}shop/categories/bewatering.html" class="dropdown-link">Bewatering</a></li>
-                        <li><a href="{prefix}shop/categories/potgrond.html" class="dropdown-link">Potgrond</a></li>
-                        <li><a href="{prefix}shop/categories/meststoffen.html" class="dropdown-link">Meststoffen</a></li>
-                        <li><a href="{prefix}shop/categories/gereedschap.html" class="dropdown-link">Gereedschap</a></li>
-                        <li><a href="{prefix}shop/categories/kweeklampen.html" class="dropdown-link">Kweeklampen</a></li>
-                        <li><a href="{prefix}shop/categories/zaden.html" class="dropdown-link">Zaden</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div></div>
-    </nav>
-    <div class="mobile-menu-overlay" id="menuOverlay"></div>
-    <script>
-    (function(){{
-        var toggle=document.getElementById('menuToggle'),menu=document.getElementById('navMenu'),overlay=document.getElementById('menuOverlay');
-        function close(){{menu.classList.remove('active');toggle.classList.remove('active');overlay.classList.remove('active');}}
-        toggle.addEventListener('click',function(){{menu.classList.toggle('active');toggle.classList.toggle('active');overlay.classList.toggle('active');}});
-        overlay.addEventListener('click',close);
-    }})();
-    </script>'''
+NAV = '''<nav class="navbar">
+<div class="container"><div class="nav-container">
+<a class="nav-brand" href="/">Balkon-Moestuin.nl</a>
+<button class="mobile-menu-toggle" id="menuToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+<ul class="nav-menu" id="navMenu">
+<li><a class="nav-link" href="/">Home</a></li>
+<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="/gidsen/">Gidsen</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-link" href="/start-hier/">Start hier</a></li>
+<li><a class="dropdown-link" href="/gidsen/">Alle gidsen</a></li>
+<li><a class="dropdown-link" href="/gidsen/zaai-oogstkalender/">Seizoenskalender</a></li>
+<li><a class="dropdown-link" href="/problemen/">Problemen</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="/planten/">Planten</a></li>
+<li class="nav-item dropdown"><a class="nav-link dropdown-toggle active" href="/shop/">Shop</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-link" href="/shop/">Alle producten</a></li>
+<li><a class="dropdown-link" href="/shop/categories/balkonbakken.html">Balkonbakken</a></li>
+<li><a class="dropdown-link" href="/shop/categories/bewatering.html">Bewatering</a></li>
+<li><a class="dropdown-link" href="/shop/categories/potgrond.html">Potgrond</a></li>
+<li><a class="dropdown-link" href="/shop/categories/meststoffen.html">Meststoffen</a></li>
+<li><a class="dropdown-link" href="/shop/categories/gereedschap.html">Gereedschap</a></li>
+<li><a class="dropdown-link" href="/shop/categories/kweeklampen.html">Kweeklampen</a></li>
+<li><a class="dropdown-link" href="/shop/categories/zaden.html">Zaden</a></li>
+</ul>
+</li>
+</ul>
+</div></div>
+</nav>
+<div class="mobile-menu-overlay" id="menuOverlay"></div>
+<script>(function(){{var t=document.getElementById('menuToggle'),m=document.getElementById('navMenu'),o=document.getElementById('menuOverlay');function c(){{m.classList.remove('active');t.classList.remove('active');o.classList.remove('active');}}t.addEventListener('click',function(){{m.classList.toggle('active');t.classList.toggle('active');o.classList.toggle('active');}});o.addEventListener('click',c);}})();</script>'''
 
 FOOTER = '''    <footer class="footer"><div class="container">
         <div class="footer-content">
