@@ -634,6 +634,29 @@ main{padding:0;min-height:50vh}
   .mobile-menu-toggle.active span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
 }
 
+/* ===== SHOP PRODUCT GRID ===== */
+.shop-product-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1.25rem;margin-bottom:var(--sp-10);align-items:stretch}
+.shop-product-grid>div{display:flex;flex-direction:column;height:100%}
+
+/* ===== PAGINATION ===== */
+.shop-pagination{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:var(--sp-2);margin:var(--sp-10) 0 var(--sp-6)}
+.pagination-link,.pagination-gap,.category-chip{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--border);border-radius:.5rem;color:var(--text-dim);text-decoration:none}
+.pagination-link{min-width:2.25rem;min-height:2.25rem;padding:.45rem .75rem;background:var(--surface);font-size:.85rem;font-weight:600}
+.pagination-link:hover,.pagination-link.active,.category-chip:hover{border-color:var(--leaf);background:var(--leaf);color:white;text-decoration:none}
+.pagination-gap{border-color:transparent;padding:.45rem .2rem}
+.category-chip{padding:.4rem .75rem;font-size:.85rem}
+#pagination{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:var(--sp-2);margin-top:var(--sp-10);padding-top:var(--sp-4);border-top:1px solid var(--border);margin-bottom:var(--sp-6)}
+
+/* ===== FOOTER ===== */
+.footer{background:#1a1a1a;color:white;padding:var(--sp-16) 0 var(--sp-8);margin-top:var(--sp-12);border-top:1px solid var(--border)}
+.footer-content{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--sp-8);margin-bottom:var(--sp-8)}
+.footer-content h4{color:white;margin-bottom:var(--sp-4)}
+.footer-content a{color:#D1D5DB;font-size:var(--fs-sm);line-height:2;text-decoration:none;display:block;transition:color .2s}
+.footer-content a:hover{color:white}
+.footer-bottom{border-top:1px solid #374151;padding-top:var(--sp-6);text-align:center;color:#9CA3AF;font-size:var(--fs-sm)}
+@media(max-width:1024px){.footer-content{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.footer-content{grid-template-columns:1fr;gap:var(--sp-6)}}
+
 /* ===== PRINT ===== */
 @media print {
   .site-header,

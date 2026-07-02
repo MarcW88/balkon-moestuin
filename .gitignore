@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Product feeds (trop volumineux pour GitHub)
+product-feed_*.csv.gz
+product-feed_*.xml.gz
+product-feed_*.csv
+product-feed_*.xml
+
+# Données générées localement
+all_products.json
+extract_products.py
