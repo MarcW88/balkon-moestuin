@@ -132,7 +132,10 @@
                     <div style="display:flex;gap:0.35rem;flex-wrap:wrap;margin-bottom:0.5rem;">${badgeHTML}</div>
                     <h3 style="font-size:0.88rem;font-weight:600;line-height:1.35;margin-bottom:0.5rem;flex:1;overflow:hidden;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;">${p.name}</h3>
                     <div style="margin-bottom:0.75rem;"><span style="font-size:1.1rem;font-weight:700;color:var(--leaf);">${price}</span></div>
-                    <a href="${p.affiliate_url || '#'}" target="_blank" rel="sponsored noopener" style="display:block;text-align:center;padding:0.55rem;background:var(--leaf);color:white;text-decoration:none;border-radius:0.3rem;font-size:0.82rem;font-weight:600;">Bekijk op Bol.com</a>
+                    <div style="display:flex;gap:0.5rem;margin-top:auto;">
+                        <a href="../../producten/${p.slug}.html" style="flex:1;display:block;text-align:center;padding:0.5rem;border:1px solid var(--leaf);color:var(--leaf);text-decoration:none;border-radius:0.3rem;font-size:0.8rem;font-weight:600;">Details</a>
+                        <a href="${p.affiliate_url || '#'}" target="_blank" rel="sponsored noopener" style="flex:2;display:block;text-align:center;padding:0.5rem;background:var(--leaf);color:white;text-decoration:none;border-radius:0.3rem;font-size:0.8rem;font-weight:600;">Bol.com →</a>
+                    </div>
                 </div>
             </div>`;
         }).join('');
