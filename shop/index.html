@@ -10,7 +10,7 @@
     <link rel="icon" type="image/svg+xml" href="../assets/img/pixel-plant.svg">
 </head>
 <body>
-    <nav class="navbar">
+<nav class="navbar">
 <div class="container"><div class="nav-container">
 <a class="nav-brand" href="/">Balkon-Moestuin.nl</a>
 <button class="mobile-menu-toggle" id="menuToggle" aria-label="Menu"><span></span><span></span><span></span></button>
@@ -25,7 +25,7 @@
 </ul>
 </li>
 <li><a class="nav-link" href="/planten/">Planten</a></li>
-<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="/shop/">Shop</a>
+<li class="nav-item dropdown"><a class="nav-link dropdown-toggle active" href="/shop/">Shop</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-link" href="/shop/">Alle producten</a></li>
 <li><a class="dropdown-link" href="/shop/categories/balkonbakken.html">Balkonbakken</a></li>
@@ -82,7 +82,7 @@
         else { el.style.display = 'none'; sp.textContent = '+'; }
     }
 
-    function getPageUrl(page) { return page === 1 ? baseUrl : baseUrl + '?page=' + page; }
+    function getPageUrl(page) { return page === 1 ? window.location.pathname : window.location.pathname + '?page=' + page; }
     function getPageFromUrl() { const p = parseInt(new URLSearchParams(window.location.search).get('page')); return isNaN(p) ? 1 : p; }
 
     function renderPage(page) {

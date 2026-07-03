@@ -290,7 +290,7 @@ def render(kind, slug, products, title, h1, description, faq_items, prefix, css_
         else {{ el.style.display = 'none'; sp.textContent = '+'; }}
     }}
 
-    function getPageUrl(page) {{ return page === 1 ? baseUrl : baseUrl + '?page=' + page; }}
+    function getPageUrl(page) {{ return page === 1 ? window.location.pathname : window.location.pathname + '?page=' + page; }}
     function getPageFromUrl() {{ const p = parseInt(new URLSearchParams(window.location.search).get('page')); return isNaN(p) ? 1 : p; }}
 
     function renderPage(page) {{
