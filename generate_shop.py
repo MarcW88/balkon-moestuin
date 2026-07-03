@@ -10,6 +10,7 @@ ROOT = Path('/Users/marc/Desktop/balkon-moestuin')
 PER_PAGE = 24
 CAP_PER_CAT = 2000   # max products embedded per page (JSON size control)
 SITE = 'https://balkon-moestuin.nl'
+PRODUCT_SLUGS: set = set()  # populated in main() from producten/ directory
 
 CATEGORY_CONFIG = {
     'balkonbakken': {
@@ -188,6 +189,13 @@ def card(p, prefix):
     img = html.escape(p.get('image') or f'{prefix}assets/img/placeholder-product.jpg')
     aff = html.escape(p.get('affiliate_url') or '#')
     price_str = fmt_price(p)
+    slug = p.get('slug') or ''
+    has_page = slug in PRODUCT_SLUGS
+    if has_page:
+        cta_row = (f'<a href="{prefix}producten/{slug}.html" style="flex:1;display:block;text-align:center;padding:0.5rem;border:1px solid var(--leaf);color:var(--leaf);text-decoration:none;border-radius:0.3rem;font-size:0.8rem;font-weight:600;">Details</a>'
+                   f'<a href="{aff}" target="_blank" rel="sponsored noopener" style="flex:2;display:block;text-align:center;padding:0.5rem;background:var(--leaf);color:white;text-decoration:none;border-radius:0.3rem;font-size:0.8rem;font-weight:600;">Bol.com \u2192</a>')
+    else:
+        cta_row = f'<a href="{aff}" target="_blank" rel="sponsored noopener" style="display:block;text-align:center;padding:0.5rem;background:var(--leaf);color:white;text-decoration:none;border-radius:0.3rem;font-size:0.8rem;font-weight:600;">Bol.com \u2192</a>'
     return f'''            <div style="border:1px solid var(--border);overflow:hidden;background:white;transition:border-color 0.2s;border-radius:0.5rem;display:flex;flex-direction:column;height:100%;" onmouseover="this.style.borderColor='var(--leaf)'" onmouseout="this.style.borderColor='var(--border)'">
                 <div style="background:#f5faf0;padding:1rem;text-align:center;"><img src="{img}" alt="{name}" loading="lazy" style="height:160px;width:100%;object-fit:contain;" onerror="this.src='{prefix}assets/img/pixel-plant.svg'"></div>
                 <div style="padding:1rem;flex:1;display:flex;flex-direction:column;">
@@ -196,10 +204,7 @@ def card(p, prefix):
                     <div style="margin-bottom:0.75rem;">
                         <span style="font-size:1.1rem;font-weight:700;color:var(--leaf);">{price_str}</span>
                     </div>
-                    <div style="display:flex;gap:0.5rem;margin-top:auto;">
-                        <a href="{prefix}producten/{p['slug']}.html" style="flex:1;display:block;text-align:center;padding:0.5rem;border:1px solid var(--leaf);color:var(--leaf);text-decoration:none;border-radius:0.3rem;font-size:0.8rem;font-weight:600;">Details</a>
-                        <a href="{aff}" target="_blank" rel="sponsored noopener" style="flex:2;display:block;text-align:center;padding:0.5rem;background:var(--leaf);color:white;text-decoration:none;border-radius:0.3rem;font-size:0.8rem;font-weight:600;">Bol.com →</a>
-                    </div>
+                    <div style="display:flex;gap:0.5rem;margin-top:auto;">{cta_row}</div>
                 </div>
             </div>'''
 
@@ -338,6 +343,10 @@ def render(kind, slug, page, total_pages, items, all_count, title, h1, descripti
 
 
 def main():
+    global PRODUCT_SLUGS
+    PRODUCT_SLUGS = {f.stem for f in (ROOT / 'producten').glob('*.html')}
+    print(f'Loaded {len(PRODUCT_SLUGS)} existing product pages')
+
     data = json.loads((ROOT / 'all_products.json').read_text(encoding='utf-8'))
     data = sorted(data, key=lambda p: (p.get('price') or 9999))
 
