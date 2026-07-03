@@ -6,6 +6,25 @@
   <title>Balkonmoestuin Starten: Stappenplan voor Beginners (2025)</title>
   <meta name="description" content="Start je eigen balkonmoestuin in 7 stappen: van potten kiezen tot oogsten. Inclusief checklist, tijdlijn en budget. Voor beginners zonder groene vingers." />
   <link rel="canonical" href="https://balkon-moestuin.nl/start-hier/" />
+  <style>
+    .step-notice { background:#f5faf0; border-left:3px solid var(--leaf); padding:1rem 1.25rem; border-radius:0 0.5rem 0.5rem 0; margin:1rem 0; font-size:0.92rem; }
+    .step-notice.warning { background:#fffbeb; border-color:#f59e0b; }
+    .step-notice.success { background:#ecfdf5; border-color:#10b981; }
+    .step-notice.info { background:#eff6ff; border-color:#3b82f6; }
+    .step-table { width:100%; border-collapse:collapse; font-size:0.9rem; margin:1rem 0; }
+    .step-table th { background:#f5faf0; padding:0.6rem 0.8rem; text-align:left; font-weight:600; border-bottom:2px solid var(--leaf); }
+    .step-table td { padding:0.55rem 0.8rem; border-bottom:1px solid var(--border); }
+    .step-table tr:last-child td { border-bottom:none; }
+    .quiz-option { padding:1rem; background:white; cursor:pointer; transition:all 0.2s; text-align:left; border:1px solid var(--border); border-radius:0.5rem; width:100%; }
+    .quiz-option:hover { border-color:var(--leaf); background:#f5faf0; }
+    .quiz-question { display:none; }
+    .quiz-question.active { display:block; }
+    details.faq-item { border:1px solid var(--border); border-radius:0.5rem; background:white; overflow:hidden; }
+    details.faq-item summary { padding:1rem 1.25rem; cursor:pointer; font-weight:600; font-size:0.95rem; list-style:none; display:flex; justify-content:space-between; align-items:center; }
+    details.faq-item summary::after { content:'+'; font-size:1.25rem; color:var(--leaf); }
+    details.faq-item[open] summary::after { content:'−'; }
+    details.faq-item .faq-answer { padding:0 1.25rem 1rem; color:#555; font-size:0.9rem; line-height:1.7; }
+  </style>
   
   <link rel="stylesheet" href="/assets/css/main.css" />
   
@@ -93,426 +112,506 @@
 <div class="mobile-menu-overlay" id="menuOverlay"></div>
 <script>(function(){var t=document.getElementById('menuToggle'),m=document.getElementById('navMenu'),o=document.getElementById('menuOverlay');function c(){m.classList.remove('active');t.classList.remove('active');o.classList.remove('active');}t.addEventListener('click',function(){m.classList.toggle('active');t.classList.toggle('active');o.classList.toggle('active');});o.addEventListener('click',c);})();</script>
 
-  <main id="content" class="container">
-    <!-- Breadcrumb -->
-    <nav class="breadcrumb">
-      <a href="/">Home</a> <span>›</span> <strong>Start hier</strong>
-    </nav>
+<!-- HERO -->
+<section style="background:#f5faf0;padding:3rem 0 2.5rem;">
+<div class="container">
+<p style="font-size:0.78rem;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.75rem;">
+<a href="/" style="color:var(--text-light);text-decoration:none;">Home</a> / Start hier
+</p>
+<h1 style="font-family:var(--font-serif);font-size:clamp(1.8rem,3vw,2.4rem);font-weight:400;margin-bottom:0.75rem;">Balkonmoestuin Starten: Stappenplan voor Beginners</h1>
+<p style="color:var(--text-dim);font-size:1rem;max-width:600px;">Leer in <strong>7 praktische stappen</strong> hoe je je eigen balkonmoestuin start — van potten kiezen tot je eerste oogst. Inclusief checklist, tijdlijn en budgetvarianten.</p>
+<div style="margin-top:1.25rem;background:white;border-left:3px solid var(--leaf);padding:0.9rem 1.25rem;border-radius:0 0.5rem 0.5rem 0;font-size:0.92rem;max-width:680px;">
+<strong>⚡ TL;DR:</strong> Check je balkon → Koop potten (€15) + potgrond (€8) → Kies makkelijke planten → Plant in maart-april → Water regelmatig → Oogst na 6-12 weken. <strong>Totaal budget: €30-50.</strong>
+</div>
+</div>
+</section>
 
-    <!-- Hero -->
-    <section class="hero">
-      <h1>Balkonmoestuin Starten: Stappenplan voor Beginners</h1>
-      <p class="lead">
-        Leer in <strong>7 praktische stappen</strong> hoe je je eigen balkonmoestuin start — 
-        van potten kiezen tot je eerste oogst. Inclusief checklist, tijdlijn en budgetvarianten.
-      </p>
-    </section>
+<!-- SECTION 1: Top 3 beginnersfavorieten -->
+<section style="padding:3rem 0;">
+<div class="container">
+<div style="margin-bottom:2rem;">
+<h2 style="font-family:var(--font-serif);font-size:clamp(1.4rem,2.5vw,1.9rem);font-weight:400;margin-bottom:0.75rem;">De 3 makkelijkste planten om mee te beginnen</h2>
+<p style="color:var(--text-dim);font-size:0.95rem;line-height:1.7;max-width:700px;">
+Na jarenlange ervaring en tientallen geteste combinaties komen deze drie categorieën duidelijk als winnaar naar voren voor beginners op het balkon. Ze bieden de beste combinatie van snelle resultaten, weinig onderhoud en hoge slagingskans.
+</p>
+</div>
+<div class="grid grid-3" style="gap:2rem;">
+<div class="card" style="border:1px solid var(--border);border-radius:0.5rem;text-align:center;padding:2rem;">
+<div style="font-size:3rem;margin-bottom:1rem;">🌿</div>
+<h3>Kruiden</h3>
+<p style="color:#666;margin-bottom:1.5rem;">Makkelijkst voor beginners. Basilicum, peterselie, munt, bieslook. Snel resultaat, weinig ruimte nodig, altijd vers in je eten.</p>
+<a href="/planten/" style="background:var(--leaf);color:white;padding:0.5rem 1rem;text-decoration:none;font-weight:600;border-radius:0.3rem;display:inline-block;">Ontdek kruiden →</a>
+</div>
+<div class="card" style="border:1px solid var(--border);border-radius:0.5rem;text-align:center;padding:2rem;">
+<div style="font-size:3rem;margin-bottom:1rem;">🥬</div>
+<h3>Sla &amp; Bladgroenten</h3>
+<p style="color:#666;margin-bottom:1.5rem;">Klaar in 3-6 weken. Pluksla, radijs (25 dagen!), spinazie, rucola. Werkt ook prima in halfschaduw.</p>
+<a href="/shop/categories/zaden.html" style="background:var(--leaf);color:white;padding:0.5rem 1rem;text-decoration:none;font-weight:600;border-radius:0.3rem;display:inline-block;">Bekijk zaden →</a>
+</div>
+<div class="card" style="border:1px solid var(--border);border-radius:0.5rem;text-align:center;padding:2rem;">
+<div style="font-size:3rem;margin-bottom:1rem;">🍅</div>
+<h3>Tomaten</h3>
+<p style="color:#666;margin-bottom:1.5rem;">Grote opbrengst (3-5 kg). Cherry tomaten en balkontomaten zijn ideaal als eerste groente. Lang seizoen, lekker!</p>
+<a href="/planten/tomaten-op-balkon/" style="background:var(--leaf);color:white;padding:0.5rem 1rem;text-decoration:none;font-weight:600;border-radius:0.3rem;display:inline-block;">Tomaten kweken →</a>
+</div>
+</div>
+</div>
+</section>
 
-    <!-- TL;DR -->
-    <div class="notice success">
-      <strong>⚡ TL;DR:</strong> Check je balkon (zon/ruimte) → Koop potten (€15) + potgrond (€8) → 
-      Kies makkelijke planten (kruiden, sla, tomaten) → Plant in maart-april → Water regelmatig → 
-      Oogst na 6-12 weken. <strong>Totaal budget: €30-50.</strong>
-    </div>
+<!-- SECTION 2: De 7 stappen (methodology) -->
+<section style="background:#f5faf0;padding:3rem 0;">
+<div class="container">
+<div style="max-width:900px;margin:0 auto;">
+<h2 style="margin-bottom:1.5rem;">Onze 7-stappenmethode: waarom in deze volgorde?</h2>
+<p style="color:#555;line-height:1.8;margin-bottom:1.5rem;font-size:0.95rem;">
+Elke stap bouwt voort op de vorige. Sla je er één over, dan loop je al snel tegen problemen aan. Deze volgorde is gebaseerd op <strong>veelgemaakte beginnerfouten</strong> die we hebben geanalyseerd: de meeste mislukkingen komen door verkeerde potten, slechte potgrond of verkeerde plantkeuze — allemaal oplosbaar als je de juiste volgorde aanhoudt.
+</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.5rem;">
+<div style="background:white;padding:1.5rem;border-radius:0.5rem;">
+<h4 style="margin-bottom:0.5rem;font-size:1rem;color:var(--leaf);">1. Check je balkon</h4>
+<p style="color:#666;font-size:0.9rem;line-height:1.6;">Meet zon (uren/dag), beschikbare ruimte en windrichting. Dit bepaalt welke planten mogelijk zijn.</p>
+</div>
+<div style="background:white;padding:1.5rem;border-radius:0.5rem;">
+<h4 style="margin-bottom:0.5rem;font-size:1rem;color:var(--leaf);">2. Kies je potten</h4>
+<p style="color:#666;font-size:0.9rem;line-height:1.6;">Grootte is key: te klein = slechte groei. Drainagegaten zijn verplicht. Materiaal bepaalt gewicht.</p>
+</div>
+<div style="background:white;padding:1.5rem;border-radius:0.5rem;">
+<h4 style="margin-bottom:0.5rem;font-size:1rem;color:var(--leaf);">3. Koop potgrond</h4>
+<p style="color:#666;font-size:0.9rem;line-height:1.6;">Nooit gewone tuinaarde. Potgrond + perliet (10-20%) geeft drainage én voedingsstoffen.</p>
+</div>
+<div style="background:white;padding:1.5rem;border-radius:0.5rem;">
+<h4 style="margin-bottom:0.5rem;font-size:1rem;color:var(--leaf);">4. Kies je planten</h4>
+<p style="color:#666;font-size:0.9rem;line-height:1.6;">Begin makkelijk: kruiden, sla, tomaten. Niet starten met komkommers of courgettes.</p>
+</div>
+<div style="background:white;padding:1.5rem;border-radius:0.5rem;">
+<h4 style="margin-bottom:0.5rem;font-size:1rem;color:var(--leaf);">5. Plant je zaadjes</h4>
+<p style="color:#666;font-size:0.9rem;line-height:1.6;">Timing is essentieel: maart-april voor tomaten (binnen), mei-juni voor sla direct buiten.</p>
+</div>
+<div style="background:white;padding:1.5rem;border-radius:0.5rem;">
+<h4 style="margin-bottom:0.5rem;font-size:1rem;color:var(--leaf);">6. Water &amp; verzorging</h4>
+<p style="color:#666;font-size:0.9rem;line-height:1.6;">Vinger-in-de-grond-methode. Niet te veel (overwatering = fout #1). Bemest na 4-6 weken.</p>
+</div>
+<div style="background:white;padding:1.5rem;border-radius:0.5rem;">
+<h4 style="margin-bottom:0.5rem;font-size:1rem;color:var(--leaf);">7. Oogst &amp; geniet</h4>
+<p style="color:#666;font-size:0.9rem;line-height:1.6;">Radijs al na 25 dagen, kruiden na 6-8 weken, tomaten na 10-12 weken. Zaai in golven voor continue oogst.</p>
+</div>
+</div>
+<div style="background:white;border:1px solid var(--border);border-radius:0.5rem;padding:1rem;margin-top:1.5rem;">
+<p style="color:#555;font-size:0.9rem;line-height:1.6;margin:0;"><strong>Onafhankelijk advies:</strong> Wij hebben geen betaalde partnerships met tuincentra of merken. Alle links naar Bol.com zijn affiliate links (we verdienen ~3-5% commissie), maar dit beïnvloedt onze aanbevelingen <strong>niet</strong>.</p>
+</div>
+</div>
+</div>
+</section>
 
-    <!-- Table of Contents -->
-    <section class="content-section">
-      <h2 id="inhoud">📋 Inhoud</h2>
-      <div id="toc"></div>
-    </section>
+<!-- SECTION 3: Decision framework + quiz -->
+<section style="padding:3rem 0;">
+<div class="container">
+<div style="max-width:850px;margin:0 auto;text-align:center;">
+<h2 style="margin-bottom:1rem;">Welke situatie past bij jou?</h2>
+<p style="color:#666;font-size:1.05rem;line-height:1.7;">Je kent nu de 7 stappen. Maar waar moet jij <em>specifiek</em> op letten? Dat hangt af van jouw balkon, budget en ervaring.</p>
+</div>
+<div style="max-width:850px;margin:2rem auto 0;">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-bottom:2rem;">
+<div style="background:#f5faf0;border:1px solid var(--border);border-radius:0.5rem;padding:1rem;">
+<h4 style="margin-bottom:0.75rem;font-size:0.95rem;">Vraag 1: Hoeveel zon heeft je balkon?</h4>
+<p style="color:#555;font-size:0.85rem;line-height:1.6;">
+<strong>Volle zon (6+ uur):</strong> Tomaten, paprika, basilicum<br>
+<strong>Halfschaduw (3-5 uur):</strong> Sla, radijs, peterselie<br>
+<strong>Weinig zon (&lt;3 uur):</strong> Sla, munt, postelein
+</p>
+</div>
+<div style="background:#f5faf0;border:1px solid var(--border);border-radius:0.5rem;padding:1rem;">
+<h4 style="margin-bottom:0.75rem;font-size:0.95rem;">Vraag 2: Wat is je budget?</h4>
+<p style="color:#555;font-size:0.85rem;line-height:1.6;">
+<strong>€30-40:</strong> 3 potten + potgrond + zaden<br>
+<strong>€60-80:</strong> Complete opzet met gieter en meststof<br>
+<strong>€100+:</strong> Kweektafel + druppelirrigatie
+</p>
+</div>
+<div style="background:#f5faf0;border:1px solid var(--border);border-radius:0.5rem;padding:1rem;">
+<h4 style="margin-bottom:0.75rem;font-size:0.95rem;">Vraag 3: Wat wil je kweken?</h4>
+<p style="color:#555;font-size:0.85rem;line-height:1.6;">
+<strong>Kruiden:</strong> Kleinste potten, snelste resultaat<br>
+<strong>Groenten:</strong> Middelgrote potten, meer ruimte<br>
+<strong>Tomaten:</strong> Grote potten (15-20L), volle zon
+</p>
+</div>
+<div style="background:#f5faf0;border:1px solid var(--border);border-radius:0.5rem;padding:1rem;">
+<h4 style="margin-bottom:0.75rem;font-size:0.95rem;">Vraag 4: Ben je beginner of gevorderd?</h4>
+<p style="color:#555;font-size:0.85rem;line-height:1.6;">
+<strong>Beginner:</strong> Start met plantjes (niet zaad), kruiden eerst<br>
+<strong>Beetje ervaring:</strong> Mix van plantjes en zaad<br>
+<strong>Gevorderd:</strong> Voorzaaien, successiezaaien, composteren
+</p>
+</div>
+</div>
+<!-- Quiz -->
+<div style="max-width:700px;margin:0 auto;background:linear-gradient(135deg,#f5faf0,#e8f5e0);padding:3rem;border-radius:0.5rem;">
+<h3 style="text-align:center;margin-bottom:0.75rem;">Snelle Balkontuin Advies Quiz</h3>
+<p style="text-align:center;color:#666;margin-bottom:1.5rem;font-size:0.95rem;">3 vragen &bull; 30 seconden &bull; Persoonlijk plantadvies</p>
+<div id="quiz-container">
+<div class="quiz-question active" data-question="1">
+<h4 style="margin-bottom:1.25rem;">1. Hoeveel zon krijgt je balkon?</h4>
+<div style="display:flex;flex-direction:column;gap:0.75rem;">
+<button class="quiz-option" data-answer="sun">☀️ <strong>Volle zon</strong> — 6+ uur per dag</button>
+<button class="quiz-option" data-answer="half">⛅ <strong>Halfschaduw</strong> — 3-5 uur per dag</button>
+<button class="quiz-option" data-answer="shade">🌥️ <strong>Weinig zon</strong> — minder dan 3 uur</button>
+</div>
+</div>
+<div class="quiz-question" data-question="2">
+<h4 style="margin-bottom:1.25rem;">2. Wat is je budget?</h4>
+<div style="display:flex;flex-direction:column;gap:0.75rem;">
+<button class="quiz-option" data-answer="budget">💶 <strong>€30-40</strong> — zo goedkoop mogelijk starten</button>
+<button class="quiz-option" data-answer="mid">🌿 <strong>€50-80</strong> — complete opzet</button>
+<button class="quiz-option" data-answer="premium">💎 <strong>€100+</strong> — het beste van het beste</button>
+</div>
+</div>
+<div class="quiz-question" data-question="3">
+<h4 style="margin-bottom:1.25rem;">3. Heb je al ervaring met tuinieren?</h4>
+<div style="display:flex;flex-direction:column;gap:0.75rem;">
+<button class="quiz-option" data-answer="beginner">🌱 <strong>Beginner</strong> — eerste keer</button>
+<button class="quiz-option" data-answer="some">🌿 <strong>Beetje ervaring</strong> — al een keer geprobeerd</button>
+<button class="quiz-option" data-answer="exp">🌳 <strong>Gevorderd</strong> — weet wat ik doe</button>
+</div>
+</div>
+<div id="quiz-result" style="display:none;text-align:center;">
+<div style="font-size:3rem;margin-bottom:1rem;" id="result-emoji"></div>
+<h3 style="margin-bottom:0.75rem;">Jouw Aanbeveling:</h3>
+<div id="result-title" style="font-size:1.4rem;font-weight:700;color:var(--leaf);margin-bottom:0.75rem;"></div>
+<p id="result-desc" style="color:#555;line-height:1.6;margin-bottom:1.5rem;"></p>
+<div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+<a href="#stap-1" id="result-link" style="background:var(--leaf);color:white;padding:0.6rem 1.25rem;text-decoration:none;font-weight:600;border-radius:0.3rem;">Lees de stappen →</a>
+<button onclick="resetQuiz()" style="padding:0.6rem 1.25rem;border:1px solid var(--border);background:white;cursor:pointer;border-radius:0.3rem;">Opnieuw</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
 
-    <!-- Stap 1 -->
-    <section class="content-section">
-      <h2 id="stap-1">Stap 1: Check Je Balkon (Zon, Ruimte, Wind)</h2>
-      
-      <p>
-        Voor je begint met kopen, <strong>meet eerst je balkon op</strong>. 
-        Niet alle balkons zijn hetzelfde, en je planten hebben specifieke behoeften:
-      </p>
+<!-- SECTION 4: De 7 stappen in detail -->
+<section style="background:#f5faf0;padding:3rem 0;">
+<div class="container">
+<div style="max-width:900px;margin:0 auto;">
+<h2 style="margin-bottom:2rem;">De 7 stappen in detail</h2>
+<div style="display:grid;grid-template-columns:1fr;gap:2rem;">
 
-      <h3>Zon: Hoeveel uur per dag?</h3>
-      <ul>
-        <li><strong>Volle zon (6+ uur):</strong> Tomaten, paprika, aubergine, kruiden (basilicum, tijm)</li>
-        <li><strong>Halfschaduw (3-5 uur):</strong> Sla, spinazie, radijs, peterselie, munt</li>
-        <li><strong>Schaduw (<3 uur):</strong> Beperkt, maar mogelijk: sla, munt, postelein</li>
-      </ul>
-      
-      <div class="notice info">
-        <strong>💡 Tip:</strong> Meet de zon gedurende een hele dag in maart/april (niet in winter — te kort daglicht). 
-        Gebruik een app zoals "Sun Seeker" of observeer zelf elk uur.
-      </div>
+<!-- Stap 1 -->
+<div id="stap-1" style="background:white;padding:2rem;border-radius:0.5rem;">
+<h3 style="margin-bottom:0.75rem;font-size:1.1rem;color:var(--leaf);">Stap 1: Check Je Balkon (Zon, Ruimte, Wind)</h3>
+<p style="color:#555;line-height:1.8;font-size:0.9rem;margin-bottom:1rem;">Voor je begint met kopen, <strong>meet eerst je balkon op</strong>. Niet alle balkons zijn hetzelfde, en je planten hebben specifieke behoeften.</p>
+<p style="color:#555;font-size:0.9rem;font-weight:600;margin-bottom:0.5rem;">Zon: Hoeveel uur per dag?</p>
+<ul style="color:#555;font-size:0.9rem;line-height:1.8;margin-bottom:1rem;">
+<li><strong>Volle zon (6+ uur):</strong> Tomaten, paprika, aubergine, kruiden (basilicum, tijm)</li>
+<li><strong>Halfschaduw (3-5 uur):</strong> Sla, spinazie, radijs, peterselie, munt</li>
+<li><strong>Schaduw (&lt;3 uur):</strong> Beperkt, maar mogelijk: sla, munt, postelein</li>
+</ul>
+<div class="step-notice info">💡 <strong>Tip:</strong> Meet de zon gedurende een hele dag in maart/april. Gebruik een app zoals "Sun Seeker" of observeer zelf elk uur.</div>
+<p style="color:#555;font-size:0.9rem;font-weight:600;margin:1rem 0 0.5rem;">Ruimte &amp; Wind</p>
+<p style="color:#555;font-size:0.9rem;line-height:1.8;">Een balkon van <strong>2-3m²</strong> is genoeg voor 3-5 middelgrote potten. Denk ook <strong>verticaal</strong>: hangende bakken, plantenrekken, ladder-systemen. Te veel wind? Windscherm (bamboe, gaas), potten tegen de muur, stevige staken voor hoge planten.</p>
+<p style="margin-top:1rem;font-size:0.9rem;"><a href="/gidsen/zon-of-schaduw-balkon/" style="color:var(--leaf);">→ Complete gids: Zon vs Schaduw Balkon</a> &nbsp;|&nbsp; <a href="/gidsen/wind-op-balkon-planten-beschermen/" style="color:var(--leaf);">→ Wind op balkon beschermen</a></p>
+</div>
 
-      <h3>Ruimte: Hoeveel potten passen er?</h3>
-      <p>
-        Een balkon van <strong>2-3m²</strong> is genoeg voor 3-5 middelgrote potten. 
-        Denk ook <strong>verticaal</strong>: hangende bakken, plantenrekken, ladder-systemen.
-      </p>
+<!-- Stap 2 -->
+<div id="stap-2" style="background:white;padding:2rem;border-radius:0.5rem;">
+<h3 style="margin-bottom:0.75rem;font-size:1.1rem;color:var(--leaf);">Stap 2: Kies Je Potten of Bakken</h3>
+<p style="color:#555;line-height:1.8;font-size:0.9rem;margin-bottom:1rem;"><strong>Regel #1: Grootte is key.</strong> Te kleine potten = wortels hebben geen ruimte = slechte groei.</p>
+<div style="overflow-x:auto;">
+<table class="step-table">
+<thead><tr><th>Plant</th><th>Minimale Potgrootte</th><th>Ideaal</th></tr></thead>
+<tbody>
+<tr><td>Kruiden (basilicum, peterselie)</td><td>3-5L</td><td>5-8L</td></tr>
+<tr><td>Sla, radijs, spinazie</td><td>5L</td><td>8-10L (bak 40-60cm)</td></tr>
+<tr><td>Tomaten (klein)</td><td>10L</td><td>15-20L</td></tr>
+<tr><td>Tomaten (groot)</td><td>15L</td><td>25-30L</td></tr>
+<tr><td>Paprika, aubergine</td><td>10L</td><td>15L</td></tr>
+</tbody>
+</table>
+</div>
+<p style="color:#555;font-size:0.9rem;font-weight:600;margin:1rem 0 0.5rem;">Wat moet een pot hebben?</p>
+<ul style="color:#555;font-size:0.9rem;line-height:1.8;">
+<li>✅ <strong>Drainagegaten</strong> (water moet kunnen weglopen)</li>
+<li>✅ <strong>Onderschotel</strong> (beschermt balkon, voorkomt overlast)</li>
+<li>✅ <strong>Goed materiaal:</strong> plastic (licht), terracotta (ademt), hout (duurzaam)</li>
+</ul>
+<div class="step-notice warning">⚠️ <strong>Veelgemaakte fout:</strong> Potten zonder drainagegaten kopen. Water blijft staan → wortels rotten → plant sterft. Boor zelf gaten als ze er niet zijn.</div>
+<p style="margin-top:1rem;"><a href="/shop/categories/balkonbakken.html" style="background:var(--leaf);color:white;padding:0.45rem 0.9rem;text-decoration:none;font-weight:600;border-radius:0.3rem;font-size:0.85rem;">🛒 Bekijk balkonbakken</a></p>
+</div>
 
-      <h3>Wind: Beschutting nodig?</h3>
-      <p>
-        Te veel wind droogt planten snel uit en kan stengels breken. 
-        Oplossingen: windscherm (bamboe, gaas), potten tegen de muur, stevige staken voor hoge planten.
-      </p>
-      
-      <p><a href="/gidsen/zon-of-schaduw-balkon/">→ Lees onze complete gids: Zon vs Schaduw Balkon</a></p>
-      <p><a href="/gidsen/wind-op-balkon-planten-beschermen/">→ Wind op balkon? Zo bescherm je planten</a></p>
-    </section>
+<!-- Stap 3 -->
+<div id="stap-3" style="background:white;padding:2rem;border-radius:0.5rem;">
+<h3 style="margin-bottom:0.75rem;font-size:1.1rem;color:var(--leaf);">Stap 3: Koop de Juiste Potgrond</h3>
+<p style="color:#555;line-height:1.8;font-size:0.9rem;margin-bottom:1rem;"><strong>Gebruik NOOIT gewone tuinaarde</strong> in potten. Die is te zwaar, verstopt drainage en bevat geen voedingsstoffen. Koop <strong>potgrond speciaal voor potten</strong>.</p>
+<p style="color:#555;font-size:0.9rem;font-weight:600;margin-bottom:0.5rem;">Welke potgrond?</p>
+<ul style="color:#555;font-size:0.9rem;line-height:1.8;margin-bottom:1rem;">
+<li><strong>Universeel (allround):</strong> Voor kruiden, bloemen, meeste groenten. Budget-keuze.</li>
+<li><strong>Groente-mix:</strong> Extra voeding voor tomaten, paprika. Iets duurder maar beter.</li>
+<li><strong>Biologisch:</strong> Geen kunstmest, veen-vrij. Milieuvriendelijk.</li>
+</ul>
+<p style="color:#555;font-size:0.9rem;font-weight:600;margin-bottom:0.5rem;">Verbeter je potgrond</p>
+<ul style="color:#555;font-size:0.9rem;line-height:1.8;">
+<li><strong>Perliet (10-20%):</strong> Verbetert drainage, voorkomt verdichting</li>
+<li><strong>Compost (20%):</strong> Extra voeding + microben</li>
+<li><strong>Hydrokorrels (onderlaag):</strong> Drainage + waterreservoir</li>
+</ul>
+<p style="margin-top:1rem;font-size:0.9rem;"><a href="/gidsen/potgrond-voor-moestuin/" style="color:var(--leaf);">→ Complete gids: Potgrond kiezen</a> &nbsp;|&nbsp; <a href="/shop/categories/potgrond.html" style="background:var(--leaf);color:white;padding:0.35rem 0.75rem;text-decoration:none;font-weight:600;border-radius:0.3rem;font-size:0.85rem;">🛒 Bekijk potgrond</a></p>
+</div>
 
-    <!-- Stap 2 -->
-    <section class="content-section">
-      <h2 id="stap-2">Stap 2: Kies Je Potten of Bakken</h2>
-      
-      <p><strong>Regel #1: Grootte is key.</strong> Te kleine potten = wortels hebben geen ruimte = slechte groei.</p>
+<!-- Stap 4 -->
+<div id="stap-4" style="background:white;padding:2rem;border-radius:0.5rem;">
+<h3 style="margin-bottom:0.75rem;font-size:1.1rem;color:var(--leaf);">Stap 4: Kies Je Planten (Begin Makkelijk!)</h3>
+<p style="color:#555;line-height:1.8;font-size:0.9rem;margin-bottom:1rem;"><strong>Beginnersfout:</strong> Beginnen met moeilijke planten (komkommers, courgettes) en dan teleurgesteld zijn. Start met deze <strong>fool-proof planten</strong>:</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;margin-bottom:1rem;">
+<div style="border:1px solid var(--border);border-radius:0.5rem;padding:1rem;">
+<h4 style="font-size:0.95rem;margin-bottom:0.5rem;">🌿 Kruiden (Makkelijkst)</h4>
+<ul style="font-size:0.85rem;color:#555;line-height:1.7;"><li>Basilicum</li><li>Peterselie</li><li>Munt</li><li>Bieslook</li></ul>
+<p style="font-size:0.8rem;color:#666;margin-top:0.5rem;"><strong>Waarom?</strong> Snel resultaat, weinig ruimte, altijd vers.</p>
+</div>
+<div style="border:1px solid var(--border);border-radius:0.5rem;padding:1rem;">
+<h4 style="font-size:0.95rem;margin-bottom:0.5rem;">🥬 Sla &amp; Bladgroenten</h4>
+<ul style="font-size:0.85rem;color:#555;line-height:1.7;"><li>Pluksla (continu)</li><li>Radijs (25 dagen!)</li><li>Spinazie</li><li>Rucola</li></ul>
+<p style="font-size:0.8rem;color:#666;margin-top:0.5rem;"><strong>Waarom?</strong> Klaar in 3-6 weken, prima in halfschaduw.</p>
+</div>
+<div style="border:1px solid var(--border);border-radius:0.5rem;padding:1rem;">
+<h4 style="font-size:0.95rem;margin-bottom:0.5rem;">🍅 Tomaten (Simpel)</h4>
+<ul style="font-size:0.85rem;color:#555;line-height:1.7;"><li>Cherry tomaten</li><li>Balkontomaten</li></ul>
+<p style="font-size:0.8rem;color:#666;margin-top:0.5rem;"><strong>Waarom?</strong> 3-5 kg opbrengst, lang seizoen.</p>
+</div>
+</div>
+<p style="color:#555;font-size:0.9rem;font-weight:600;margin-bottom:0.5rem;">Zaad of plant?</p>
+<ul style="color:#555;font-size:0.9rem;line-height:1.8;margin-bottom:1rem;">
+<li><strong>Zaad:</strong> Goedkoper, meer keuze, maar langzamer (8-12 weken tot oogst)</li>
+<li><strong>Plantjes (tuincentrum):</strong> Sneller (4-6 weken), makkelijker voor beginners</li>
+</ul>
+<div class="step-notice">💡 <strong>Aanbeveling voor beginners:</strong> Koop 2-3 plantjes + 1 zakje zaad om te experimenteren. Zo heb je snel resultaat (motivatie!) en leer je ook zaaien.</div>
+<p style="margin-top:1rem;font-size:0.9rem;"><a href="/planten/" style="color:var(--leaf);">→ Bekijk alle planten die je kunt kweken</a></p>
+</div>
 
-      <div class="table-wrapper">
-        <table class="table">
-          <thead>
-            <tr>
-              <th>Plant</th>
-              <th>Minimale Potgrootte</th>
-              <th>Ideaal</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Kruiden (basilicum, peterselie)</td>
-              <td>3-5L</td>
-              <td>5-8L</td>
-            </tr>
-            <tr>
-              <td>Sla, radijs, spinazie</td>
-              <td>5L</td>
-              <td>8-10L (bak 40-60cm)</td>
-            </tr>
-            <tr>
-              <td>Tomaten (klein)</td>
-              <td>10L</td>
-              <td>15-20L</td>
-            </tr>
-            <tr>
-              <td>Tomaten (groot)</td>
-              <td>15L</td>
-              <td>25-30L</td>
-            </tr>
-            <tr>
-              <td>Paprika, aubergine</td>
-              <td>10L</td>
-              <td>15L</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+<!-- Stap 5 -->
+<div id="stap-5" style="background:white;padding:2rem;border-radius:0.5rem;">
+<h3 style="margin-bottom:0.75rem;font-size:1.1rem;color:var(--leaf);">Stap 5: Plant Je Eerste Zaadjes of Plantjes</h3>
+<p style="color:#555;font-size:0.9rem;font-weight:600;margin-bottom:0.5rem;">Wanneer planten?</p>
+<ul style="color:#555;font-size:0.9rem;line-height:1.8;margin-bottom:1rem;">
+<li><strong>Maart-april:</strong> Tomaten, paprika, kruiden (binnen voorzaaien, mei buiten)</li>
+<li><strong>Mei-juni:</strong> Direct buiten zaaien: sla, radijs, kruiden</li>
+<li><strong>Juli-augustus:</strong> Tweede ronde sla, spinazie, radijs</li>
+</ul>
+<p style="color:#555;font-size:0.9rem;font-weight:600;margin-bottom:0.5rem;">Hoe plant je? (6 stappen)</p>
+<ol style="color:#555;font-size:0.9rem;line-height:2;">
+<li>Vul pot met potgrond tot 2-3cm onder de rand</li>
+<li>Maak een kuiltje (2x zaaddikte diep, of even diep als de wortelkluit)</li>
+<li>Plaats zaad/plant, bedek met grond</li>
+<li>Druk licht aan (geen luchtbellen)</li>
+<li>Geef water (voorzichtig, niet verdrinken)</li>
+<li>Label je pot (vergeet je niet wat je hebt geplant!)</li>
+</ol>
+<div class="step-notice success">✅ <strong>Pro-tip:</strong> Plant niet alle zaadjes tegelijk. Zaai elke 2 weken een nieuwe ronde sla/radijs = continue oogst gedurende het seizoen.</div>
+</div>
 
-      <h3>Wat moet een pot hebben?</h3>
-      <ul>
-        <li>✅ <strong>Drainagegaten</strong> (water moet kunnen weglopen)</li>
-        <li>✅ <strong>Onderschotel</strong> (beschermt balkon, voorkomt overlast)</li>
-        <li>✅ <strong>Goed materiaal:</strong> plastic (licht), terracotta (ademt), hout (duurzaam)</li>
-      </ul>
+<!-- Stap 6 -->
+<div id="stap-6" style="background:white;padding:2rem;border-radius:0.5rem;">
+<h3 style="margin-bottom:0.75rem;font-size:1.1rem;color:var(--leaf);">Stap 6: Water Geven &amp; Verzorging</h3>
+<p style="color:#555;line-height:1.8;font-size:0.9rem;margin-bottom:1rem;"><strong>Vuistregel:</strong> Check de grond met je vinger. 2cm diep droog? → Water geven. Nog vochtig? → Wacht.</p>
+<ul style="color:#555;font-size:0.9rem;line-height:1.8;margin-bottom:1rem;">
+<li><strong>Zomer (warm):</strong> 1-2x per dag (ochtend + avond)</li>
+<li><strong>Lente/herfst:</strong> Om de dag of 2-3x per week</li>
+<li><strong>Winter:</strong> 1x per week (veel planten rusten)</li>
+</ul>
+<div class="step-notice warning">⚠️ <strong>Fout #1:</strong> Te veel water. Wortels hebben ook zuurstof nodig. Gele bladeren + slappe plant terwijl grond nat is = overwatering.</div>
+<p style="color:#555;font-size:0.9rem;font-weight:600;margin:1rem 0 0.5rem;">Bemesten (voeding)</p>
+<p style="color:#555;font-size:0.9rem;line-height:1.8;">Potgrond raakt na 4-6 weken "leeg". Voeg dan meststof toe:</p>
+<ul style="color:#555;font-size:0.9rem;line-height:1.8;">
+<li><strong>Vloeibare meststof:</strong> Elke 2 weken (volg dosering op verpakking)</li>
+<li><strong>Langzaam-afgifte korrels:</strong> 1x per 3 maanden</li>
+</ul>
+<p style="margin-top:1rem;font-size:0.9rem;"><a href="/gidsen/water-geven-op-balkon/" style="color:var(--leaf);">→ Complete gids: Water geven op balkon</a> &nbsp;|&nbsp; <a href="/shop/categories/meststoffen.html" style="background:var(--leaf);color:white;padding:0.35rem 0.75rem;text-decoration:none;font-weight:600;border-radius:0.3rem;font-size:0.85rem;">🛒 Meststoffen bekijken</a></p>
+</div>
 
-      <div class="notice warning">
-        <strong>⚠️ Veelgemaakte fout:</strong> Potten zonder drainagegaten kopen. 
-        Water blijft staan → wortels rotten → plant sterft. Boor zelf gaten als ze er niet zijn.
-      </div>
+<!-- Stap 7 -->
+<div id="stap-7" style="background:white;padding:2rem;border-radius:0.5rem;">
+<h3 style="margin-bottom:0.75rem;font-size:1.1rem;color:var(--leaf);">Stap 7: Oogst &amp; Geniet!</h3>
+<p style="color:#555;font-size:0.9rem;font-weight:600;margin-bottom:0.75rem;">Wanneer oogsten?</p>
+<div style="overflow-x:auto;">
+<table class="step-table">
+<thead><tr><th>Plant</th><th>Eerste oogst na</th><th>Hoe lang oogsten?</th></tr></thead>
+<tbody>
+<tr><td>Radijs</td><td>25-30 dagen</td><td>1 keer</td></tr>
+<tr><td>Sla (pluk)</td><td>4-6 weken</td><td>4-8 weken</td></tr>
+<tr><td>Kruiden</td><td>6-8 weken</td><td>Heel seizoen</td></tr>
+<tr><td>Tomaten</td><td>10-12 weken</td><td>8-12 weken</td></tr>
+</tbody>
+</table>
+</div>
+<div class="step-notice success" style="margin-top:1rem;">🎉 <strong>Gefeliciteerd!</strong> Je hebt je eerste balkonmoestuin oogst. Deel je resultaat op social media met #BalkonMoestuin!</div>
+</div>
 
-      <p><a href="/beste/balkonbakken/" class="btn primary">🛒 Top 5 Balkonbakken (bol.com)</a></p>
-    </section>
+</div><!-- end grid -->
+</div>
+</div>
+</section>
 
-    <!-- Stap 3 -->
-    <section class="content-section">
-      <h2 id="stap-3">Stap 3: Koop de Juiste Potgrond</h2>
-      
-      <p>
-        <strong>Gebruik NOOIT gewone tuinaarde</strong> in potten. 
-        Die is te zwaar, verstopt drainage en bevat geen voedingsstoffen. 
-        Koop <strong>potgrond speciaal voor potten</strong>.
-      </p>
+<!-- SECTION 5: Budget & Checklist -->
+<section style="padding:3rem 0;">
+<div class="container">
+<div style="text-align:center;margin-bottom:2rem;">
+<h2>Budget &amp; Checklist</h2>
+<p style="color:var(--text-dim);">Kies het pakket dat bij jouw situatie past</p>
+</div>
+<div class="grid grid-3" style="gap:2rem;">
+<div style="border:1px solid var(--border);border-radius:0.5rem;padding:0;overflow:hidden;">
+<div style="background:#f5faf0;padding:1rem 1.5rem;border-bottom:1px solid var(--border);">
+<div style="font-size:1.5rem;margin-bottom:0.25rem;">🏷️</div>
+<h3 style="font-size:1rem;margin:0;">Budget</h3>
+<p style="font-size:1.4rem;font-weight:700;color:var(--leaf);margin:0.25rem 0 0;">€30-40</p>
+</div>
+<div style="padding:1.25rem;">
+<ul style="font-size:0.88rem;color:#555;line-height:2;list-style:none;padding:0;margin:0;">
+<li>✓ 3 plastic potten (€12)</li>
+<li>✓ 20L potgrond (€7)</li>
+<li>✓ 3 zakjes zaad (€6)</li>
+<li>✓ Meststof basis (€6)</li>
+</ul>
+<a href="/shop/" style="display:block;margin-top:1.25rem;text-align:center;background:var(--leaf);color:white;padding:0.6rem;text-decoration:none;font-weight:600;border-radius:0.3rem;font-size:0.85rem;">Bekijk producten →</a>
+</div>
+</div>
+<div style="border:2px solid var(--leaf);border-radius:0.5rem;padding:0;overflow:hidden;position:relative;">
+<div style="position:absolute;top:0;right:0;background:var(--leaf);color:white;font-size:0.72rem;font-weight:700;padding:0.25rem 0.6rem;border-radius:0 0 0 0.3rem;">POPULAIRSTE KEUZE</div>
+<div style="background:#f5faf0;padding:1rem 1.5rem;border-bottom:1px solid var(--border);">
+<div style="font-size:1.5rem;margin-bottom:0.25rem;">🌟</div>
+<h3 style="font-size:1rem;margin:0;">Standaard</h3>
+<p style="font-size:1.4rem;font-weight:700;color:var(--leaf);margin:0.25rem 0 0;">€60-80</p>
+</div>
+<div style="padding:1.25rem;">
+<ul style="font-size:0.88rem;color:#555;line-height:2;list-style:none;padding:0;margin:0;">
+<li>✓ 5 potten + schotels (€25)</li>
+<li>✓ 40L potgrond + perliet (€15)</li>
+<li>✓ 3 plantjes + 3 zaad (€15)</li>
+<li>✓ Meststof vloeibaar (€8)</li>
+<li>✓ Gieter 5L (€10)</li>
+</ul>
+<a href="/shop/" style="display:block;margin-top:1.25rem;text-align:center;background:var(--leaf);color:white;padding:0.6rem;text-decoration:none;font-weight:600;border-radius:0.3rem;font-size:0.85rem;">Bekijk producten →</a>
+</div>
+</div>
+<div style="border:1px solid var(--border);border-radius:0.5rem;padding:0;overflow:hidden;">
+<div style="background:#f5faf0;padding:1rem 1.5rem;border-bottom:1px solid var(--border);">
+<div style="font-size:1.5rem;margin-bottom:0.25rem;">💎</div>
+<h3 style="font-size:1rem;margin:0;">Premium</h3>
+<p style="font-size:1.4rem;font-weight:700;color:var(--leaf);margin:0.25rem 0 0;">€120-150</p>
+</div>
+<div style="padding:1.25rem;">
+<ul style="font-size:0.88rem;color:#555;line-height:2;list-style:none;padding:0;margin:0;">
+<li>✓ Kweektafel + bakken (€60)</li>
+<li>✓ Biologische potgrond (€20)</li>
+<li>✓ 5 plantjes + divers zaad (€20)</li>
+<li>✓ Druppelbewatering kit (€25)</li>
+<li>✓ Tools + accessoires (€15)</li>
+</ul>
+<a href="/shop/categories/bewatering.html" style="display:block;margin-top:1.25rem;text-align:center;background:var(--leaf);color:white;padding:0.6rem;text-decoration:none;font-weight:600;border-radius:0.3rem;font-size:0.85rem;">Bekijk druppelirrigatie →</a>
+</div>
+</div>
+</div>
+<!-- Checklist -->
+<div style="max-width:600px;margin:3rem auto 0;background:#f5faf0;border:1px solid var(--border);border-radius:0.5rem;padding:1.75rem;">
+<h3 style="margin-bottom:1.25rem;font-size:1rem;">✅ Checklist voor starters</h3>
+<ul style="list-style:none;padding:0;margin:0;font-size:0.9rem;color:#444;line-height:2.2;">
+<li>☐ Balkon gemeten (zon, ruimte, wind)</li>
+<li>☐ Potten gekocht (met drainage!)</li>
+<li>☐ Potgrond + perliet</li>
+<li>☐ Planten/zaad gekozen (makkelijke soorten)</li>
+<li>☐ Meststof klaar</li>
+<li>☐ Gieter of druppelsysteem</li>
+<li>☐ Labels voor potten</li>
+<li>☐ Schema gemaakt (wanneer water geven)</li>
+</ul>
+</div>
+<!-- CTA -->
+<div style="text-align:center;margin-top:3rem;background:#f5faf0;padding:2rem;border-radius:0.5rem;">
+<h2 style="margin-bottom:0.75rem;">Volgende stappen</h2>
+<p style="color:var(--text-dim);margin-bottom:1.5rem;">Nu je de basis kent, verdiep je in specifieke onderwerpen:</p>
+<div style="display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;">
+<a href="/gidsen/potgrond-voor-moestuin/" style="background:var(--leaf);color:white;padding:0.6rem 1.25rem;text-decoration:none;font-weight:600;border-radius:0.3rem;">Potgrond kiezen</a>
+<a href="/planten/tomaten-op-balkon/" style="border:1px solid var(--leaf);color:var(--leaf);padding:0.6rem 1.25rem;text-decoration:none;font-weight:600;border-radius:0.3rem;">Tomaten kweken</a>
+<a href="/problemen/" style="border:1px solid var(--border);color:#555;padding:0.6rem 1.25rem;text-decoration:none;font-weight:600;border-radius:0.3rem;">Problemen oplossen</a>
+</div>
+</div>
+</div>
+</section>
 
-      <h3>Welke potgrond?</h3>
-      <ul>
-        <li><strong>Universeel (allround):</strong> Voor kruiden, bloemen, meeste groenten. Budget-keuze.</li>
-        <li><strong>Groente-mix:</strong> Extra voeding voor tomaten, paprika. Iets duurder maar beter.</li>
-        <li><strong>Biologisch:</strong> Geen kunstmest, veen-vrij. Milieuvriendelijk.</li>
-      </ul>
+<!-- SECTION 6: FAQ -->
+<section style="background:#f5faf0;border-top:1px solid var(--border);padding:3rem 0;">
+<div class="container">
+<div style="max-width:850px;margin:0 auto;">
+<h2 style="margin-bottom:1.5rem;">Veelgestelde vragen over balkonmoestuin starten</h2>
+<div style="display:grid;gap:1rem;">
+<details class="faq-item"><summary>Hoeveel zon heeft mijn balkon nodig voor een moestuin?</summary><div class="faq-answer">Met slechts 3 uur zon per dag kun je al sla, munt en postelein kweken. Bij 3-5 uur (halfschaduw) komen radijs, spinazie en kruiden zoals peterselie goed. Volle zon (6+ uur) opent de deur naar tomaten, paprika en aubergine. Meet je zon in maart/april met een app zoals "Sun Seeker" — niet in de winter, want dan is het daglicht te kort.</div></details>
+<details class="faq-item"><summary>Welke potgrootte heb ik nodig voor groenten?</summary><div class="faq-answer">Voor kruiden volstaat 3-5L, voor sla en radijs minimum 5L (ideaal 8-10L in een bak van 40-60cm), voor kleine tomaten minimaal 10L (ideaal 15-20L) en voor grote tomaten minimaal 15L (ideaal 25-30L). De meest gemaakte fout is te kleine potten kopen — wortels hebben ruimte nodig voor goede groei.</div></details>
+<details class="faq-item"><summary>Moet ik speciale potgrond kopen voor groenten?</summary><div class="faq-answer">Ja, absoluut. Gebruik nooit gewone tuinaarde in potten — die is te zwaar, verstopt de drainage en bevat onvoldoende voedingsstoffen voor containerteelt. Koop potgrond speciaal voor potten, bij voorkeur een groente-mix. Verbeter het met 10-20% perliet voor betere drainage en voeg na 4-6 weken meststof toe wanneer de voedingsstoffen uitgeput zijn.</div></details>
+<details class="faq-item"><summary>Welke planten zijn het makkelijkst voor beginners?</summary><div class="faq-answer">Kruiden (basilicum, peterselie, munt, bieslook) zijn het makkelijkst: snel resultaat, weinig ruimte, weinig onderhoud. Sla en radijs zijn de op een na makkelijkste: radijs is al na 25 dagen klaar! Cherry tomaten zijn het makkelijkste groentje dat je kunt verbouwen. Vermijd komkommers, courgettes en aubergines als eerste poging — die zijn te veeleisend voor beginners.</div></details>
+<details class="faq-item"><summary>Wanneer begin ik met mijn balkontuin?</summary><div class="faq-answer">Maart-april is ideaal om tomaten en paprika's binnen voor te zaaien (ze gaan in mei naar buiten). Kruiden en sla kun je direct buiten zaaien vanaf mei-juni zodra het nachtvors voorbij is. In juli-augustus kun je nog een tweede ronde sla en radijs zaaien voor een herfstoogst. Begin het liefst in maart met voorzaaien binnen.</div></details>
+<details class="faq-item"><summary>Hoeveel water moet ik geven?</summary><div class="faq-answer">Gebruik de vinger-in-de-grond methode: steek je vinger 2cm in de aarde. Droog? Water geven. Nog vochtig? Wacht. In de zomer betekent dit vaak 1-2x per dag (ochtend én avond), in lente/herfst om de dag. De meest gemaakte fout is te veel water geven — overwatering herken je aan gele bladeren op een natte grond.</div></details>
+<details class="faq-item"><summary>Zaad of plantjes kopen — wat is beter voor beginners?</summary><div class="faq-answer">Beide hebben voordelen: zaad is goedkoper en geeft meer keuze, maar duurt 8-12 weken tot oogst. Plantjes uit het tuincentrum zijn sneller (4-6 weken) en makkelijker voor beginners. Aanbeveling: koop 2-3 plantjes voor snel resultaat (motivatie!) en koop ook 1 zakje zaad om te leren zaaien. Zo leer je beide methodes.</div></details>
+</div>
+</div>
+</div>
+</section>
 
-      <h3>Verbeter je potgrond</h3>
-      <p>Mix je potgrond met deze toevoegingen voor betere resultaten:</p>
-      <ul>
-        <li><strong>Perliet (10-20%):</strong> Verbetert drainage, voorkomt verdichting</li>
-        <li><strong>Compost (20%):</strong> Extra voeding + microben</li>
-        <li><strong>Hydrokorrels (onderlaag):</strong> Drainage + waterreservoir</li>
-      </ul>
+<footer class="footer"><div class="container">
+<div class="footer-content">
+<div><p style="font-family:var(--font-serif);font-size:1.2rem;color:white;margin-bottom:1rem;">Balkon-Moestuin.nl</p><p style="color:#999;font-size:.85rem;line-height:1.7;margin-bottom:0;">Onafhankelijke gids voor balkontuin en moestuin op kleine ruimtes.</p></div>
+<div><h4>Gidsen</h4><a href="/start-hier/">Start hier</a><a href="/gidsen/">Alle gidsen</a><a href="/planten/">Planten</a></div>
+<div><h4>Shop</h4><a href="/shop/categories/balkonbakken.html">Balkonbakken</a><a href="/shop/categories/bewatering.html">Bewatering</a><a href="/shop/categories/meststoffen.html">Meststoffen</a><a href="/shop/categories/zaden.html">Zaden</a></div>
+<div><h4>Info</h4><a href="/over-ons/">Over ons</a><a href="/contact/">Contact</a><a href="/disclaimer-affiliatie/">Disclaimer</a></div>
+</div>
+<div class="footer-bottom">© 2025 Balkon-Moestuin.nl · <a href="/disclaimer-affiliatie/" style="color:#9CA3AF;">Affiliate disclaimer</a></div>
+</div></footer>
 
-      <p><a href="/gidsen/potgrond-voor-moestuin/">→ Complete gids: Potgrond kiezen</a></p>
-      <p><a href="/beste/potgrond/" class="btn primary">🛒 Top 5 Potgrond (bol.com)</a></p>
-    </section>
-
-    <!-- Stap 4 -->
-    <section class="content-section">
-      <h2 id="stap-4">Stap 4: Kies Je Planten (Begin Makkelijk!)</h2>
-      
-      <p>
-        <strong>Beginnersfout:</strong> Beginnen met moeilijke planten (komkommers, courgettes) en dan teleurgesteld zijn. 
-        Start met deze <strong>fool-proof planten</strong>:
-      </p>
-
-      <div class="grid grid-3">
-        <div class="card">
-          <h3>🌿 Kruiden (Makkelijkst)</h3>
-          <ul>
-            <li>Basilicum</li>
-            <li>Peterselie</li>
-            <li>Munt</li>
-            <li>Bieslook</li>
-          </ul>
-          <p class="small"><strong>Waarom?</strong> Groeit snel, weinig ruimte, altijd vers voor in je eten.</p>
-        </div>
-
-        <div class="card">
-          <h3>🥬 Sla & Bladgroenten</h3>
-          <ul>
-            <li>Pluksla (continu oogsten)</li>
-            <li>Radijs (25 dagen!)</li>
-            <li>Spinazie</li>
-            <li>Rucola</li>
-          </ul>
-          <p class="small"><strong>Waarom?</strong> Groeit in 3-6 weken, weinig werk, prima in halfschaduw.</p>
-        </div>
-
-        <div class="card">
-          <h3>🍅 Tomaten (Simpel)</h3>
-          <ul>
-            <li>Cherry tomaten</li>
-            <li>Balkon-tomaten (klein)</li>
-          </ul>
-          <p class="small"><strong>Waarom?</strong> Grote opbrengst (3-5kg), lange seizoen, lekker!</p>
-        </div>
-      </div>
-
-      <h3>Zaad of Plant?</h3>
-      <ul>
-        <li><strong>Zaad:</strong> Goedkoper, meer keuze, maar langzamer (8-12 weken tot oogst)</li>
-        <li><strong>Plantjes (tuincentrum):</strong> Sneller (4-6 weken), makkelijker voor beginners</li>
-      </ul>
-
-      <div class="notice">
-        <strong>💡 Aanbeveling voor beginners:</strong> Koop 2-3 plantjes + 1 zakje zaad om te experimenten. 
-        Zo heb je snel resultaat (motivatie!) en leer je ook zaaien.
-      </div>
-
-      <p><a href="/planten/">→ Bekijk alle planten die je kunt kweken</a></p>
-    </section>
-
-    <!-- Stap 5 -->
-    <section class="content-section">
-      <h2 id="stap-5">Stap 5: Plant Je Eerste Zaadjes of Plantjes</h2>
-      
-      <h3>Wanneer planten?</h3>
-      <ul>
-        <li><strong>Maart-april:</strong> Tomaten, paprika, kruiden (binnen voorzaaien, mei buiten)</li>
-        <li><strong>Mei-juni:</strong> Direct buiten zaaien: sla, radijs, kruiden</li>
-        <li><strong>Juli-augustus:</strong> Tweede ronde sla, spinazie, radijs</li>
-      </ul>
-
-      <h3>Hoe plant je?</h3>
-      <ol>
-        <li>Vul pot met potgrond tot 2-3cm onder de rand</li>
-        <li>Maak een kuiltje (2x zaaddikte diep, of even diep als de wortelkluit)</li>
-        <li>Plaats zaad/plant, bedek met grond</li>
-        <li>Druk licht aan (geen luchtbellen)</li>
-        <li>Geef water (voorzichtig, niet verdrinken)</li>
-        <li>Label je pot (vergeet je niet wat je hebt geplant!)</li>
-      </ol>
-
-      <div class="notice success">
-        <strong>✅ Pro-tip:</strong> Plant niet alle zaadjes tegelijk. 
-        Zaai elke 2 weken een nieuwe ronde sla/radijs = continue oogst gedurende het seizoen.
-      </div>
-    </section>
-
-    <!-- Stap 6 -->
-    <section class="content-section">
-      <h2 id="stap-6">Stap 6: Water Geven & Verzorging</h2>
-      
-      <h3>Hoeveel water?</h3>
-      <p><strong>Vuistregel:</strong> Check de grond met je vinger. 2cm diep droog? → Water geven. Nog vochtig? → Wacht.</p>
-
-      <ul>
-        <li><strong>Zomer (warm):</strong> 1-2x per dag (ochtend + avond)</li>
-        <li><strong>Lente/herfst:</strong> Om de dag of 2-3x per week</li>
-        <li><strong>Winter:</strong> 1x per week (veel planten rusten)</li>
-      </ul>
-
-      <div class="notice warning">
-        <strong>⚠️ Fout #1:</strong> Te veel water. Wortels hebben ook zuurstof nodig. 
-        Gele bladeren + slappe plant terwijl grond nat is = overwatering.
-      </div>
-
-      <h3>Bemesten (voeding)</h3>
-      <p>Potgrond raakt na 4-6 weken "leeg". Voeg dan meststof toe:</p>
-      <ul>
-        <li><strong>Vloeibare meststof:</strong> Elke 2 weken (volg dosering op verpakking)</li>
-        <li><strong>Langzaam-afgifte korrels:</strong> 1x per 3 maanden</li>
-      </ul>
-
-      <p><a href="/gidsen/water-geven-op-balkon/">→ Complete gids: Water geven op balkon</a></p>
-      <p><a href="/beste/meststoffen/" class="btn">🛒 Beste meststoffen</a></p>
-    </section>
-
-    <!-- Stap 7 -->
-    <section class="content-section">
-      <h2 id="stap-7">Stap 7: Oogst & Geniet!</h2>
-      
-      <h3>Wanneer oogsten?</h3>
-      <div class="table-wrapper">
-        <table class="table">
-          <thead>
-            <tr>
-              <th>Plant</th>
-              <th>Eerste oogst na</th>
-              <th>Hoe lang oogsten?</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Radijs</td>
-              <td>25-30 dagen</td>
-              <td>1 keer</td>
-            </tr>
-            <tr>
-              <td>Sla (pluk)</td>
-              <td>4-6 weken</td>
-              <td>4-8 weken</td>
-            </tr>
-            <tr>
-              <td>Kruiden</td>
-              <td>6-8 weken</td>
-              <td>Heel seizoen</td>
-            </tr>
-            <tr>
-              <td>Tomaten</td>
-              <td>10-12 weken</td>
-              <td>8-12 weken</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="notice success">
-        <strong>🎉 Gefeliciteerd!</strong> Je hebt je eerste balkonmoestuin oogst. 
-        Deel je resultaat op social media met #BalkonMoestuin!
-      </div>
-    </section>
-
-    <!-- Budget & Checklist -->
-    <section class="content-section">
-      <h2 id="budget">💰 Budget & Checklist</h2>
-      
-      <h3>Budget-opties</h3>
-      <div class="grid">
-        <div class="card">
-          <h4>🏷️ Budget (€30-40)</h4>
-          <ul>
-            <li>3 plastic potten (€12)</li>
-            <li>20L potgrond (€7)</li>
-            <li>3 zakjes zaad (€6)</li>
-            <li>Meststof basis (€6)</li>
-          </ul>
-        </div>
-
-        <div class="card">
-          <h4>🌟 Standaard (€60-80)</h4>
-          <ul>
-            <li>5 potten + schotels (€25)</li>
-            <li>40L potgrond + perliet (€15)</li>
-            <li>3 plantjes + 3 zaad (€15)</li>
-            <li>Meststof vloeibaar (€8)</li>
-            <li>Gieter 5L (€10)</li>
-          </ul>
-        </div>
-
-        <div class="card">
-          <h4>💎 Premium (€120-150)</h4>
-          <ul>
-            <li>Kweektafel + bakken (€60)</li>
-            <li>Biologische potgrond (€20)</li>
-            <li>5 plantjes + diverse zaad (€20)</li>
-            <li>Druppelbewatering kit (€25)</li>
-            <li>Tools + accessoires (€15)</li>
-          </ul>
-        </div>
-      </div>
-
-      <h3>✅ Checklist voor starters</h3>
-      <div class="notice">
-        <ul style="list-style: none; padding: 0;">
-          <li>☐ Balkon gemeten (zon, ruimte, wind)</li>
-          <li>☐ Potten gekocht (met drainage!)</li>
-          <li>☐ Potgrond + perliet</li>
-          <li>☐ Planten/zaad gekozen (makkelijke soorten)</li>
-          <li>☐ Meststof klaar</li>
-          <li>☐ Gieter of druppelsysteem</li>
-          <li>☐ Labels voor potten</li>
-          <li>☐ Schema gemaakt (wanneer water geven)</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="content-section" style="background: var(--green-light); padding: 2rem; border-radius: var(--radius); text-align: center;">
-      <h2>Volgende Stappen</h2>
-      <p>Nu je de basis kent, verdiep je in specifieke onderwerpen:</p>
-      <div class="cta-group" style="justify-content: center; margin-top: 1.5rem;">
-        <a href="/gidsen/potgrond-voor-moestuin/" class="btn primary">Potgrond kiezen</a>
-        <a href="/planten/tomaten-op-balkon/" class="btn">Tomaten kweken</a>
-        <a href="/problemen/" class="btn">Problemen oplossen</a>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-inner">
-        <div class="footer-section">
-          <h4>🌱 Balkon-Moestuin.nl</h4>
-          <p>De #1 gids voor balkonmoestuinen in Nederland & België.</p>
-        </div>
-        
-        <div class="footer-section">
-          <h4>Gidsen</h4>
-          <nav class="footer-nav">
-            <a href="/start-hier/">Start hier</a>
-            <a href="/gidsen/">Alle gidsen</a>
-            <a href="/planten/">Planten</a>
-          </nav>
-        </div>
-        
-        <div class="footer-section">
-          <h4>Producten</h4>
-          <nav class="footer-nav">
-            <a href="/beste/">Beste producten</a>
-            <a href="/beste/balkonbakken/">Balkonbakken</a>
-            <a href="/beste/potgrond/">Potgrond</a>
-          </nav>
-        </div>
-        
-        <div class="footer-section">
-          <h4>Over ons</h4>
-          <nav class="footer-nav">
-            <a href="/over-ons/">Over ons</a>
-            <a href="/contact/">Contact</a>
-            <a href="/disclaimer-affiliatie/">Disclaimer</a>
-          </nav>
-        </div>
-      </div>
-      
-      <div class="footer-bottom">
-        <p>© <span id="year">2025</span> Balkon-Moestuin.nl</p>
-      </div>
-    </div>
-  </footer>
-
-  <script src="/assets/js/main.js" defer></script>
+<script>
+var answers = {};
+function handleQuiz(ans, q) {
+  answers[q] = ans;
+  var next = document.querySelector('.quiz-question[data-question="' + (q+1) + '"]');
+  if (next) {
+    document.querySelector('.quiz-question[data-question="' + q + '"]').classList.remove('active');
+    next.classList.add('active');
+  } else { showResult(); }
+}
+function showResult() {
+  var sun = answers[1], bud = answers[2], exp = answers[3];
+  var emoji = '🌱', title = '', desc = '';
+  if (exp === 'beginner' && sun === 'shade') {
+    emoji='🌿'; title='Start met kruiden in halfschaduw';
+    desc='Met weinig zon begin je het best met munt, peterselie en pluksla. Kleine potten van 3-5L, eenvoudige potgrond. Budget €30-40 is ruim voldoende.';
+  } else if (exp === 'beginner') {
+    emoji='🥬'; title='Kruiden + sla als eerste stap';
+    desc='Koop 2-3 plantjes kruiden en 1 zakje slazaad. Potten van 5-10L, universele potgrond + perliet. Je hebt je eerste oogst al na 4-6 weken!';
+  } else if (sun === 'sun' && bud !== 'budget') {
+    emoji='🍅'; title='Tomaten zijn jouw plant!';
+    desc='Met volle zon en voldoende budget kun je direct starten met cherry tomaten. Minimum 15L pot, groente-mix potgrond, steun voor de stengel.';
+  } else if (bud === 'premium') {
+    emoji='💎'; title='Complete balkontuin met druppelirrigatie';
+    desc='Investeer in een kweektafel, biologische potgrond en automatische druppelbewatering. Je kunt meerdere soorten tegelijk kweken met minimaal onderhoud.';
+  } else {
+    emoji='🌿'; title='Standaard opzet: gevarieerde balkontuin';
+    desc='Mix van kruiden, sla en eventueel tomaten. 5 potten van verschillende groottes, goede potgrond met perliet. Budget €60-80 geeft een complete opzet.';
+  }
+  document.getElementById('result-emoji').textContent = emoji;
+  document.getElementById('result-title').textContent = title;
+  document.getElementById('result-desc').textContent = desc;
+  document.querySelector('#quiz-container').querySelector('.quiz-question.active').style.display = 'none';
+  document.getElementById('quiz-result').style.display = 'block';
+}
+function resetQuiz() {
+  answers = {};
+  document.getElementById('quiz-result').style.display = 'none';
+  document.querySelectorAll('.quiz-question').forEach(function(q,i){ q.style.display = i===0?'block':'none'; q.classList.toggle('active',i===0); });
+}
+document.querySelectorAll('.quiz-option').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var q = parseInt(btn.closest('.quiz-question').dataset.question);
+    handleQuiz(btn.dataset.answer, q);
+  });
+});
+</script>
 </body>
 </html>
