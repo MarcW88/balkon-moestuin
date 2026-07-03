@@ -43,156 +43,385 @@
 <div class="mobile-menu-overlay" id="menuOverlay"></div>
 <script>(function(){var t=document.getElementById('menuToggle'),m=document.getElementById('navMenu'),o=document.getElementById('menuOverlay');function c(){m.classList.remove('active');t.classList.remove('active');o.classList.remove('active');}t.addEventListener('click',function(){m.classList.toggle('active');t.classList.toggle('active');o.classList.toggle('active');});o.addEventListener('click',c);})();</script>
 
-  <main id="content" class="container">
-    <nav class="breadcrumb">
-      <a href="/">Home</a> <span>›</span> <strong>Gidsen</strong>
-    </nav>
+<!-- HERO -->
+<section style="background:#f5faf0;padding:3rem 0 2.5rem;">
+<div class="container">
+<p style="font-size:0.78rem;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.75rem;">
+<a href="/" style="color:var(--text-light);text-decoration:none;">Home</a> / Gidsen
+</p>
+<h1 style="font-family:var(--font-serif);font-size:clamp(1.8rem,3vw,2.4rem);font-weight:400;margin-bottom:0.75rem;">Complete Gidsen voor Je Balkonmoestuin</h1>
+<p style="color:var(--text-dim);font-size:1rem;max-width:640px;">20+ gratis handleidingen, tips en stappenplannen — van beginner tot expert. Alles wat je moet weten over potten, potgrond, water geven, en meer.</p>
+</div>
+</section>
 
-    <section class="hero">
-      <h1>Complete Gidsen voor Je Balkonmoestuin</h1>
-      <p class="lead">
-        20+ gratis handleidingen, tips en stappenplannen — van beginner tot expert. 
-        Alles wat je moet weten over potten, potgrond, water geven, en meer.
-      </p>
-    </section>
+<!-- SECTION 1: Top 3 meest gelezen -->
+<section style="padding:3rem 0;">
+<div class="container">
+<div style="margin-bottom:2rem;">
+<h2 style="font-family:var(--font-serif);font-size:clamp(1.4rem,2.5vw,1.9rem);font-weight:400;margin-bottom:0.75rem;">Meest gelezen gidsen</h2>
+<p style="color:var(--text-dim);font-size:0.95rem;line-height:1.7;max-width:680px;">
+Deze drie gidsen worden het meest gelezen en zijn het beste startpunt voor elke balkontuin — of je nu net begint of al een seizoen verder bent.
+</p>
+</div>
+<div class="grid grid-3" style="gap:2rem;">
+<div class="card" style="border:1px solid var(--border);border-radius:0.5rem;text-align:center;padding:2rem;">
+<div style="font-size:3rem;margin-bottom:1rem;">📖</div>
+<span style="display:inline-block;background:#e8f5e0;color:var(--leaf);font-size:0.72rem;font-weight:700;text-transform:uppercase;padding:0.2rem 0.6rem;border-radius:1rem;margin-bottom:0.75rem;">Beginners</span>
+<h3 style="margin-bottom:0.5rem;"><a href="/start-hier/" style="text-decoration:none;color:inherit;">Balkonmoestuin Starten</a></h3>
+<p style="color:#666;font-size:0.88rem;margin-bottom:0.5rem;">Basis · 15 min lezen</p>
+<p style="color:#666;margin-bottom:1.5rem;font-size:0.9rem;">Complete gids voor beginners: van balkon checken tot eerste oogst. Inclusief budget en checklist.</p>
+<a href="/start-hier/" style="background:var(--leaf);color:white;padding:0.5rem 1rem;text-decoration:none;font-weight:600;border-radius:0.3rem;display:inline-block;">Lees gids →</a>
+</div>
+<div class="card" style="border:1px solid var(--border);border-radius:0.5rem;text-align:center;padding:2rem;">
+<div style="font-size:3rem;margin-bottom:1rem;">🌱</div>
+<span style="display:inline-block;background:#fff3e0;color:#e67e22;font-size:0.72rem;font-weight:700;text-transform:uppercase;padding:0.2rem 0.6rem;border-radius:1rem;margin-bottom:0.75rem;">Essentieel</span>
+<h3 style="margin-bottom:0.5rem;"><a href="/gidsen/potgrond-voor-moestuin/" style="text-decoration:none;color:inherit;">Potgrond Kiezen</a></h3>
+<p style="color:#666;font-size:0.88rem;margin-bottom:0.5rem;">Basis · 8 min lezen</p>
+<p style="color:#666;margin-bottom:1.5rem;font-size:0.9rem;">Welke potgrond? Universeel, groente-mix of biologisch? Alles over drainage, bemesting en toevoegingen.</p>
+<a href="/gidsen/potgrond-voor-moestuin/" style="background:var(--leaf);color:white;padding:0.5rem 1rem;text-decoration:none;font-weight:600;border-radius:0.3rem;display:inline-block;">Lees gids →</a>
+</div>
+<div class="card" style="border:1px solid var(--border);border-radius:0.5rem;text-align:center;padding:2rem;">
+<div style="font-size:3rem;margin-bottom:1rem;">🪴</div>
+<span style="display:inline-block;background:#e8f5e0;color:var(--leaf);font-size:0.72rem;font-weight:700;text-transform:uppercase;padding:0.2rem 0.6rem;border-radius:1rem;margin-bottom:0.75rem;">Basis</span>
+<h3 style="margin-bottom:0.5rem;"><a href="/gidsen/pottenbakken-kiezen/" style="text-decoration:none;color:inherit;">Potten &amp; Bakken Kiezen</a></h3>
+<p style="color:#666;font-size:0.88rem;margin-bottom:0.5rem;">Basis · 7 min lezen</p>
+<p style="color:#666;margin-bottom:1.5rem;font-size:0.9rem;">Welke maat? Plastic, terracotta of hout? Alles over drainage, diepte en hoeveel potten je nodig hebt.</p>
+<a href="/gidsen/pottenbakken-kiezen/" style="background:var(--leaf);color:white;padding:0.5rem 1rem;text-decoration:none;font-weight:600;border-radius:0.3rem;display:inline-block;">Lees gids →</a>
+</div>
+</div>
+</div>
+</section>
 
-    <!-- Filter -->
-    <div style="margin-bottom: 2rem;">
-      <input 
-        type="text" 
-        id="filter" 
-        placeholder="Zoek gids (bijv. 'potgrond', 'tomaten', 'water')..."
-        style="width: 100%; max-width: 500px; padding: 0.75rem 1rem; border: 1px solid var(--gray-300); border-radius: 8px; font-size: 1rem;"
-      />
-    </div>
+<!-- SECTION 2: Hoe zijn de gidsen opgebouwd? -->
+<section style="background:#f5faf0;padding:3rem 0;">
+<div class="container">
+<div style="max-width:900px;margin:0 auto;">
+<h2 style="margin-bottom:1.5rem;">Hoe zijn onze gidsen opgebouwd?</h2>
+<p style="color:#555;line-height:1.8;margin-bottom:1.5rem;font-size:0.95rem;">
+Onze gidsen zijn ingedeeld in <strong>drie niveaus</strong> op basis van hoe ver je bent met je balkontuin. Elke gids is geschreven vanuit praktijkervaring en bevat concrete stappen, geen vage tips. We hebben <strong>tientallen beginnerfouten</strong> geanalyseerd om te bepalen welke informatie écht helpt.
+</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem;">
+<div style="background:white;padding:1.5rem;border-radius:0.5rem;">
+<h4 style="margin-bottom:0.75rem;font-size:1rem;">🌱 Beginners (Start hier)</h4>
+<p style="color:#666;font-size:0.9rem;line-height:1.6;">Balkonmoestuin starten, potten kiezen, potgrond, zon &amp; schaduw begrijpen. Alles wat je nodig hebt voor je <strong>eerste seizoen</strong>.</p>
+</div>
+<div style="background:white;padding:1.5rem;border-radius:0.5rem;">
+<h4 style="margin-bottom:0.75rem;font-size:1rem;">📅 Seizoen &amp; Planning</h4>
+<p style="color:#666;font-size:0.9rem;line-height:1.6;">Zaai-oogstkalender, wanneer planten, successiezaaien. Plan je <strong>hele tuinseizoen</strong> van maart tot oktober.</p>
+</div>
+<div style="background:white;padding:1.5rem;border-radius:0.5rem;">
+<h4 style="margin-bottom:0.75rem;font-size:1rem;">🏆 Gevorderd</h4>
+<p style="color:#666;font-size:0.9rem;line-height:1.6;">Verticaal kweken, druppelbewatering, composteren op balkon. Voor wie al een seizoen ervaring heeft en <strong>meer wil halen</strong> uit de ruimte.</p>
+</div>
+<div style="background:white;padding:1.5rem;border-radius:0.5rem;">
+<h4 style="margin-bottom:0.75rem;font-size:1rem;">🔬 Problemen oplossen</h4>
+<p style="color:#666;font-size:0.9rem;line-height:1.6;">Zieke planten, gele bladeren, plagen. Onze <a href="/problemen/" style="color:var(--leaf);">probleemgids</a> helpt je <strong>snel de oorzaak</strong> te vinden en op te lossen.</p>
+</div>
+<div style="background:white;padding:1.5rem;border-radius:0.5rem;">
+<h4 style="margin-bottom:0.75rem;font-size:1rem;">🛒 Product-aanbevelingen</h4>
+<p style="color:#666;font-size:0.9rem;line-height:1.6;">Alle productaanbevelingen zijn <strong>onafhankelijk getest</strong>. Affiliate links naar Bol.com leveren ons ~3-5% commissie, maar beïnvloeden onze keuzes niet.</p>
+</div>
+<div style="background:white;padding:1.5rem;border-radius:0.5rem;">
+<h4 style="margin-bottom:0.75rem;font-size:1rem;">🔄 Regelmatig bijgewerkt</h4>
+<p style="color:#666;font-size:0.9rem;line-height:1.6;">Elke gids wordt jaarlijks bijgewerkt met de nieuwste inzichten, nieuwe productaanbevelingen en lezervragen.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
 
-    <!-- Populair -->
-    <section class="content-section">
-      <h2>🏆 Meest Gelezen</h2>
-      <div class="grid">
-        <a href="/start-hier/" class="card-link" data-filter="beginners stappenplan basis starten">
-          <article class="card">
-            <span class="badge">Beginners</span>
-            <h3>Balkonmoestuin Starten: 7-Stappen Stappenplan</h3>
-            <p class="meta">Basis • 15 min lezen</p>
-            <p>Complete gids voor beginners: van balkon checken tot eerste oogst. Inclusief budget en checklist.</p>
-          </article>
-        </a>
+<!-- SECTION 3: Decision framework + quiz -->
+<section style="padding:3rem 0;">
+<div class="container">
+<div style="max-width:850px;margin:0 auto;text-align:center;">
+<h2 style="margin-bottom:1rem;">Welke gids past bij jou?</h2>
+<p style="color:#666;font-size:1.05rem;line-height:1.7;">Je hebt nu een overzicht van alle gidsen. Maar welke moet je <em>als eerste</em> lezen? Dat hangt af van hoe ver je bent en wat je uitdaging is.</p>
+</div>
+<div style="max-width:850px;margin:2rem auto 0;">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-bottom:2rem;">
+<div style="background:#f5faf0;border:1px solid var(--border);border-radius:0.5rem;padding:1rem;">
+<h4 style="margin-bottom:0.75rem;font-size:0.95rem;">Vraag 1: Ben je nieuw of ervaren?</h4>
+<p style="color:#555;font-size:0.85rem;line-height:1.6;">
+<strong>Beginner:</strong> Begin bij "Start hier" → potten → potgrond<br>
+<strong>1 seizoen:</strong> Zaai-oogstkalender + water geven<br>
+<strong>Gevorderd:</strong> Verticaal kweken + druppelbewatering
+</p>
+</div>
+<div style="background:#f5faf0;border:1px solid var(--border);border-radius:0.5rem;padding:1rem;">
+<h4 style="margin-bottom:0.75rem;font-size:0.95rem;">Vraag 2: Wat is je grootste uitdaging?</h4>
+<p style="color:#555;font-size:0.85rem;line-height:1.6;">
+<strong>Niet weten waar te beginnen:</strong> Start hier<br>
+<strong>Potten/potgrond:</strong> Basis gidsen<br>
+<strong>Water/voeding:</strong> Water geven + meststoffen
+</p>
+</div>
+<div style="background:#f5faf0;border:1px solid var(--border);border-radius:0.5rem;padding:1rem;">
+<h4 style="margin-bottom:0.75rem;font-size:0.95rem;">Vraag 3: Wanneer begin je?</h4>
+<p style="color:#555;font-size:0.85rem;line-height:1.6;">
+<strong>Nu (jan-feb):</strong> Plan voor het seizoen, voorzaaien<br>
+<strong>Voorjaar (mrt-apr):</strong> Start hier, direct beginnen<br>
+<strong>Zomer (mei-aug):</strong> Direct buiten, snelgroeiende soorten
+</p>
+</div>
+<div style="background:#f5faf0;border:1px solid var(--border);border-radius:0.5rem;padding:1rem;">
+<h4 style="margin-bottom:0.75rem;font-size:0.95rem;">Vraag 4: Hoeveel ruimte heb je?</h4>
+<p style="color:#555;font-size:0.85rem;line-height:1.6;">
+<strong>Klein (&lt;3m²):</strong> Verticaal kweken + kruiden<br>
+<strong>Gemiddeld (3-6m²):</strong> Mix groenten + kruiden<br>
+<strong>Groot (6m²+):</strong> Volledige moestuin mogelijk
+</p>
+</div>
+</div>
+<!-- Quiz -->
+<div style="max-width:700px;margin:0 auto;background:linear-gradient(135deg,#f5faf0,#e8f5e0);padding:3rem;border-radius:0.5rem;">
+<h3 style="text-align:center;margin-bottom:0.75rem;">Gids Zoeker Quiz</h3>
+<p style="text-align:center;color:#666;margin-bottom:1.5rem;font-size:0.95rem;">3 vragen &bull; 30 seconden &bull; Directe aanbeveling</p>
+<div id="quiz-container">
+<div class="quiz-question active" data-question="1">
+<h4 style="margin-bottom:1.25rem;">1. Hoe ver ben je met je balkontuin?</h4>
+<div style="display:flex;flex-direction:column;gap:0.75rem;">
+<button class="quiz-option" data-answer="new">🌱 <strong>Nog niet begonnen</strong> — alles is nieuw voor mij</button>
+<button class="quiz-option" data-answer="started">🪴 <strong>Net gestart</strong> — eerste seizoen bezig</button>
+<button class="quiz-option" data-answer="exp">🌿 <strong>Al een seizoen</strong> — wil verder groeien</button>
+<button class="quiz-option" data-answer="adv">🌳 <strong>Gevorderd</strong> — zoek geavanceerde technieken</button>
+</div>
+</div>
+<div class="quiz-question" data-question="2">
+<h4 style="margin-bottom:1.25rem;">2. Wat is je grootste uitdaging?</h4>
+<div style="display:flex;flex-direction:column;gap:0.75rem;">
+<button class="quiz-option" data-answer="start">🗺️ <strong>Weet niet waar ik moet beginnen</strong></button>
+<button class="quiz-option" data-answer="setup">🪣 <strong>Potten, potgrond, materiaal kiezen</strong></button>
+<button class="quiz-option" data-answer="care">💧 <strong>Water geven, voeding, verzorging</strong></button>
+<button class="quiz-option" data-answer="yield">📈 <strong>Meer oogst, minder ruimte benutten</strong></button>
+</div>
+</div>
+<div class="quiz-question" data-question="3">
+<h4 style="margin-bottom:1.25rem;">3. Hoeveel ruimte heeft je balkon?</h4>
+<div style="display:flex;flex-direction:column;gap:0.75rem;">
+<button class="quiz-option" data-answer="small">📦 <strong>Klein</strong> — minder dan 3m²</button>
+<button class="quiz-option" data-answer="med">🏠 <strong>Gemiddeld</strong> — 3 tot 6m²</button>
+<button class="quiz-option" data-answer="big">🌳 <strong>Groot</strong> — meer dan 6m²</button>
+</div>
+</div>
+<div id="quiz-result" style="display:none;text-align:center;">
+<div style="font-size:3rem;margin-bottom:1rem;" id="result-emoji"></div>
+<h3 style="margin-bottom:0.75rem;">Jouw Aanbeveling:</h3>
+<div id="result-title" style="font-size:1.3rem;font-weight:700;color:var(--leaf);margin-bottom:0.75rem;"></div>
+<p id="result-desc" style="color:#555;line-height:1.6;margin-bottom:1.5rem;"></p>
+<div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+<a href="#" id="result-link" style="background:var(--leaf);color:white;padding:0.6rem 1.25rem;text-decoration:none;font-weight:600;border-radius:0.3rem;">Lees de gids →</a>
+<button onclick="resetQuiz()" style="padding:0.6rem 1.25rem;border:1px solid var(--border);background:white;cursor:pointer;border-radius:0.3rem;">Opnieuw</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
 
-        <a href="/gidsen/potgrond-voor-moestuin/" class="card-link" data-filter="potgrond grond aarde kiezen drainage">
-          <article class="card">
-            <span class="badge orange">Essentieel</span>
-            <h3>Potgrond Kiezen voor Balkonmoestuin</h3>
-            <p class="meta">Basis • 8 min lezen</p>
-            <p>Welke potgrond? Universeel, groente-mix of biologisch? Alles over drainage, bemesting en toevoegingen.</p>
-          </article>
-        </a>
+<!-- SECTION 4: Alle gidsen -->
+<section style="background:#f5faf0;padding:3rem 0;">
+<div class="container">
+<div style="max-width:900px;margin:0 auto;">
+<h2 style="margin-bottom:0.75rem;">Alle gidsen</h2>
+<p style="color:#555;font-size:0.9rem;margin-bottom:1.5rem;">Gebruik de zoekbalk om snel een gids te vinden.</p>
+<div style="margin-bottom:2rem;">
+<input type="text" id="filter" placeholder="Zoek gids (bijv. 'potgrond', 'tomaten', 'water')..." style="width:100%;max-width:480px;padding:0.75rem 1rem;border:1px solid var(--border);border-radius:0.5rem;font-size:0.95rem;background:white;" />
+</div>
 
-        <a href="/gidsen/pottenbakken-kiezen/" class="card-link" data-filter="potten bakken kiezen materiaal grootte">
-          <article class="card">
-            <span class="badge">Basis</span>
-            <h3>Potten & Bakken Kiezen</h3>
-            <p class="meta">Basis • 7 min lezen</p>
-            <p>Welke maat? Plastic, terracotta of hout? Alles over drainage, diepte en hoeveel potten je nodig hebt.</p>
-          </article>
-        </a>
-      </div>
-    </section>
+<!-- Basis gidsen -->
+<h3 style="margin-bottom:1.25rem;font-size:1rem;color:var(--leaf);text-transform:uppercase;letter-spacing:0.05em;">📚 Basis Gidsen</h3>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.25rem;margin-bottom:2.5rem;" id="gidsen-grid">
 
-    <!-- Basis Gidsen -->
-    <section class="content-section">
-      <h2>📚 Basis Gidsen (Start Hier)</h2>
-      <div class="grid">
-        <article class="card" data-filter="zon schaduw balkon licht">
-          <h3>Zon of Schaduw Balkon?</h3>
-          <p class="meta">Basis • 6 min</p>
-          <p>Hoeveel zon heb je nodig? Welke planten groeien in halfschaduw of volle schaduw?</p>
-        </article>
+<article style="background:white;padding:1.5rem;border-radius:0.5rem;border:1px solid var(--border);" data-filter="zon schaduw balkon licht">
+<h4 style="margin-bottom:0.4rem;font-size:0.95rem;">☀️ Zon of Schaduw Balkon?</h4>
+<p style="font-size:0.8rem;color:var(--leaf);margin-bottom:0.5rem;">Basis · 6 min</p>
+<p style="color:#555;font-size:0.88rem;line-height:1.6;">Hoeveel zon heb je nodig? Welke planten groeien in halfschaduw of volle schaduw?</p>
+</article>
 
-        <article class="card" data-filter="wind beschermen balkon waaien">
-          <h3>Wind op Balkon: Planten Beschermen</h3>
-          <p class="meta">Basis • 5 min</p>
-          <p>Te veel wind? Gebruik windschermen, positioneer slim, kies stevige planten.</p>
-        </article>
+<article style="background:white;padding:1.5rem;border-radius:0.5rem;border:1px solid var(--border);" data-filter="wind beschermen balkon waaien">
+<h4 style="margin-bottom:0.4rem;font-size:0.95rem;">💨 Wind op Balkon: Planten Beschermen</h4>
+<p style="font-size:0.8rem;color:var(--leaf);margin-bottom:0.5rem;">Basis · 5 min</p>
+<p style="color:#555;font-size:0.88rem;line-height:1.6;">Te veel wind? Gebruik windschermen, positioneer slim, kies stevige planten.</p>
+</article>
 
-        <article class="card" data-filter="water geven gieten hoeveelheid schema">
-          <h3>Water Geven op Balkon</h3>
-          <p class="meta">Basis • 7 min</p>
-          <p>Hoeveel water? Hoe vaak? Handmatig of automatisch? Check de grond-methode.</p>
-        </article>
+<article style="background:white;padding:1.5rem;border-radius:0.5rem;border:1px solid var(--border);" data-filter="water geven gieten hoeveelheid schema">
+<h4 style="margin-bottom:0.4rem;font-size:0.95rem;">💧 Water Geven op Balkon</h4>
+<p style="font-size:0.8rem;color:var(--leaf);margin-bottom:0.5rem;">Basis · 7 min</p>
+<p style="color:#555;font-size:0.88rem;line-height:1.6;">Hoeveel water? Hoe vaak? Handmatig of automatisch? Check de grond-methode.</p>
+</article>
 
-        <article class="card" data-filter="drainage hydrokorrels water afvoer">
-          <h3>Drainage & Hydrokorrels</h3>
-          <p class="meta">Basis • 5 min</p>
-          <p>Voorkom wateroverlast met goede drainage. Hydrokorrels, gaten, schotels.</p>
-        </article>
+<article style="background:white;padding:1.5rem;border-radius:0.5rem;border:1px solid var(--border);" data-filter="drainage hydrokorrels water afvoer">
+<h4 style="margin-bottom:0.4rem;font-size:0.95rem;">🪨 Drainage &amp; Hydrokorrels</h4>
+<p style="font-size:0.8rem;color:var(--leaf);margin-bottom:0.5rem;">Basis · 5 min</p>
+<p style="color:#555;font-size:0.88rem;line-height:1.6;">Voorkom wateroverlast met goede drainage. Hydrokorrels, gaten, schotels.</p>
+</article>
 
-        <article class="card" data-filter="meststof bemesten voeding npk">
-          <h3>Meststoffen voor Balkonmoestuin</h3>
-          <p class="meta">Basis • 8 min</p>
-          <p>Wanneer bemesten? Vloeibaar of korrels? NPK-waarden uitgelegd + schema.</p>
-        </article>
-      </div>
-    </section>
+<article style="background:white;padding:1.5rem;border-radius:0.5rem;border:1px solid var(--border);" data-filter="meststof bemesten voeding npk">
+<h4 style="margin-bottom:0.4rem;font-size:0.95rem;">🌿 Meststoffen voor Balkonmoestuin</h4>
+<p style="font-size:0.8rem;color:var(--leaf);margin-bottom:0.5rem;">Basis · 8 min</p>
+<p style="color:#555;font-size:0.88rem;line-height:1.6;">Wanneer bemesten? Vloeibaar of korrels? NPK-waarden uitgelegd + schema.</p>
+</article>
 
-    <!-- Gevorderd -->
-    <section class="content-section">
-      <h2>🌱 Gevorderde Gidsen</h2>
-      <div class="grid grid-3">
-        <article class="card" data-filter="verticaal kweken ruimte ladder">
-          <h3>Verticaal Kweken (Max Ruimte)</h3>
-          <p class="small">Ladder-systemen, hangende bakken, rekken.</p>
-        </article>
+<article style="background:white;padding:1.5rem;border-radius:0.5rem;border:1px solid var(--border);" data-filter="zaai oogst kalender seizoen planning">
+<h4 style="margin-bottom:0.4rem;font-size:0.95rem;">📅 <a href="/gidsen/zaai-oogstkalender/" style="color:inherit;text-decoration:none;">Zaai- &amp; Oogstkalender</a></h4>
+<p style="font-size:0.8rem;color:var(--leaf);margin-bottom:0.5rem;">Seizoen · 10 min</p>
+<p style="color:#555;font-size:0.88rem;line-height:1.6;">Wanneer zaai je wat? Complete kalender per maand voor het hele tuinseizoen.</p>
+</article>
 
-        <article class="card" data-filter="druppelbewatering automatisch irrigatie">
-          <h3>Druppelbewatering Installeren</h3>
-          <p class="small">Automatisch water geven: systemen, timer, DIY.</p>
-        </article>
+</div>
 
-        <article class="card" data-filter="compost maken balkon wormen">
-          <h3>Composteren op Balkon</h3>
-          <p class="small">Kleine compostbak of wormen-composteren.</p>
-        </article>
-      </div>
-    </section>
+<!-- Gevorderde gidsen -->
+<h3 style="margin-bottom:1.25rem;font-size:1rem;color:var(--leaf);text-transform:uppercase;letter-spacing:0.05em;">🏆 Gevorderde Gidsen</h3>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.25rem;" id="gidsen-grid-adv">
 
-    <!-- CTA -->
-    <section class="content-section" style="background: var(--green-light); padding: 2rem; border-radius: var(--radius); text-align: center;">
-      <h2>Nieuw op deze site?</h2>
-      <p>Start met ons 7-stappen stappenplan voor beginners.</p>
-      <a href="/start-hier/" class="btn primary">📖 Start Hier</a>
-    </section>
+<article style="background:white;padding:1.5rem;border-radius:0.5rem;border:1px solid var(--border);" data-filter="verticaal kweken ruimte ladder">
+<h4 style="margin-bottom:0.4rem;font-size:0.95rem;">📐 Verticaal Kweken (Max Ruimte)</h4>
+<p style="font-size:0.8rem;color:var(--leaf);margin-bottom:0.5rem;">Gevorderd</p>
+<p style="color:#555;font-size:0.88rem;line-height:1.6;">Ladder-systemen, hangende bakken, rekken. Maximaal oogst uit minimale ruimte.</p>
+</article>
 
-  </main>
+<article style="background:white;padding:1.5rem;border-radius:0.5rem;border:1px solid var(--border);" data-filter="druppelbewatering automatisch irrigatie">
+<h4 style="margin-bottom:0.4rem;font-size:0.95rem;">🚿 Druppelbewatering Installeren</h4>
+<p style="font-size:0.8rem;color:var(--leaf);margin-bottom:0.5rem;">Gevorderd</p>
+<p style="color:#555;font-size:0.88rem;line-height:1.6;">Automatisch water geven: systemen, timer, DIY-oplossingen voor vakantie.</p>
+</article>
 
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-inner">
-        <div class="footer-section">
-          <h4>🌱 Balkon-Moestuin.nl</h4>
-          <p>De #1 gids voor balkonmoestuinen.</p>
-        </div>
-        <div class="footer-section">
-          <h4>Gidsen</h4>
-          <nav class="footer-nav">
-            <a href="/start-hier/">Start hier</a>
-            <a href="/gidsen/">Alle gidsen</a>
-          </nav>
-        </div>
-        <div class="footer-section">
-          <h4>Over ons</h4>
-          <nav class="footer-nav">
-            <a href="/over-ons/">Over ons</a>
-            <a href="/contact/">Contact</a>
-          </nav>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>© <span id="year">2025</span> Balkon-Moestuin.nl</p>
-      </div>
-    </div>
-  </footer>
+<article style="background:white;padding:1.5rem;border-radius:0.5rem;border:1px solid var(--border);" data-filter="compost maken balkon wormen">
+<h4 style="margin-bottom:0.4rem;font-size:0.95rem;">♻️ Composteren op Balkon</h4>
+<p style="font-size:0.8rem;color:var(--leaf);margin-bottom:0.5rem;">Gevorderd</p>
+<p style="color:#555;font-size:0.88rem;line-height:1.6;">Kleine compostbak of wormen-composteren. Gratis meststof van je keukenafval.</p>
+</article>
 
-  <script src="/assets/js/main.js" defer></script>
+</div>
+<!-- No results message -->
+<p id="no-results" style="display:none;color:#888;font-size:0.95rem;margin-top:1rem;">Geen gidsen gevonden. Probeer een andere zoekterm.</p>
+</div>
+</div>
+</section>
+
+<!-- SECTION 5: Nieuw op de site? CTA -->
+<section style="padding:3rem 0;">
+<div class="container">
+<div style="max-width:850px;margin:0 auto;">
+<h2 style="margin-bottom:2rem;text-align:center;">Populairste startpunten</h2>
+<div class="grid grid-3" style="gap:2rem;">
+<div style="border:1px solid var(--border);border-radius:0.5rem;overflow:hidden;">
+<div style="background:#f5faf0;padding:1.25rem 1.5rem;border-bottom:1px solid var(--border);">
+<span style="font-size:1.5rem;">📖</span>
+<h3 style="font-size:0.95rem;margin:0.5rem 0 0;">7-Stappen Stappenplan</h3>
+</div>
+<div style="padding:1.25rem;">
+<p style="font-size:0.88rem;color:#555;line-height:1.6;margin-bottom:1.25rem;">De meest complete beginnersgids. Van balkon checken tot eerste oogst, inclusief checklist en budget.</p>
+<a href="/start-hier/" style="display:block;text-align:center;background:var(--leaf);color:white;padding:0.6rem;text-decoration:none;font-weight:600;border-radius:0.3rem;font-size:0.85rem;">Start hier →</a>
+</div>
+</div>
+<div style="border:2px solid var(--leaf);border-radius:0.5rem;overflow:hidden;position:relative;">
+<div style="position:absolute;top:0;right:0;background:var(--leaf);color:white;font-size:0.72rem;font-weight:700;padding:0.25rem 0.6rem;border-radius:0 0 0 0.3rem;">AANBEVOLEN</div>
+<div style="background:#f5faf0;padding:1.25rem 1.5rem;border-bottom:1px solid var(--border);">
+<span style="font-size:1.5rem;">📅</span>
+<h3 style="font-size:0.95rem;margin:0.5rem 0 0;">Zaai- &amp; Oogstkalender</h3>
+</div>
+<div style="padding:1.25rem;">
+<p style="font-size:0.88rem;color:#555;line-height:1.6;margin-bottom:1.25rem;">Weet precies wanneer je wat moet zaaien en oogsten. Complete maandkalender voor het hele seizoen.</p>
+<a href="/gidsen/zaai-oogstkalender/" style="display:block;text-align:center;background:var(--leaf);color:white;padding:0.6rem;text-decoration:none;font-weight:600;border-radius:0.3rem;font-size:0.85rem;">Bekijk kalender →</a>
+</div>
+</div>
+<div style="border:1px solid var(--border);border-radius:0.5rem;overflow:hidden;">
+<div style="background:#f5faf0;padding:1.25rem 1.5rem;border-bottom:1px solid var(--border);">
+<span style="font-size:1.5rem;">🔍</span>
+<h3 style="font-size:0.95rem;margin:0.5rem 0 0;">Problemen Oplossen</h3>
+</div>
+<div style="padding:1.25rem;">
+<p style="font-size:0.88rem;color:#555;line-height:1.6;margin-bottom:1.25rem;">Gele bladeren? Ziektes? Plagen? Onze probleemgids helpt je snel de oorzaak vinden en oplossen.</p>
+<a href="/problemen/" style="display:block;text-align:center;background:var(--leaf);color:white;padding:0.6rem;text-decoration:none;font-weight:600;border-radius:0.3rem;font-size:0.85rem;">Bekijk problemen →</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="footer"><div class="container">
+<div class="footer-content">
+<div><p style="font-family:var(--font-serif);font-size:1.2rem;color:white;margin-bottom:1rem;">Balkon-Moestuin.nl</p><p style="color:#999;font-size:.85rem;line-height:1.7;margin-bottom:0;">Onafhankelijke gids voor balkontuin en moestuin op kleine ruimtes.</p></div>
+<div><h4>Gidsen</h4><a href="/start-hier/">Start hier</a><a href="/gidsen/">Alle gidsen</a><a href="/planten/">Planten</a></div>
+<div><h4>Shop</h4><a href="/shop/categories/balkonbakken.html">Balkonbakken</a><a href="/shop/categories/bewatering.html">Bewatering</a><a href="/shop/categories/meststoffen.html">Meststoffen</a><a href="/shop/categories/zaden.html">Zaden</a></div>
+<div><h4>Info</h4><a href="/over-ons/">Over ons</a><a href="/contact/">Contact</a><a href="/disclaimer-affiliatie/">Disclaimer</a></div>
+</div>
+<div class="footer-bottom">© 2025 Balkon-Moestuin.nl · <a href="/disclaimer-affiliatie/" style="color:#9CA3AF;">Affiliate disclaimer</a></div>
+</div></footer>
+
+<script>
+/* Search filter */
+document.getElementById('filter').addEventListener('input', function() {
+  var q = this.value.toLowerCase().trim();
+  var all = document.querySelectorAll('#gidsen-grid article, #gidsen-grid-adv article');
+  var visible = 0;
+  all.forEach(function(el) {
+    var txt = (el.dataset.filter || '') + ' ' + el.textContent.toLowerCase();
+    var show = !q || txt.includes(q);
+    el.style.display = show ? '' : 'none';
+    if (show) visible++;
+  });
+  document.getElementById('no-results').style.display = visible === 0 ? 'block' : 'none';
+});
+
+/* Quiz */
+var answers = {};
+function handleQuiz(ans, q) {
+  answers[q] = ans;
+  var next = document.querySelector('.quiz-question[data-question="' + (q+1) + '"]');
+  if (next) {
+    document.querySelector('.quiz-question[data-question="' + q + '"]').classList.remove('active');
+    next.classList.add('active');
+  } else { showResult(); }
+}
+function showResult() {
+  var lvl = answers[1], chal = answers[2], space = answers[3];
+  var emoji = '🌱', title = '', desc = '', link = '/start-hier/';
+  if (lvl === 'new' || chal === 'start') {
+    emoji='📖'; title='Begin met het 7-stappen stappenplan';
+    desc='Jij hebt de meest complete beginnersgids nodig. Het stappenplan leidt je stap voor stap door alles: balkon checken, potten, potgrond en je eerste oogst.';
+    link='/start-hier/';
+  } else if (chal === 'setup') {
+    emoji='🪴'; title='Potten & Bakken Kiezen';
+    desc='Jouw uitdaging is de juiste materialen kiezen. Lees onze gids over potten en potgrond — de twee meest cruciale keuzes voor een succesvolle balkontuin.';
+    link='/gidsen/pottenbakken-kiezen/';
+  } else if (chal === 'care') {
+    emoji='💧'; title='Water Geven & Bemesting';
+    desc='Verzorging is jouw aandachtspunt. Lees de water geven gids (vinger-methode, frequentie per seizoen) en de meststoffen gids voor een gezonde plant.';
+    link='/gidsen/';
+  } else if (lvl === 'adv' || (space === 'small' && lvl !== 'new')) {
+    emoji='📐'; title='Verticaal Kweken: Maximaal uit je Ruimte';
+    desc='Met jouw ervaring en kleine ruimte is verticaal kweken de beste stap. Ladder-systemen en hangende bakken verdubbelen je oogstcapaciteit.';
+    link='/gidsen/';
+  } else {
+    emoji='📅'; title='Zaai- & Oogstkalender';
+    desc='De perfecte volgende stap. Plan je hele seizoen van maart tot oktober: wat zaai je wanneer, wanneer oogst je, hoe combineer je golven voor continue oogst.';
+    link='/gidsen/zaai-oogstkalender/';
+  }
+  document.getElementById('result-emoji').textContent = emoji;
+  document.getElementById('result-title').textContent = title;
+  document.getElementById('result-desc').textContent = desc;
+  document.getElementById('result-link').href = link;
+  document.querySelector('#quiz-container .quiz-question.active').style.display = 'none';
+  document.getElementById('quiz-result').style.display = 'block';
+}
+function resetQuiz() {
+  answers = {};
+  document.getElementById('quiz-result').style.display = 'none';
+  document.querySelectorAll('.quiz-question').forEach(function(q,i){ q.style.display = i===0?'block':'none'; q.classList.toggle('active',i===0); });
+}
+document.querySelectorAll('.quiz-option').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var q = parseInt(btn.closest('.quiz-question').dataset.question);
+    handleQuiz(btn.dataset.answer, q);
+  });
+});
+
+/* Quiz option style */
+document.head.insertAdjacentHTML('beforeend','<style>.quiz-option{padding:1rem;background:white;cursor:pointer;transition:all 0.2s;text-align:left;border:1px solid var(--border);border-radius:0.5rem;width:100%;font-size:0.9rem;}.quiz-option:hover{border-color:var(--leaf);background:#f5faf0;}.quiz-question{display:none;}.quiz-question.active{display:block;}</style>');
+</script>
 </body>
 </html>
