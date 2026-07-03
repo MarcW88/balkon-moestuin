@@ -237,20 +237,65 @@ def faq_html(items):
     </section>'''
 
 
-def render(kind, slug, products, title, h1, description, faq_items, prefix, css_prefix):
-    url_path = 'shop/index.html' if kind == 'shop' else f'shop/categories/{slug}.html'
-    canonical = f'{SITE}/{url_path}'
-    products_json = json.dumps(products, ensure_ascii=False)
-    base_url = url_path
+def pagefile(kind, slug, page):
+    """Return relative file path for a given page."""
+    if kind == 'shop':
+        return 'shop/index.html' if page == 1 else f'shop/index-page-{page}.html'
+    return f'shop/categories/{slug}.html' if page == 1 else f'shop/categories/{slug}-page-{page}.html'
+
+
+def page_url(kind, slug, page):
+    """Return absolute URL for a given page."""
+    if kind == 'shop':
+        return '/shop/' if page == 1 else f'/shop/index-page-{page}.html'
+    return f'/shop/categories/{slug}.html' if page == 1 else f'/shop/categories/{slug}-page-{page}.html'
+
+
+def generate_pagination(kind, slug, page, total_pages):
+    """Generate static pagination HTML with links to real files."""
+    parts = ['<div id="pagination">']
+    if page > 1:
+        parts.append(f'<a href="{page_url(kind, slug, page-1)}" class="pagination-link">&#8592; Vorige</a>')
+    s = max(1, page - 2)
+    e = min(total_pages, page + 2)
+    if s > 1:
+        parts.append(f'<a href="{page_url(kind, slug, 1)}" class="pagination-link">1</a>')
+        if s > 2:
+            parts.append('<span class="pagination-gap">&#8230;</span>')
+    for i in range(s, e + 1):
+        active = ' active' if i == page else ''
+        parts.append(f'<a href="{page_url(kind, slug, i)}" class="pagination-link{active}">{i}</a>')
+    if e < total_pages:
+        if e < total_pages - 1:
+            parts.append('<span class="pagination-gap">&#8230;</span>')
+        parts.append(f'<a href="{page_url(kind, slug, total_pages)}" class="pagination-link">{total_pages}</a>')
+    if page < total_pages:
+        parts.append(f'<a href="{page_url(kind, slug, page+1)}" class="pagination-link">Volgende &#8594;</a>')
+    parts.append('</div>')
+    return ''.join(parts)
+
+
+def render(kind, slug, page, total_pages, items, all_count, title, h1, description, faq_items, css_prefix):
+    """Render a single static page with products pre-rendered as HTML."""
+    canonical = f'{SITE}/{pagefile(kind, slug, page)}'
+    if kind == 'shop' and page == 1:
+        canonical = f'{SITE}/shop/'
+    page_title = title if page == 1 else f'{title} \u2014 pagina {page} van {total_pages}'
+    start = (page - 1) * PER_PAGE
+    end = min(start + PER_PAGE, all_count)
+    page_info = f'Pagina {page} van {total_pages} \u00b7 {start + 1}\u2013{end} van {all_count} producten'
+    products_html = '\n'.join(card(p, css_prefix) for p in items)
+    pagination_html = generate_pagination(kind, slug, page, total_pages)
+    faq_section = faq_html(faq_items) if page == 1 else ''
     cat_links = category_links(css_prefix)
-    faq_section = faq_html(faq_items)
+    breadcrumb_page = f' <span style="margin:0 0.3rem;">&#8250;</span> Pagina {page}' if page > 1 else ''
 
     return f'''<!DOCTYPE html>
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{html.escape(title)} | Balkon-Moestuin.nl</title>
+    <title>{html.escape(page_title)} | Balkon-Moestuin.nl</title>
     <meta name="description" content="{html.escape(description)}">
     <link rel="canonical" href="{canonical}">
     <link rel="stylesheet" href="{css_prefix}assets/css/main.css">
@@ -260,7 +305,7 @@ def render(kind, slug, products, title, h1, description, faq_items, prefix, css_
 {NAV.format(prefix=css_prefix)}
     <section style="background:#f5faf0;padding:3rem 0 2.5rem;">
         <div class="container" style="max-width:780px;">
-            <p style="font-size:0.78rem;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.75rem;"><a href="{css_prefix}index.html" style="color:var(--text-light);text-decoration:none;">Home</a> <span style="margin:0 0.4rem;">›</span> Shop</p>
+            <p style="font-size:0.78rem;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.75rem;"><a href="{css_prefix}index.html" style="color:var(--text-light);text-decoration:none;">Home</a> <span style="margin:0 0.4rem;">&#8250;</span> Shop{breadcrumb_page}</p>
             <h1 style="font-family:var(--font-serif);font-size:clamp(1.8rem,3vw,2.4rem);font-weight:400;margin-bottom:0.75rem;">{html.escape(h1)}</h1>
             <p style="color:var(--text-dim);font-size:1rem;max-width:540px;">{html.escape(description)}</p>
         </div>
@@ -271,71 +316,22 @@ def render(kind, slug, products, title, h1, description, faq_items, prefix, css_
         </div>
     </div>
     <main class="container" style="padding:2.5rem 0;">
-        <p id="page-info" style="color:var(--text-dim);margin-bottom:1.5rem;font-size:0.9rem;">Laden…</p>
-        <div id="products-grid" class="shop-product-grid"></div>
-        <div id="pagination"></div>
+        <p style="color:var(--text-dim);margin-bottom:1.5rem;font-size:0.9rem;">{page_info}</p>
+        <div class="shop-product-grid">
+{products_html}
+        </div>
+{pagination_html}
     </main>
 {faq_section}
 {FOOTER.format(prefix=css_prefix)}
     <script>
-    const allProducts = {products_json};
-    const perPage = {PER_PAGE};
-    const baseUrl = '{base_url}';
-
     function toggleFaq(id, btn) {{
-        const el = document.getElementById('faq-' + id);
-        const sp = btn.querySelector('span');
+        var el = document.getElementById('faq-' + id);
+        var sp = btn.querySelector('span');
         if (!el) return;
         if (el.style.display === 'none') {{ el.style.display = 'block'; sp.textContent = '-'; }}
         else {{ el.style.display = 'none'; sp.textContent = '+'; }}
     }}
-
-    function getPageUrl(page) {{ return page === 1 ? window.location.pathname : window.location.pathname + '?page=' + page; }}
-    function getPageFromUrl() {{ const p = parseInt(new URLSearchParams(window.location.search).get('page')); return isNaN(p) ? 1 : p; }}
-
-    function renderPage(page) {{
-        const start = (page - 1) * perPage;
-        const items = allProducts.slice(start, start + perPage);
-        const totalPages = Math.ceil(allProducts.length / perPage);
-
-        document.getElementById('products-grid').innerHTML = items.map(p => {{
-            const badges = [];
-            if (p.brand && p.brand !== 'Merkloos') badges.push(p.brand);
-            if (p.subgroup && p.subgroup.length < 30) badges.push(p.subgroup);
-            const badgeHTML = badges.slice(0,2).map(b => `<span style="font-size:0.72rem;color:var(--text-light);border:1px solid var(--border);padding:0.2rem 0.5rem;border-radius:0.5rem;">${{b}}</span>`).join('');
-            const price = p.price ? '€' + p.price.toFixed(2).replace('.', ',') : '';
-            const img = p.image || '{css_prefix}assets/img/pixel-plant.svg';
-            return `<div style="border:1px solid var(--border);overflow:hidden;background:white;transition:border-color 0.2s;border-radius:0.5rem;display:flex;flex-direction:column;height:100%;" onmouseover="this.style.borderColor='var(--leaf)'" onmouseout="this.style.borderColor='var(--border)'">
-                <div style="background:#f5faf0;padding:1rem;text-align:center;"><img src="${{img}}" alt="${{p.name}}" loading="lazy" style="height:160px;width:100%;object-fit:contain;" onerror="this.src='{css_prefix}assets/img/pixel-plant.svg'"></div>
-                <div style="padding:1rem;flex:1;display:flex;flex-direction:column;">
-                    <div style="display:flex;gap:0.35rem;flex-wrap:wrap;margin-bottom:0.5rem;">${{badgeHTML}}</div>
-                    <h3 style="font-size:0.88rem;font-weight:600;line-height:1.35;margin-bottom:0.5rem;flex:1;overflow:hidden;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;">${{p.name}}</h3>
-                    <div style="margin-bottom:0.75rem;"><span style="font-size:1.1rem;font-weight:700;color:var(--leaf);">${{price}}</span></div>
-                    <div style="display:flex;gap:0.5rem;margin-top:auto;">
-                        <a href="{css_prefix}producten/${{p.slug}}.html" style="flex:1;display:block;text-align:center;padding:0.5rem;border:1px solid var(--leaf);color:var(--leaf);text-decoration:none;border-radius:0.3rem;font-size:0.8rem;font-weight:600;">Details</a>
-                        <a href="${{p.affiliate_url || '#'}}" target="_blank" rel="sponsored noopener" style="flex:2;display:block;text-align:center;padding:0.5rem;background:var(--leaf);color:white;text-decoration:none;border-radius:0.3rem;font-size:0.8rem;font-weight:600;">Bol.com →</a>
-                    </div>
-                </div>
-            </div>`;
-        }}).join('');
-
-        document.getElementById('page-info').textContent = `Pagina ${{page}} van ${{totalPages}} · ${{start + 1}}–${{Math.min(start + perPage, allProducts.length)}} van ${{allProducts.length}} producten`;
-
-        let pag = '';
-        if (page > 1) pag += `<a href="${{getPageUrl(page-1)}}" class="pagination-link">&#8592; Vorige</a>`;
-        const s = Math.max(1, page-2), e = Math.min(totalPages, page+2);
-        if (s > 1) {{ pag += `<a href="${{getPageUrl(1)}}" class="pagination-link">1</a>`; if (s > 2) pag += '<span class="pagination-gap">…</span>'; }}
-        for (let i = s; i <= e; i++) pag += `<a href="${{getPageUrl(i)}}" class="pagination-link${{i===page?' active':''}}">${{i}}</a>`;
-        if (e < totalPages) {{ if (e < totalPages-1) pag += '<span class="pagination-gap">…</span>'; pag += `<a href="${{getPageUrl(totalPages)}}" class="pagination-link">${{totalPages}}</a>`; }}
-        if (page < totalPages) pag += `<a href="${{getPageUrl(page+1)}}" class="pagination-link">Volgende &#8594;</a>`;
-        document.getElementById('pagination').innerHTML = pag;
-
-        window.scrollTo({{top: 0, behavior: 'smooth'}});
-        history.replaceState(null, '', page === 1 ? window.location.pathname : '?page=' + page);
-    }}
-
-    window.addEventListener('popstate', () => renderPage(getPageFromUrl()));
-    document.addEventListener('DOMContentLoaded', () => renderPage(getPageFromUrl()));
     </script>
 </body>
 </html>'''
@@ -343,51 +339,51 @@ def render(kind, slug, products, title, h1, description, faq_items, prefix, css_
 
 def main():
     data = json.loads((ROOT / 'all_products.json').read_text(encoding='utf-8'))
-    # Sort by price ascending (budget-first)
     data = sorted(data, key=lambda p: (p.get('price') or 9999))
 
-    urls = []
-    sitemap_entries = []
     today = date.today().isoformat()
+    sitemap_entries = []
+    total_files = 0
 
-    # --- Main shop page (all products, capped) ---
-    all_capped = data[:CAP_PER_CAT]
-    shop_path = ROOT / 'shop' / 'index.html'
-    shop_path.parent.mkdir(parents=True, exist_ok=True)
-    shop_path.write_text(render(
-        'shop', '', all_capped,
-        'Balkontuin producten kopen',
-        'Alle producten voor je balkontuin',
-        f'Vergelijk {len(data):,} producten voor balkontuin: bakken, bewatering, potgrond, meststoffen en meer.',
-        [],
-        '../', '../'
-    ), encoding='utf-8')
-    print(f"shop/index.html → {len(all_capped)} producten")
-    sitemap_entries.append(('shop/index.html', '0.9'))
+    def generate_pages(kind, slug, all_products, title, h1, description, faq_items, prefix, css_prefix):
+        nonlocal total_files
+        n = len(all_products)
+        total_pages = math.ceil(n / PER_PAGE) if n else 1
+        for page in range(1, total_pages + 1):
+            start = (page - 1) * PER_PAGE
+            items = all_products[start:start + PER_PAGE]
+            content = render(kind, slug, page, total_pages, items, n, title, h1, description, faq_items, css_prefix)
+            filepath = ROOT / pagefile(kind, slug, page)
+            filepath.parent.mkdir(parents=True, exist_ok=True)
+            filepath.write_text(content, encoding='utf-8')
+            total_files += 1
+            prio = '0.9' if (page == 1 and kind == 'shop') else '0.8' if page == 1 else '0.5'
+            sitemap_entries.append((pagefile(kind, slug, page), prio))
+        print(f"{pagefile(kind, slug, 1)} \u2192 {n} producten, {total_pages} pagina's")
 
-    # --- Category pages ---
-    (ROOT / 'shop' / 'categories').mkdir(parents=True, exist_ok=True)
+    # Main shop
+    generate_pages('shop', '', data[:CAP_PER_CAT],
+                   'Balkontuin producten kopen',
+                   'Alle producten voor je balkontuin',
+                   f'Vergelijk {len(data):,} producten voor balkontuin: bakken, bewatering, potgrond, meststoffen en meer.',
+                   [], '../', '../')
+
+    # Categories
     for slug, cfg in CATEGORY_CONFIG.items():
         items = [p for p in data if cfg['filter'](p)][:CAP_PER_CAT]
-        path = ROOT / 'shop' / 'categories' / f'{slug}.html'
-        path.write_text(render(
-            'category', slug, items,
-            cfg['title'], cfg['h1'], cfg['description'],
-            cfg.get('faq', []),
-            '../../', '../../'
-        ), encoding='utf-8')
-        print(f"shop/categories/{slug}.html → {len(items)} producten")
-        sitemap_entries.append((f'shop/categories/{slug}.html', '0.8'))
+        generate_pages('category', slug, items,
+                       cfg['title'], cfg['h1'], cfg['description'],
+                       cfg.get('faq', []), '../../', '../../')
 
-    # --- Sitemap ---
+    # Sitemap
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for url, prio in sitemap_entries:
         sm.append(f'  <url><loc>{SITE}/{url}</loc><lastmod>{today}</lastmod><changefreq>weekly</changefreq><priority>{prio}</priority></url>')
     sm.append('</urlset>')
     (ROOT / 'sitemap-shop.xml').write_text('\n'.join(sm) + '\n', encoding='utf-8')
 
-    print(f"\n✓ {len(sitemap_entries)} pages générées")
-    print(f"✓ sitemap-shop.xml sauvegardé")
+    print(f"\n\u2713 {total_files} fichiers g\u00e9n\u00e9r\u00e9s")
+    print(f"\u2713 sitemap-shop.xml sauvegard\u00e9")
 
 
 if __name__ == '__main__':
