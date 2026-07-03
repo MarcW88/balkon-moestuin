@@ -11,8 +11,10 @@ from pathlib import Path
 ROOT = Path('/Users/marc/Desktop/balkon-moestuin')
 OUT_DIR = ROOT / 'producten'
 OUT_DIR.mkdir(exist_ok=True)
-CAP = 3000   # generate pages for CAP cheapest products (covers all shop pages)
 SITE = 'https://balkon-moestuin.nl'
+
+# Pre-indexed by category for fast similar-product lookup
+_BY_CAT: dict = {}  # category -> list of products
 
 CATEGORY_LABELS = {
     'balkonbakken': 'Balkonbakken & bloempotten',
@@ -57,14 +59,13 @@ def clean_desc(raw):
     return re.sub(r'<[^>]+>', ' ', str(raw or '')).strip()
 
 
-def find_similar(product, all_products, n=4):
-    same_cat = [p for p in all_products
-                if p['id'] != product['id']
-                and p.get('category') == product.get('category')
-                and p.get('deliverable')
-                and p.get('price', 0) > 0]
-    same_brand = [p for p in same_cat if p.get('brand') == product.get('brand')]
-    others = [p for p in same_cat if p.get('brand') != product.get('brand')]
+def find_similar(product, n=4):
+    cat = product.get('category', 'overig')
+    pid = product['id']
+    brand = product.get('brand')
+    pool = _BY_CAT.get(cat, [])
+    same_brand = [p for p in pool if p['id'] != pid and p.get('brand') == brand]
+    others = [p for p in pool if p['id'] != pid and p.get('brand') != brand]
     candidates = same_brand[:2] + others[:2]
     if len(candidates) < n:
         candidates = (same_brand + others)[:n]
@@ -103,7 +104,7 @@ def generate_page(p, all_products):
     pros.append('✓ Gratis verzending')
     pros.append('✓ Gratis retour binnen 30 dagen')
 
-    similar = find_similar(p, all_products)
+    similar = find_similar(p)
     similar_html = ''
     for s in similar:
         sp = f"€{s['price']:,.2f}".replace(',', 'X').replace('.', ',').replace('X', '.')
@@ -314,29 +315,39 @@ def generate_page(p, all_products):
 
 
 def main():
+    global _BY_CAT
     all_products = json.loads((ROOT / 'all_products.json').read_text(encoding='utf-8'))
-    deliverable = [p for p in all_products if p.get('deliverable') and p.get('price', 0) > 0]
+    deliverable = [p for p in all_products if p.get('slug') and p.get('deliverable') and p.get('price', 0) > 0]
     deliverable.sort(key=lambda p: p.get('price', 9999))
-    to_generate = deliverable[:CAP]
 
-    print(f"Generating {len(to_generate)} product pages (out of {len(deliverable)} deliverable)…")
+    # Build category index for fast similar-product lookup
+    for p in deliverable:
+        cat = p.get('category', 'overig')
+        _BY_CAT.setdefault(cat, []).append(p)
+
+    # Only generate missing pages (allows resuming)
+    existing = {f.stem for f in OUT_DIR.glob('*.html')}
+    to_generate = [p for p in deliverable if p['slug'] not in existing]
+
+    print(f"Total deliverable: {len(deliverable)} | Already generated: {len(existing)} | To generate: {len(to_generate)}")
 
     generated = 0
     for i, p in enumerate(to_generate):
-        page_html = generate_page(p, to_generate)
+        page_html = generate_page(p, deliverable)
         out_file = OUT_DIR / f"{p['slug']}.html"
         out_file.write_text(page_html, encoding='utf-8')
         generated += 1
-        if (i + 1) % 500 == 0:
-            print(f"  …{i + 1} pages done")
+        if (i + 1) % 1000 == 0:
+            print(f"  …{i + 1}/{len(to_generate)} done")
 
-    print(f"\n✓ {generated} product pages in /producten/")
+    print(f"\n✓ {generated} new product pages generated in /producten/")
+    print(f"✓ Total in /producten/: {len(existing) + generated}")
 
-    by_cat = {}
-    for p in to_generate:
+    counts = {}
+    for p in deliverable:
         c = p.get('category', '?')
-        by_cat[c] = by_cat.get(c, 0) + 1
-    for cat, cnt in sorted(by_cat.items(), key=lambda x: -x[1]):
+        counts[c] = counts.get(c, 0) + 1
+    for cat, cnt in sorted(counts.items(), key=lambda x: -x[1]):
         print(f"  {cat}: {cnt}")
 
 
