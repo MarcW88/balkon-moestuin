@@ -1,0 +1,4 @@
+# Evidence — 2026-10-25
+RHS https://www.rhs.org.uk/fruit/raspberries/grow-your-own — raspberries self-fertile; autumn varieties often shorter/simpler to prune; compact cultivars for containers; pot >=40cm diameter x 30cm deep, one cane per pot, roughly 2/3 peat-free multipurpose compost plus 1/3 loam-based compost; sunny sheltered, part-shade possible; regular watering and feed in containers; plant dormant November-March; summer fruiting on last year's growth and remove old fruited canes after harvest; autumn fruit on new growth and cut all old canes to ground in February for single autumn crop.
+RHS https://www.rhs.org.uk/advice/grow-your-own/features/winter-pruning-soft-fruit — winter cut autumn raspberries to ground, preserve canes of summer-fruiting types.
+Not verified: exact harvest yield in a balcony pot, plant weights, cultivar trials. No own testing.
