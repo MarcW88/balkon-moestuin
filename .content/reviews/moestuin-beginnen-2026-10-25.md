@@ -1,0 +1,13 @@
+# PUBLISH_REVIEW — /moestuin-beginnen/ — 2026-10-25
+- AUDIT: DEEP_REWRITE; generieke categoriepagina beantwoordde beginnersvraag niet.
+- Research: RHS (containergewassen, water en wortelruimte), Milieu Centraal (afwatering en materiaal), GGD (belasting van balkon).
+- Fact-check: geen rendement, vaste zondrempel, vaste potmaat of generiek kostenbedrag geclaimd. Lichtbehoefte en drainage voorzichtig geformuleerd.
+- Brief: .content/briefs/moestuin-beginnen.md
+- Writing: unieke Nederlandse gids met startkeuzes, afwatering, eenvoudige opstelling en veiligheidsbeperking.
+- Humanizer/general-writing: repetitieve marketingzinnen en onnatuurlijk Nederlands gecontroleerd; concrete beslissingen toegevoegd.
+- Anti-ai-slop: geen geforceerde FAQ, geen kunstmatige rankings, geen fictieve ervaringen.
+- Internal linking: pagina verwijst naar bestaande sectiehubs; nog niet uitgewerkte subgidsen worden niet gelinkt vanuit deze pagina.
+- SEO: unieke metadata, één H1, canonical, noindex tot goedkeuring.
+- Editorial image: NOT_NEEDED FOR THIS DRAFT; echte balkonfotografie kan later nuttig zijn maar werd niet geproduceerd.
+- Technical QA: broncode gecontroleerd; build en live visual/playwright niet uitgevoerd. Geen machine PASS geclaimd.
+- Decision: FAIL — KEEP_NOINDEX totdat technische build en menselijke review zijn afgerond.
