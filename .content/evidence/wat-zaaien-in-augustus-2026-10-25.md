@@ -1,0 +1,5 @@
+# Research evidence — 2026-10-25
+RHS https://www.rhs.org.uk/advice/grow-your-own/in-month/august-jobs — south England caveat for sowing summer lettuce, radish, rocket, chicory, Chinese cabbage, pak choi, mizuna and turnips; protect plants from heat and watering inconsistency.
+Intratuin https://www.intratuin.nl/inspiratie/moestuinkalender-augustus — August ongoing fast crops, shade, irrigation, disease checks, summer harvest and late summer preparation.
+Moestuinplanner https://www.moestuinplanner.nl/zaaikalender/augustus/ — first half of August turnip, radish, Swiss chard, fall spinach; second half lamb's lettuce and winter purslane; some other Asian greens.
+Editorial qualifications: warmth limits germination of field salad and fall spinach; variety/weather decisive. Late beans and courgettes unlikely reliable on Dutch balcony. No own seed experiments.
