@@ -1,0 +1,61 @@
+import type { Metadata } from 'next';
+import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: 'Verticale moestuin op het balkon: veilige ideeën en planten',
+  description: 'Een verticale moestuin op je balkon maken? Vergelijk klimhulp, rek en hangbakken, ontdek geschikte groenten en kruiden en let op gewicht, wind en water.',
+  alternates: { canonical: '/balkon-inrichten/verticale-moestuin/' },
+  robots: { index: false, follow: true },
+};
+
+const systemen = [
+  {naam:'Klimrek in een grondbak',beste:'Komkommer of klimmende bonen op een zonnige plek',plus:'Benut hoogte zonder overal kleine potjes op te hangen.',min:'De bak, het rek en de volgroeide plant moeten stabiel blijven bij wind.'},
+  {naam:'Vrijstaand plantenrek',beste:'Kruiden, pluksla en kleinere bakken',plus:'Geen gaten in de gevel nodig; bakken zijn te verplaatsen.',min:'Het rek kan kantelen; zet zwaar materiaal laag en controleer het toegestane draaggewicht.'},
+  {naam:'Wandrekken met losse potten',beste:'Kleine kruiden en bladgroenten',plus:'Maakt een bestaande lichte wand bruikbaar.',min:'Bevestiging aan een draagkrachtige ondergrond is noodzakelijk; afwatering en buren vragen aandacht.'},
+  {naam:'Hangzakken of plantvakken',beste:'Compacte kruiden en kleine bladgewassen',plus:'Beperkte vloeroppervlakte nodig.',min:'Weinig wortelruimte, snelle uitdroging en risico op water tegen de gevel.'},
+];
+const gewassen = [
+  {naam:'Bieslook en peterselie',plek:'Lichte tot halfbeschaduwde vakken',aandacht:'Regelmatig oogsten; houd de kleine potgrondvolumes vochtig.'},
+  {naam:'Pluksla en rucola',plek:'Goed bereikbare bakken met ochtendzon of lichte schaduw',aandacht:'Bij hete middagzon kan blad snel doorschieten.'},
+  {naam:'Tijm en oregano',plek:'Zonnige vakken met goede drainage',aandacht:'Zet ze niet in hetzelfde voortdurend natte vak als munt.'},
+  {naam:'Aardbeien',plek:'Zonnige, goed bereikbare bakken',aandacht:'Tijdens vruchtvorming hebben ze regelmatig water nodig.'},
+  {naam:'Klimkomkommer',plek:'Grote bak op de vloer met stevig rek',aandacht:'Warmte, voldoende potgrond en bescherming tegen wind zijn cruciaal.'},
+];
+const stappen = [
+  ['01','Meet je balkon','Teken de beschikbare wand, vloer, deur en looproute. Controleer waar direct zonlicht komt en of je de bovenste potten gemakkelijk kunt bereiken.'],
+  ['02','Controleer wat is toegestaan','Vraag vóór boren of bevestigen na wat volgens huurcontract, VvE of gebouwbeheer mag. Controleer zo nodig de draagkracht van balkon én wand.'],
+  ['03','Kies een veilig systeem','Begin liever met een laag, vrijstaand rek of een stabiele klimbak dan met een volledig gevulde wand. Houd zware bakken laag en zorg voor windvaste bevestiging.'],
+  ['04','Gebruik potten met drainage','Kies geschikte, bij voorkeur turfvrije potgrond en gaten voor overtollig water. Voorkom dat afvloeiend water langs de gevel of op benedenburen terechtkomt.'],
+  ['05','Verdeel planten naar licht en ruimte','Kies planten op basis van zon, wortelruimte en volwassen grootte. Voorkom dat grote planten de onderste vakken helemaal beschaduwen.'],
+  ['06','Test water geven en oogsten','Controleer of je ook bij de hoogste bakken kunt zonder gevaarlijk te reiken. Kleine potten kunnen snel uitdrogen; volg dit een paar weken vóór je uitbreidt.'],
+];
+export default function VerticaleMoestuin(){return <main>
+  <div className="container">
+    <nav className="crumb" aria-label="Broodkruimel"><Link href="/">Home</Link> / <Link href="/balkon-inrichten/">Balkon inrichten</Link> / Verticale moestuin</nav>
+    <header className="pagehead"><div className="eyebrow">Balkon inrichten · Ruimte benutten</div><h1>Een verticale moestuin op je balkon maken</h1><p className="lead">Een klein balkon hoeft geen kleine oogst te betekenen. Door een rek, klimsteun of een paar goed geplaatste bakken kun je meer hoogte benutten. Maak het alleen niet ingewikkelder dan nodig: de beste verticale moestuin is stevig, makkelijk bereikbaar en geeft elke plant voldoende licht en wortelruimte.</p></header>
+  </div>
+  <section className="section container" style={{paddingTop:0}}>
+    <div className="banner"><div className="eyebrow" style={{color:'#d3eab5'}}>Begin bij veiligheid</div><h2>Niet elke wand is geschikt voor een moestuin aan de muur</h2><p>Potten worden veel zwaarder als de potgrond nat is. Ook planten, wind en een vol waterreservoir voegen belasting toe. Bepaal vóór het ophangen wat balkon, gevel, reling en bevestigingen mogen dragen. Bij twijfel vraag je de verhuurder, VvE of een constructeur. Een algemene richtwaarde voor balkons is geen bewijs dat jouw specifieke constructie deze belasting veilig aankan.</p><p>Houd vluchtroutes, deuren en looppaden vrij. Hang geen bakken boven openbaar terrein of benedenburen wanneer de constructie niet aantoonbaar veilig is.</p></div>
+  </section>
+  <section className="section container" style={{paddingTop:0}}>
+    <div className="section-head"><div><div className="eyebrow">Kies een opstelling</div><h2>Vier manieren om verticaal te tuinieren</h2></div><p>Ze besparen niet allemaal evenveel plaats en zijn niet voor dezelfde gewassen bedoeld. Vergelijk ook water geven en onderhoud.</p></div>
+    <div style={{overflowX:'auto'}}><table style={{width:'100%',minWidth:720,borderCollapse:'collapse',textAlign:'left'}}><thead><tr>{['Systeem','Geschikt voor','Voordeel','Let op'].map(s=><th key={s} scope="col" style={{padding:'14px 12px',borderBottom:'2px solid #becdb6'}}>{s}</th>)}</tr></thead><tbody>{systemen.map(s=><tr key={s.naam}><th scope="row" style={{padding:'15px 12px',borderBottom:'1px solid var(--line)',verticalAlign:'top'}}>{s.naam}</th><td style={{padding:'15px 12px',borderBottom:'1px solid var(--line)',verticalAlign:'top'}}>{s.beste}</td><td style={{padding:'15px 12px',borderBottom:'1px solid var(--line)',verticalAlign:'top'}}>{s.plus}</td><td style={{padding:'15px 12px',borderBottom:'1px solid var(--line)',verticalAlign:'top'}}>{s.min}</td></tr>)}</tbody></table></div>
+    <p style={{fontSize:14,color:'var(--muted)',marginTop:14}}>Voor huurwoningen is een vrijstaande oplossing vaak eenvoudiger, maar ook een los rek moet stabiel zijn en volgens de fabrikant worden gebruikt.</p>
+  </section>
+  <section className="section" style={{background:'#f0f2e8'}}>
+    <div className="container"><div className="section-head"><div><div className="eyebrow">Praktisch aan de slag</div><h2>Je verticale moestuin in zes stappen</h2></div><p>Begin met een kleine opstelling en breid pas uit wanneer de lichtinval, veiligheid en verzorging in de praktijk kloppen.</p></div><div className="grid">{stappen.map(s=><div className="tile" key={s[0]}><span className="pill">{s[0]} · Stap</span><h3>{s[1]}</h3><p>{s[2]}</p></div>)}</div></div>
+  </section>
+  <section className="section container"><div className="section-head"><div><div className="eyebrow">Wat groeit er?</div><h2>Geschikte groenten en kruiden per plek</h2></div><p>Een verticale wand creëert verschillende microklimaten: boven kan het droger en zonniger zijn, onder soms koeler en donkerder.</p></div>
+    <div style={{overflowX:'auto'}}><table style={{width:'100%',minWidth:650,borderCollapse:'collapse',textAlign:'left'}}><thead><tr>{['Gewas','Plek','Praktische aandacht'].map(s=><th key={s} scope="col" style={{padding:'14px 12px',borderBottom:'2px solid #becdb6'}}>{s}</th>)}</tr></thead><tbody>{gewassen.map(g=><tr key={g.naam}><th scope="row" style={{padding:'15px 12px',borderBottom:'1px solid var(--line)',verticalAlign:'top'}}>{g.naam}</th><td style={{padding:'15px 12px',borderBottom:'1px solid var(--line)',verticalAlign:'top'}}>{g.plek}</td><td style={{padding:'15px 12px',borderBottom:'1px solid var(--line)',verticalAlign:'top'}}>{g.aandacht}</td></tr>)}</tbody></table></div>
+  </section>
+  <section className="section container"><div className="prose">
+    <h2>Hoeveel ruimte bespaar je werkelijk?</h2><p>Verticale systemen benutten hoogte maar nemen niet alle beperkingen weg. Een rek vraagt een stabiele voet, een wand met potten vraagt stevige bevestiging en een grote klimplant heeft nog steeds een forse wortelbak nodig. Meet ook hoe ver de constructie naar voren komt: een smal balkon kan daardoor juist onpraktisch worden. Lees onze aparte gids over <Link href="/moestuin-beginnen/klein-balkon/" style={{textDecoration:'underline'}}>een moestuin op een klein balkon</Link>.</p>
+    <h2>Welk systeem is het makkelijkst voor beginners?</h2><p>Voor een eerste verticale moestuin zijn twee of drie losse potten op een stevig, laag vrijstaand rek overzichtelijk. Je kunt licht, water en groeisnelheid afzonderlijk beoordelen. Wil je vooral komkommers kweken, zet dan liever een ruime pot op de vloer met een solide klimsteun. Een volle wand met tientallen zakken vraagt meer onderhoud en goede constructieve controle.</p>
+    <h2>Hoe geef je een verticale moestuin water?</h2><p>Water bereikt niet ieder vak vanzelf even goed. Bovenste bakken drogen door wind soms sneller uit; een onderste bak kan juist water opvangen dat uit een hogere pot stroomt. Controleer elk groeivak apart, ook bij regen, en geef zo nodig water bij de wortels. Voorkom dat voortdurend vocht tegen de gevel blijft staan. Een automatisch druppelsysteem is optioneel: test het eerst op lekkage en daadwerkelijke waterafgifte.</p>
+    <h2>Is een palletmoestuin een goed idee?</h2><p>Een pallet kan er aantrekkelijk uitzien, maar is niet automatisch geschikt voor eetbare teelt of voor ophanging aan een balkon. Controleer de herkomst, eventuele behandelingen, splinters, constructiesterkte, benodigde wortelruimte en waterafvoer. Gebruik onbekend, sterk vervuild of ongeschikt behandeld hout liever niet. Kies bij twijfel voor een eenvoudig plantenrek dat voor dit doel gemaakt is.</p>
+    <h2>Welke planten zet je boven en onder?</h2><p>Maak eerst een lichtplan. Plaats gewassen met veel zonbehoefte waar ze werkelijk direct licht krijgen, maar niet buiten veilig bereik. Onder grotere planten kunnen pluksla of peterselie soms beter passen dan tomaten, zolang er voldoende daglicht blijft. Een klimplant mag de rest van de wand niet volledig in de schaduw zetten. Zie ook <Link href="/moestuin-beginnen/balkon-met-weinig-zon/" style={{textDecoration:'underline'}}>wat je met weinig zon kunt kweken</Link>.</p>
+    <h2>Kan een verticale moestuin aan een balkonreling?</h2><p>Alleen als reling, systeem, bevestigingsmateriaal en lokale regels die specifieke belasting toestaan. Een volgepakte bak kan bij wind aanzienlijke krachten uitoefenen. Plaats niets dat kan losraken of op voorbijgangers vallen. Bij twijfel geen improvisatie: gebruik een stabiele opstelling op de vloer en vraag deskundig advies.</p>
+    <h2>Wat kost een verticale moestuin?</h2><p>Er bestaat geen zinvolle vaste prijs: een paar bestaande potten en een geschikt rek vragen heel andere uitgaven dan een geïntegreerd irrigatiesysteem. Koop eerst alleen wat voor jouw veilige opstelling nodig is. De prioriteiten zijn een deugdelijke drager, geschikte potten met drainage, potgrond en passende planten. Bekijk ook <Link href="/moestuin-beginnen/wat-heb-je-nodig/" style={{textDecoration:'underline'}}>de starterslijst</Link> en <Link href="/balkon-inrichten/" style={{textDecoration:'underline'}}>balkon inrichten</Link>.</p>
+    <div className="notice"><strong>Bronnen en redactionele transparantie</strong><p><a href="https://www.rhs.org.uk/advice/grow-your-own/containers/veg-on-walls" target="_blank" rel="noopener noreferrer">RHS — Vertical vegetable gardening</a>, <a href="https://www.rhs.org.uk/garden-features/green-walls" target="_blank" rel="noopener noreferrer">RHS — Green walls</a>, <a href="https://www.milieucentraal.nl/huis-en-tuin/tuin/stappenplan-groen-balkon/" target="_blank" rel="noopener noreferrer">Milieu Centraal — Stappenplan groen balkon</a> en <a href="https://extension.umd.edu/resource/growing-vegetables-containers" target="_blank" rel="noopener noreferrer">University of Maryland Extension — Growing vegetables in containers</a>.</p><p style={{marginBottom:0}}>Deze gids is documentair advies, geen geteste constructietekening of garantie over draagkracht. Laat specifieke bevestigingen en belastingen controleren.</p></div>
+  </div></section>
+</main>}
