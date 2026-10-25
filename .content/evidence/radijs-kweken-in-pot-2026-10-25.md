@@ -1,0 +1,4 @@
+# Evidence — 2026-10-25
+RHS https://www.rhs.org.uk/vegetables/radishes/grow-your-own — salad radish in containers >=30 cm wide and deep; sow 1 cm deep, 2.5–5 cm apart with rows 15 cm apart; thin crowded seedlings; small batches every few weeks; spring and late summer preferred; regular moisture; harvest often 4–6 weeks; heat, drought, overcrowding and delayed picking reduce quality. Winter and oriental radishes need different spacing and deeper soil.
+RHS https://www.rhs.org.uk/vegetables/containers — radishes are suitable for containers.
+Unknown: variety-specific yields and weather. No own horticultural trials.
