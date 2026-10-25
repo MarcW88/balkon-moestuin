@@ -1,0 +1,5 @@
+# Evidence register — 2026-10-25
+RHS https://www.rhs.org.uk/vegetables/containers : different crops need suitable container sizing; aim at least ~45cm deep and wide for general vegetable containers, smaller crop-specific pots can work with more maintenance; peat-free compost and feeding/watering.
+RHS https://www.rhs.org.uk/container-gardening/growing-plants-in-containers : drainage holes essential, larger containers generally retain moisture longer, wind can topple narrow pots, avoid saturated roots.
+Milieu Centraal https://www.milieucentraal.nl/huis-en-tuin/tuin/stappenplan-groen-balkon/ : account for wet soil, other balcony objects and people; consult relevant authority on load if unknown; consider wind and suitable drainage.
+No first-hand growing trials, load-bearing engineering or product-specific safety certification.
