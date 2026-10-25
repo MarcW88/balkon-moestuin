@@ -1,0 +1,5 @@
+# Source register — 2026-10-25
+RHS https://www.rhs.org.uk/advice/grow-your-own/in-month/june-jobs — continued sowings of beets, lettuce, radish, pak choi; direct outdoor beans and cucumbers, early-June courgettes in suitable areas; transplant tomatoes; partial shade for salad leaves in hot dry weather.
+RHS https://www.rhs.org.uk/education-learning/school-gardening/resources/food-growing/month-by-month-guide-to-food-growing-summer-term — June beans, squash, pumpkin, carrots; harvest early potatoes, radish, lettuce and strawberries; mulch and water.
+Intratuin https://www.intratuin.be/inspiratie/moestuinkalender-juni — June sow Swiss chard, root vegetables, beans, some winter brassicas, herbs and catch crops; maintain watering, harvest ongoing crops.
+Crop-specific caveat: heat can inhibit lettuce germination and make coriander bolt; sowing periods depend on variety and weather. No personal field testing.
