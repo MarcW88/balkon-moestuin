@@ -1,0 +1,4 @@
+# Evidence — 2026-10-25
+RHS https://www.rhs.org.uk/herbs/chives/grow-your-own — perennial, hardy; sun/partial shade; containers at least 20 cm width and depth; peat-free soil-based compost; sow spring 0.5–1cm deep; outdoor thin to 15–20cm; harvest stems near base spring to autumn; flowers edible; clumps split every 3–4 years; pots need regular moisture; rust and aphids possible.
+RHS https://www.rhs.org.uk/education-learning/school-gardening/resources/getting-started/how-to-divide-potted-herbs — lift and divide mature herb clumps, repot, water for establishment.
+Unknown: user's specific balcony, cultivar growth and yield. No own tests.
