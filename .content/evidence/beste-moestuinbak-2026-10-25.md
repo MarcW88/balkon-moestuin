@@ -1,0 +1,7 @@
+# Source evidence — 2026-10-25
+Elho https://www.elho.com/nl/producten/green-basics-grow-garden/green-basics-grow-garden-l-living-black/ : Green Basics Grow Garden L ~60 × 80 cm, dividers for 2/3/4/6 compartments, recycled plastic.
+Elho https://www.elho.com/nl/producten/green-basics-balkonbak/green-basics-balkonbak-60cm-mild-terra/ : Green Basics balcony planter 60 × 17 × 14 cm, 9.5 L, light plastic, drainage options.
+Brico https://www.brico.be/nl/tuin-terras-buitenleven/moestuinen-serres/moestuinbakken-oppottafels/moestuinbakken-op-poten/elho-moestuinbak-green-basics-xxl-gerecycled-plastic-zwart-36-5x75-5x65-1cm/5373399 : Elho Green Basics XXL overall 75.5 × 36.5 × 65.1 cm, lightweight recycled polymer, drainage through hollow feet; overall height not usable substrate depth.
+Praxis https://www.praxis.nl/tuin-terras-buitenleven/moestuinen-kassen/moestuinbakken-oppottafels/moestuinbakken-op-poten/elho-moestuinbak-super-xxl-gerecycled-plastic-58-1x76-7x73-1cm/5592721 : Super XXL external 76.7 × 58.1 × 73.1 cm, raised table, drainage, check exact retailer model.
+Good Food Brussels https://goodfood.brussels/sites/default/files/inline-files/4%20-%20AB_Mijn_balkon_moestuin_2018.pdf : 120 × 40 × 30 cm planter example ~100kg wet; structural load and wind safety must be checked, not a general balcony capacity assertion.
+No owned testing, commercial pricing guarantee, manufacturer-independent performance rating or affiliation claims.
