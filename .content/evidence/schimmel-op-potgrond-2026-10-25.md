@@ -1,0 +1,7 @@
+# Evidence — 2026-10-25
+RHS https://www.rhs.org.uk/biodiversity/saprotrophic-fungi : decomposer fungi usually need no control; support breakdown of organic matter.
+UMass https://www.umass.edu/agriculture-food-environment/greenhouse-floriculture/greenhouse-updates-april-6-2018 : surface molds of dead organic substrates are usually not harmful to roots; excess moisture, low airflow and poor drainage promote them. Algae are distinct.
+Iowa State https://yardandgarden.extension.iastate.edu/faq/will-mold-peat-pots-harm-my-flower-and-vegetable-seedlings : surface molds on peat pots not harmful to healthy seedlings; excess water may favor damping-off.
+Minnesota Extension https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/how-to-prevent-seedling-damping-off : weakened stems and collapse characterize damping-off; wet/cool soil and poor drainage favor it; clean trays and fresh mix.
+Gardeners' World NL https://www.gardenersworldmagazine.nl/groene-school/kamerplanten/schimmel-op-potgrond/ : white fluffy fungi vs white chalky mineral deposits, association with persistent moisture and weak ventilation.
+No diagnosis from colour alone; no evidence justifying universal cinnamon, vinegar or peroxide remedies.
