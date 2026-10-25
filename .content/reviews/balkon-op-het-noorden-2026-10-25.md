@@ -1,0 +1,13 @@
+# Review — north balcony — 2026-10-25
+- AUDIT: previous article generic unindexed placeholder. DEEP_REWRITE.
+- Research and evidence: RHS shade, RHS vegetables in containers, Cornell extension and Maryland extension.
+- Brief: tailored user task + light shade/deep shade distinction.
+- Content: early direct answer, table comparing crop suitability, practical small-scale trial, water and safety notes.
+- Fact check: no guaranteed yields, no assertion that all north balconies are dark; tomatoes and peppers positioned as poor choices under low light.
+- Humanizer: removed generic encouragement and inflated promises, increased conditional practical guidance.
+- General writing: Dutch editorial tone and terminology checked.
+- Anti AI slop: headings follow natural decisions, no generic FAQ or symmetrical pros/cons.
+- Internal links: only existing section hubs; no hyperlinks to empty leaf articles.
+- SEO: unique title/meta/H1/canonical; noindex until explicit user authorization.
+- Image: NOT_NEEDED in this edition; a genuine image of relevant light conditions would help later, but not fabricated.
+- Technical status: source committed, build and Playwright not run, no CI proof. PUBLISH_REVIEW = FAIL — KEEP_NOINDEX pending automated and human validation.
