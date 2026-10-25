@@ -1,0 +1,5 @@
+# Evidence register — 2026-10-25
+Milieu Centraal https://www.milieucentraal.nl/huis-en-tuin/tuin/stappenplan-groen-balkon/ — generic 250 kg/m² post-1992 reference, conditional; explicitly recommends landlord, VvE or structural engineer, wet soil/rainwater, furniture and people count. Examples: 10cm pot ~1.2kg; 20–30cm pot ~12kg; 40–50cm pot ~62kg; filled water butt water liters (kg) plus ~10kg for barrel. Updated June 30 2026.
+RHS https://www.rhs.org.uk/garden-design/roof-gardens-balconies — roof and balcony load needs checked, heavy containers, people and water; load-bearing points and wind, lightweight containers; professional structural assessment.
+Critical interpretation: generic reference value not universally authoritative safe limit. Average divided by area cannot verify concentrated load or compromised structure.
+No field inspection, local regulations established for particular building, or certifiable engineering calculation performed.
