@@ -1,0 +1,5 @@
+# Research evidence — 2026-10-25
+RHS https://www.rhs.org.uk/advice/grow-your-own/in-month/december — mostly pruning/planning; in mild areas with well-drained ground plant garlic and shallots; avoid frozen or waterlogged soils; autumn raspberries pruning.
+Moestuinplanner https://www.moestuinplanner.nl/zaaikalender/december/ — limited under-glass sowing winter cut lettuce and extra-early carrots; winter harvest kale, palm kale, field salad, winter purslane, parsley and roots.
+Aveve https://www.aveve.be/nl/inspiratie/moestuin/moestuin-tips/stappenplan-zaaien-in-je-moestuin — broad monthly sowing calendar lists December garlic, spinach and early carrots, but not an assurance of reliable sowing on exposed Dutch balcony. Distinguish garlic cloves as planting.
+Editorial care: light is limiting; unheated greenhouse and open balcony differ; no own frost observation or germination testing.
