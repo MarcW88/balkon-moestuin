@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next';import {catalog} from '@/lib/catalog';export default function sitemap():MetadataRoute.Sitemap{const base='https://balkon-moestuin.nl';return [{url:base+'/',changeFrequency:'weekly',priority:1},...catalog.map(g=>({url:base+'/'+g.slug+'/',changeFrequency:'monthly' as const,priority:.8}))]}

@@ -1,0 +1,309 @@
+[
+  {
+    "slug": "moestuin-beginnen",
+    "title": "Moestuin beginnen",
+    "subtitle": "Begin klein, oogst groot",
+    "description": "Van je eerste plantenbak tot een slimme indeling voor jouw balkon.",
+    "articles": [
+      {
+        "slug": "balkon-op-het-noorden",
+        "title": "Moestuin op een balkon op het noorden",
+        "status": "planned"
+      },
+      {
+        "slug": "balkon-op-het-zuiden",
+        "title": "Moestuin op een balkon op het zuiden",
+        "status": "planned"
+      },
+      {
+        "slug": "balkon-met-weinig-zon",
+        "title": "Groenten kweken met weinig zon",
+        "status": "planned"
+      },
+      {
+        "slug": "klein-balkon",
+        "title": "Een moestuin op een klein balkon",
+        "status": "planned"
+      },
+      {
+        "slug": "wat-heb-je-nodig",
+        "title": "Wat heb je nodig voor een balkonmoestuin",
+        "status": "planned"
+      }
+    ]
+  },
+  {
+    "slug": "groenten-kweken",
+    "title": "Groenten kweken",
+    "subtitle": "Verse groenten, gewoon buiten je deur",
+    "description": "Kies soorten die passen bij de ruimte, zon en potdiepte.",
+    "articles": [
+      {
+        "slug": "tomaten-kweken-in-pot",
+        "title": "Tomaten kweken in pot",
+        "status": "planned"
+      },
+      {
+        "slug": "sla-kweken-in-bak",
+        "title": "Sla kweken in een bak",
+        "status": "planned"
+      },
+      {
+        "slug": "paprika-kweken-in-pot",
+        "title": "Paprika kweken in pot",
+        "status": "planned"
+      },
+      {
+        "slug": "komkommer-kweken-in-pot",
+        "title": "Komkommer kweken in pot",
+        "status": "planned"
+      },
+      {
+        "slug": "radijs-kweken-in-pot",
+        "title": "Radijs kweken in pot",
+        "status": "planned"
+      },
+      {
+        "slug": "aardappelen-kweken-in-zak",
+        "title": "Aardappelen kweken in een zak",
+        "status": "planned"
+      }
+    ]
+  },
+  {
+    "slug": "kruiden-kweken",
+    "title": "Kruiden kweken",
+    "subtitle": "Een kruidentuin binnen handbereik",
+    "description": "Geurige kruiden voor elk seizoen en elk formaat balkon.",
+    "articles": [
+      {
+        "slug": "basilicum-kweken-in-pot",
+        "title": "Basilicum kweken in pot",
+        "status": "planned"
+      },
+      {
+        "slug": "munt-kweken-in-pot",
+        "title": "Munt kweken in pot",
+        "status": "planned"
+      },
+      {
+        "slug": "peterselie-kweken-in-pot",
+        "title": "Peterselie kweken in pot",
+        "status": "planned"
+      },
+      {
+        "slug": "bieslook-kweken-in-pot",
+        "title": "Bieslook kweken in pot",
+        "status": "planned"
+      }
+    ]
+  },
+  {
+    "slug": "fruit-kweken",
+    "title": "Fruit kweken",
+    "subtitle": "Fruit oogsten op je balkon",
+    "description": "Aardbeien, bessen en compact fruit in potten.",
+    "articles": [
+      {
+        "slug": "aardbeien-kweken-in-pot",
+        "title": "Aardbeien kweken in pot",
+        "status": "planned"
+      },
+      {
+        "slug": "blauwe-bessen-kweken-in-pot",
+        "title": "Blauwe bessen kweken in pot",
+        "status": "planned"
+      },
+      {
+        "slug": "frambozen-kweken-in-pot",
+        "title": "Frambozen kweken in pot",
+        "status": "planned"
+      }
+    ]
+  },
+  {
+    "slug": "balkon-inrichten",
+    "title": "Balkon inrichten",
+    "subtitle": "Meer oogst uit weinig ruimte",
+    "description": "Praktische oplossingen voor bakken, potten en verticale teelt.",
+    "articles": [
+      {
+        "slug": "verticale-moestuin",
+        "title": "Verticale moestuin op het balkon",
+        "status": "planned"
+      },
+      {
+        "slug": "moestuin-in-bakken",
+        "title": "Moestuin in bakken",
+        "status": "planned"
+      },
+      {
+        "slug": "gewicht-balkonmoestuin",
+        "title": "Hoe zwaar mag je balkonmoestuin zijn?",
+        "status": "planned"
+      },
+      {
+        "slug": "moestuin-op-balkon-indeling",
+        "title": "Je balkonmoestuin indelen",
+        "status": "planned"
+      }
+    ]
+  },
+  {
+    "slug": "moestuin-verzorgen",
+    "title": "Moestuin verzorgen",
+    "subtitle": "Gezonde planten, het hele seizoen",
+    "description": "Water geven, voeding, potgrond en dagelijkse verzorging.",
+    "articles": [
+      {
+        "slug": "water-geven",
+        "title": "Planten op het balkon water geven",
+        "status": "planned"
+      },
+      {
+        "slug": "potgrond",
+        "title": "De juiste potgrond kiezen",
+        "status": "planned"
+      },
+      {
+        "slug": "bemesten",
+        "title": "Groenten in potten bemesten",
+        "status": "planned"
+      },
+      {
+        "slug": "drainage",
+        "title": "Drainage in plantenpotten",
+        "status": "planned"
+      }
+    ]
+  },
+  {
+    "slug": "zaaikalender",
+    "title": "Zaaikalender",
+    "subtitle": "Wat kun je deze maand zaaien?",
+    "description": "Een seizoensgerichte gids voor zaaien, uitplanten en oogsten.",
+    "articles": [
+      {
+        "slug": "wat-zaaien-in-januari",
+        "title": "Wat zaaien in januari?",
+        "status": "planned"
+      },
+      {
+        "slug": "wat-zaaien-in-februari",
+        "title": "Wat zaaien in februari?",
+        "status": "planned"
+      },
+      {
+        "slug": "wat-zaaien-in-maart",
+        "title": "Wat zaaien in maart?",
+        "status": "planned"
+      },
+      {
+        "slug": "wat-zaaien-in-april",
+        "title": "Wat zaaien in april?",
+        "status": "planned"
+      },
+      {
+        "slug": "wat-zaaien-in-mei",
+        "title": "Wat zaaien in mei?",
+        "status": "planned"
+      },
+      {
+        "slug": "wat-zaaien-in-juni",
+        "title": "Wat zaaien in juni?",
+        "status": "planned"
+      },
+      {
+        "slug": "wat-zaaien-in-juli",
+        "title": "Wat zaaien in juli?",
+        "status": "planned"
+      },
+      {
+        "slug": "wat-zaaien-in-augustus",
+        "title": "Wat zaaien in augustus?",
+        "status": "planned"
+      },
+      {
+        "slug": "wat-zaaien-in-september",
+        "title": "Wat zaaien in september?",
+        "status": "planned"
+      },
+      {
+        "slug": "wat-zaaien-in-oktober",
+        "title": "Wat zaaien in oktober?",
+        "status": "planned"
+      },
+      {
+        "slug": "wat-zaaien-in-november",
+        "title": "Wat zaaien in november?",
+        "status": "planned"
+      },
+      {
+        "slug": "wat-zaaien-in-december",
+        "title": "Wat zaaien in december?",
+        "status": "planned"
+      }
+    ]
+  },
+  {
+    "slug": "problemen",
+    "title": "Problemen oplossen",
+    "subtitle": "Hulp als je planten niet groeien",
+    "description": "Herken verschijnselen en ontdek wat je kunt controleren.",
+    "articles": [
+      {
+        "slug": "gele-bladeren-tomatenplant",
+        "title": "Gele bladeren bij tomatenplanten",
+        "status": "planned"
+      },
+      {
+        "slug": "bladluis-op-groenten",
+        "title": "Bladluis op groenten",
+        "status": "planned"
+      },
+      {
+        "slug": "zaadjes-kiemen-niet",
+        "title": "Zaadjes kiemen niet",
+        "status": "planned"
+      },
+      {
+        "slug": "schimmel-op-potgrond",
+        "title": "Schimmel op potgrond",
+        "status": "planned"
+      }
+    ]
+  },
+  {
+    "slug": "beste-producten",
+    "title": "Beste producten",
+    "subtitle": "Slim kiezen voor je balkon",
+    "description": "Vergelijk materialen op afmetingen, gebruik en onderhoud.",
+    "articles": [
+      {
+        "slug": "beste-moestuinbak",
+        "title": "Beste moestuinbak",
+        "status": "planned"
+      },
+      {
+        "slug": "beste-verticale-moestuin",
+        "title": "Beste verticale moestuin",
+        "status": "planned"
+      },
+      {
+        "slug": "beste-potgrond",
+        "title": "Beste potgrond voor de moestuin",
+        "status": "planned"
+      },
+      {
+        "slug": "beste-automatisch-bewateringssysteem",
+        "title": "Beste automatisch bewateringssysteem",
+        "status": "planned"
+      },
+      {
+        "slug": "beste-kweektafel",
+        "title": "Beste kweektafel",
+        "status": "planned"
+      }
+    ]
+  }
+]
