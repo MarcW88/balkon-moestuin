@@ -1,0 +1,6 @@
+# Evidence register — 2026-10-25
+RHS https://www.rhs.org.uk/problems/tomatoes-leaf-problems : tomato leaf problems from improper watering, light, temperature and nutrients; older-leaf interveinal yellowing commonly magnesium; moisture extremes and leaf oedema.
+RHS https://www.rhs.org.uk/prevention-protection/nutrient-deficiencies : nitrogen deficiency often starts in old leaves, magnesium interveinal, excessive potassium can reduce magnesium uptake; root stress and waterlogging can mimic deficiencies.
+Mississippi State University Extension https://cto.extension.msstate.edu/agriculture/crops/commercial-horticulture/greenhouse-tomatoes/some-the-leaves-my-plants-are-turning-yellow-what-causing : lower shaded leaf senescence, early blight with brown lesions, N/K/Mg patterns. Nutrient management differs under container conditions.
+Diagnostic caveats: several stresses overlap; brown spots can have multiple causes; do not suggest pesticides or indiscriminate Epsom salt without a diagnosis.
+No lab tests or own plant observations.
