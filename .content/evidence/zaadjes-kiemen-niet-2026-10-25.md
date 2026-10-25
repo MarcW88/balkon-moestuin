@@ -1,0 +1,7 @@
+# Evidence register — 2026-10-25
+RHS https://www.rhs.org.uk/vegetables/seeds-sowing : crop-specific temperatures, outdoor and indoor methods, sowing failures from weather and poor seeds, damping-off with soggy conditions, possibility to resow.
+RHS https://www.rhs.org.uk/propagation/how-to-sow-seeds-indoors : storage age degrades viability; moisture and oxygen in germination, warm propagation and clean suitable compost; seed packet instructions.
+UC IPM https://ipm.ucanr.edu/home-and-landscape/damping-off-diseases-in-the-garden/ : damping-off seed rot and collapsed seedlings; cold wet compacted soil; hygienic reseeding and drainage.
+Makkelijke Moestuin https://backend.makkelijkemoestuin.nl/kennisbank/help-mijn-plantjes-doen-het-niet-goed : cold, hot, dry, wet, old seed, birds and planting too deeply may prevent emergence; simple germination test.
+IRS https://www.irs.nl/interessegebieden/alle-interessegebieden/teelthandleiding/7-2-kieming-en-opkomst/ : emergence depends on temperature, moisture, quality, depth and soil crusting; crop-specific evidence from sugar beet, not general temperature recommendation.
+Caveats: diagnostic symptoms are not decisive; a paper towel germination result is not equal to field emergence. No original testing.
