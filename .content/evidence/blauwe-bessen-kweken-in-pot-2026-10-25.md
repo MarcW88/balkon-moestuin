@@ -1,0 +1,5 @@
+# Evidence register — 2026-10-25
+RHS https://www.rhs.org.uk/fruit/blueberries/grow-your-own — acidic peat-free ericaceous potting medium; young 30cm pot, larger 45–50cm; full sun best, partial shade possible; moisture and rainwater; ripening and winter pruning; cross-pollination can improve fruiting.
+University of Minnesota Extension https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-blueberries-in-the-home-garden — preferred pH 4.0–5.5, elevated pH can cause yellow foliage, growth problems; test rather than indiscriminate treatment.
+RHS https://www.rhs.org.uk/education-learning/school-gardening/resources/food-growing/growing-fruit-in-containers — blueberries fit acidic containers, some cultivars self-fertile and compatible groups may pollinate better, peat-free compost, water and repot.
+No exact yields, personal trials, balcony load or specific brand testing.
