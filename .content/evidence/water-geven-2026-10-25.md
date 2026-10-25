@@ -1,0 +1,5 @@
+# Evidence — 2026-10-25
+RHS https://www.rhs.org.uk/container-gardening/how-to-water-containers — check compost moisture rather than fixed calendar; early morning/early evening; water slowly at compost; check moisture below surface even after light rain; avoid needless runoff and nutrient leaching; terracotta/small containers dry faster, grouping/mulch can help.
+RHS https://www.rhs.org.uk/garden-jobs/watering — early morning preferred; young seedlings surface needs consistent moisture; container checks in growing season; rain shadows under overhangs; avoid leaf wetting at night.
+University of Minnesota Extension https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/fertilizing-and-watering-container-plants — even moisture, small pots in heat may need multiple checks/watering per day, empty saucers to avoid saturated roots, mulch reduces evaporation.
+No universal fixed schedule, guaranteed quantities, crop trial or own measurements.
