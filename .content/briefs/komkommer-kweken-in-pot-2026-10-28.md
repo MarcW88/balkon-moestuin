@@ -1,0 +1,2 @@
+# BRIEF — cucumber in a balcony pot
+Dutch reader, outdoor in Netherlands: distinguish outdoor vs greenhouse and mini fruit vs plant size, 30cm pot and safe trellis, sow late April at ~21C and 1–2cm, harden, transplant reliably above 12C, manage wind, moisture and container feeding, flower pollination distinctions, optional pinching outdoor at seven leaves, diagnose powdery mildew and yellow leaves, pick promptly. Reorganize old comparison and six-step content inside main, add useful troubleshooting table; avoid fabricated personal trials.
