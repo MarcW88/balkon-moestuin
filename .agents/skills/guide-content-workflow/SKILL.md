@@ -1,8 +1,8 @@
 ---
 name: guide-content-workflow
-description: Workflow unique de production et correction des guides SEO/GEO sous les sections editoriales HTML de balkon-moestuin.nl. Utiliser après guide-analysis-workflow lorsqu'une page existante nécessite LIGHT_UPDATE ou DEEP_REWRITE, ou pour créer un nouveau guide. Orchestre majoritairement des skills GitHub existants pour intention, recherche, preuves, brief, rédaction et QA.
+description: Workflow unique de production et correction des guides SEO/GEO sous /guides/ de bloc-notes-numeriques.fr. Utiliser après guide-analysis-workflow lorsqu'une page existante nécessite LIGHT_UPDATE ou DEEP_REWRITE, ou pour créer un nouveau guide. Orchestre majoritairement des skills GitHub existants pour intention, recherche, preuves, brief, rédaction et QA.
 metadata:
-  adapted_for: balkon-moestuin.nl
+  adapted_for: bloc-notes-numeriques.fr
   orchestration_target: ">=80% existing GitHub skills"
   custom_scope: "guide routing + category boundaries + source-of-truth integration"
 ---
@@ -11,7 +11,7 @@ metadata:
 
 ## Rôle
 
-C'est le **seul workflow de production/correction** à utiliser pour les URLs des sections éditoriales hors `/beste-producten/`.
+C'est le **seul workflow de production/correction** à utiliser pour les URLs sous `/guides/`.
 
 Pour une page existante, la séquence normale est :
 
@@ -189,7 +189,7 @@ Règles :
 - ne pas transformer le guide en classement produit ;
 - pour `LIGHT_UPDATE`, ne pas réécrire par réflexe les passages que l'audit a demandé de préserver.
 
-Intégrer le contenu dans le **fichier HTML statique original** (`_generate.py` ou module explicitement chargé), puis régénérer. Ne pas éditer uniquement le HTML généré.
+Intégrer le contenu dans la **source de vérité du générateur** (`_generate.py` ou module explicitement chargé), puis régénérer. Ne pas éditer uniquement le HTML généré.
 
 ---
 
@@ -315,11 +315,3 @@ Ne pas ajouter :
 - deuxième copie des règles de `fact-check`, SEO, rédaction, humanisation ou QA déjà présentes dans les skills spécialisés.
 
 La couche custom doit rester limitée au routing Guide, aux frontières de catégorie et à l'intégration dans la source de vérité du site.
-
-
-## Adaptation Balkon Moestuin (prioritaire)
-- Domaine: horticulture néerlandaise, rédaction NL-NL, climat néerlandais et risque de gel, pots, eau, drainage, stabilité et poids de balcon.
-- Source de vérité: fichiers statiques index.html et style.css. Aucun générateur, framework, JS/TS, quota de H2 ou six cartes obligatoires.
-- Les noms /guides, /usages, /comparatifs, /marques dans le référentiel sont des exemples; routing effectif selon AGENTS.md et SECTION-MATRIX.md. Les pages /beste-producten suivent les workflows comparaison.
-- Pour DEEP_REWRITE: SUBSTANCE_DRAFT développé après SERP et evidence, avec passages explicatifs en prose (pas rafales H2 de paragraphes courts). Une correction CSS ou HTML ne valide jamais la suffisance éditoriale.
-- Tout contrôle indisponible reste NOT_RUN et bloque la livraison. Séparer résultats des agents effectivement lancés des instructions simplement lues.
