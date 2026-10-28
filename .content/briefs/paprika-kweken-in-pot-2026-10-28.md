@@ -1,0 +1,2 @@
+# Brief — Paprika in pot
+Dutch balcony beginner: assess sunny sheltered site, choose compact/point/bell pepper, sow indoors at correct temperature, harden before late-May/June transplant, pot diameter >=30 cm, moisture + potassium feeding, flower-drop diagnosis and harvest colour. Meaningful comparison table next to variety description, useful symptom/action table. Preserve original 6 cards, metadata and pathways. Never claim first-hand trials.
