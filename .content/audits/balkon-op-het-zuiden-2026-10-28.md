@@ -1,0 +1,2 @@
+# Audit — Balkon op het zuiden
+Original HTML 9009 chars. Observed thin practical coverage of microclimate, scorching root zone and water needs, empty crops selection container, original six-row crop comparison table after </main>, two inherited malformed breadcrumb anchor closures. Preserve SEO title/meta/H1/canonical, all original internal/external links, sunlight and load-bearing warnings. DEEP_REWRITE only this one page.
