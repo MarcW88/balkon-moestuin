@@ -16,6 +16,7 @@ Lees altijd eerst AGENTS.md, DESIGN.md, .agents/WORKFLOW.md, .agents/SECTION-MAT
 
 ## Eén pagina tegelijk
 AUDIT → RESEARCH → EVIDENCE → BRIEF → DRAFT → EDIT → FACT_CHECK → SEO → VISUAL_QA → PUBLISH_REVIEW → HUMAN_APPROVAL.
+Drie afzonderlijke verplichte redactionele gates: HUMANIZER, ANTI_AI_SLOP en EDITORIAL_QA. Elk vereist een eigen PASS/FAIL/NOT_RUN, bevindingen en aantoonbare fixes in .content/reviews; een gecombineerde PASS is verboden. FAIL of NOT_RUN blokkeert PUBLISH_REVIEW PASS. Een integrale paginacontrole is verplicht, niet slechts een steekproef.
 Verplicht: seo-keyword, content-and-copy, humanizer, general-writing, anti-ai-slop, fact-check, seo-onpage, seo-technical, editorial-qa en site-design-review volgens de relevante fase. Werkelijke uitvoering vastleggen in .content/audits, .content/evidence, .content/briefs en .content/reviews. Geen bestanden/skill-instructies als bewijs van uitvoering claimen. PASS, FAIL en NOT_RUN eerlijk onderscheiden. Screenshot-inspectie desktop/mobile vereist voor visuele PASS; Playwright zonder uitvoer = NOT_RUN.
 
 ## Redactionele waarheidsgrens
