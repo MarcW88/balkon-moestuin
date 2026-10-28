@@ -1,0 +1,2 @@
+# Audit — Klein balkon
+Initial HTML 8697 chars. Existing good safety emphasis, but empty crop grid, detached comparison table after </main>, limited implementation guidance, two malformed breadcrumb link closings. Keep original title/description/H1/canonical and all original links. DEEP_REWRITE of this page only.
