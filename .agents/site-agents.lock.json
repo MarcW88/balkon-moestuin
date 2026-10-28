@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "scope": "critical shared methods pinned by GitHub blob SHA; remaining families checked for presence",
+  "files": {
+    ".agents/skills/guide-analysis-workflow/SKILL.md": "02476e597d6f3e878d43d641606fe936921d1c47",
+    ".agents/skills/guide-content-workflow/SKILL.md": "7562fb6c569ef18d4ec0bccecd6584d559f90291",
+    ".agents/skills/comparison-analysis-workflow/SKILL.md": "0c7d92be37e2a7e1eecd9ad21a8346753933f6d7",
+    ".agents/skills/comparison-content-workflow/SKILL.md": "6c89155e97417791783e27ea1d002b1d039c7392",
+    ".agents/skills/fact-check/SKILL.md": "6e0b591fc55cd8075960f7525e3045576bde4d89",
+    ".agents/skills/editorial-qa/SKILL.md": "9070611e87c859e1accc291e8096cad2db265584",
+    ".agents/skills/site-design-review/SKILL.md": "44aeeefd8e495a6ce4fb74cbd76f0761e747c216",
+    ".agents/skills/humanizer/SKILL.md": "accad07f498f5f57e0b6460e74591d057bd96b2b",
+    ".agents/skills/anti-ai-slop/SKILL.md": "a0ae97dc8814bf450847eb2b7653ab64fbdf0ee0",
+    ".agents/skills/content-and-copy/SKILL.md": "6fbe38f95618d6462c95f19967fa7f66235546c8"
+  }
+}
