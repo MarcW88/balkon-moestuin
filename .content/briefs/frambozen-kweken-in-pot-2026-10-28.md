@@ -1,0 +1,2 @@
+# Brief — Frambozen in pot
+Dutch balcony reader: compact summer vs autumn raspberry choice; self-fertility; pot >=40cm diameter x 30cm deep; two-thirds peat-free universal and one-third loam-based compost; planting dormant bare-root or container plants; exceptions for long canes; stable windproof stakes, regular moisture during fruiting, safe weight; summer old-cane pruning after harvest vs autumn all-cane February pruning; fruit ripeness, diagnosis and overwintering. Maintain trustworthy guide URLs and claims without first-hand yield measurements.
