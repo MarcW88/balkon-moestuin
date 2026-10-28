@@ -7,8 +7,8 @@ Besluit: FAIL — KEEP_NOINDEX; HUMAN_APPROVAL_PENDING.
 | Routing en AUDIT | PASS | guide analyse/content volgens AGENTS.md; auditbestand |
 | Evidence en brief | PASS (scoped) | RHS bronnen gecontroleerd; evidence en brief |
 | Content-and-copy | PASS (scoped) | tabel verplaatst naar soortenkeuze; tekst concreter |
-| HUMANIZER | PASS (scoped, not full) | generieke formulering over 'toegankelijke manier' vervangen; geen complete zelfstandige paginapass, dus voor volledige publicatie: NOT_RUN |
-| ANTI_AI_SLOP | PASS (scoped, not full) | los aangeplakt tabelblok geïntegreerd en standaardvulling verwijderd; volledige onafhankelijke check: NOT_RUN |
+| HUMANIZER | NOT_RUN | gerichte formuleringen verbeterd, maar geen volledige zelfstandige controle met bewijs |
+| ANTI_AI_SLOP | NOT_RUN | generiek tabelblok verbeterd, maar geen complete zelfstandige pass aangetoond |
 | general-writing | PASS (scoped) | tekst en koppen verbeterd |
 | EDITORIAL_QA | NOT_RUN | volledige onafhankelijke controle na laatste wijzigingen ontbreekt |
 | SEO onpage | PASS (partial) | metadata, canonical, H1 uit HTML gelezen, geen live URL check |
