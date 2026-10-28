@@ -1,0 +1,2 @@
+# Audit — Bieslook kweken in pot
+Existing main page 7,282 HTML chars, several thin FAQs, empty variety and six-step div grids, H2 claiming six steps with no steps. Decision DEEP_REWRITE. Preserve URL, title, description, H1, canonical, previous internal link targets, practical advice and attribution. Focus real balcony use (container, wind, harvest, dividing, dormancy). No other article changes.
