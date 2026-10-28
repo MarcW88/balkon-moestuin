@@ -1,0 +1,2 @@
+# Brief — potatoes in bag on balcony
+NL reader with small balcony. Goals: choose first/second early vs maincrop, certified seed potatoes, optional chitting, safe drainage and balcony load, seed potato density, planting depth and earthing up, sun/water, frost and blight, harvest timing, green potato glycoalkaloid safety and storage. Concrete six-step grid, preserve comparison table and introduce diagnostic table. No yield promises, no fabricated trials.
