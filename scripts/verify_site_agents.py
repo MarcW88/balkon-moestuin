@@ -17,7 +17,7 @@ for path,want in lock['files'].items():
     file=root/path
     if not file.is_file(): errors.append(f"Missing pinned file {path}"); continue
     data=file.read_bytes()
-    actual=hashlib.sha1(b'blob '+str(len(data)).encode()+b'\\0'+data).hexdigest()
+    actual=hashlib.sha1(b'blob '+str(len(data)).encode()+bytes([0])+data).hexdigest()
     if actual!=want: errors.append(f"SHA mismatch {path}: expected {want}, got {actual}")
 if errors: sys.exit('FAIL: '+'; '.join(errors))
 print(f"PASS: {len(cfg['families'])} workflow families, {len(cfg['routes'])} routes, {len(lock['files'])} pinned files match source Git blob SHA.")
