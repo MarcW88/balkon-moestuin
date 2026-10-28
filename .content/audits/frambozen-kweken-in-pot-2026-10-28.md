@@ -1,0 +1,2 @@
+# Audit — Frambozen kweken in pot
+Original editorial-branch HTML 9116 chars. Problems: standalone type table outside main; empty selection and six-step placeholders; brief FAQ despite high-impact pruning differences. Keep title/meta/H1/canonical, original links, source disclosure and content on summer vs autumn canes. DEEP_REWRITE selected. Only this page in scope.
