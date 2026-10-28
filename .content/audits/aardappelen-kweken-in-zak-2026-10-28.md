@@ -1,0 +1,2 @@
+# Audit — Aardappelen kweken in zak
+Baseline 8129 HTML chars. Original type table after closing main, empty choice grid and empty step grid, short sections. Original broken breadcrumb anchors. Deep rewrite decision. Preserve H1, title, meta description, canonical, nav/footer, internal links, early-vs-late types and existing RHS source links. Scope exactly one page.
