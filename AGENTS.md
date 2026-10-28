@@ -14,6 +14,10 @@ Lees altijd eerst AGENTS.md, DESIGN.md, .agents/WORKFLOW.md, .agents/SECTION-MAT
 - problemen: guide workflows; symptomen, oorzaken en veilige correctie.
 - beste-producten: comparison-analysis-workflow → comparison-content-workflow; onafhankelijke productkeuze.
 
+## Herstel kwaliteitsnorm (2026-10-28)
+De vorige handmatige HTML-passes op groenten-kweken en kruiden-kweken tonen geen volwaardige onderzoeksgebaseerde contentproductie. Eerdere PASS voor Humanizer / Anti-AI-Slop geldt NIET als definitieve validatie van inhoudelijke volledigheid. De oude pagina's moeten een nieuwe AUDIT op substantie krijgen vóór enige publicatie.
+Voor DEEP_REWRITE: echte SERP-coverage en claim-by-claim research vóór de brief, dan SUBSTANCE_DRAFT vóór HTML-layout. Geen vaste 6 kaarten, tabellen of minimale wijzigingen als proxy voor goede inhoud. Een inhoudelijk te dunne pagina = ANTI_AI_SLOP FAIL, ongeacht de taalstijl. Afwezige onafhankelijke QA en browser = NOT_RUN. Skill-instructie ≠ werkelijke agentuitvoering.
+
 ## Eén pagina tegelijk
 AUDIT → RESEARCH → EVIDENCE → BRIEF → DRAFT → EDIT → FACT_CHECK → SEO → VISUAL_QA → PUBLISH_REVIEW → HUMAN_APPROVAL.
 Drie afzonderlijke verplichte redactionele gates: HUMANIZER, ANTI_AI_SLOP en EDITORIAL_QA. Elk vereist een eigen PASS/FAIL/NOT_RUN, bevindingen en aantoonbare fixes in .content/reviews; een gecombineerde PASS is verboden. FAIL of NOT_RUN blokkeert PUBLISH_REVIEW PASS. Een integrale paginacontrole is verplicht, niet slechts een steekproef.
