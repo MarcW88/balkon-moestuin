@@ -1,0 +1,2 @@
+# Audit — Wat heb je nodig voor een balkonmoestuin
+Source HTML 9992 chars. Existing basics and transparent sources good; main issues: empty shopping-list container, nine-item table after </main>, incomplete prioritisation, shallow guidance on soil, containers, plant choice, first weeks. Two malformed breadcrumb anchor closings. DEEP_REWRITE only this page. Preserve original SEO and hrefs.
