@@ -1,0 +1,5 @@
+# EVIDENCE — Aardbeien (research performed 2026-10-28)
+RHS https://www.rhs.org.uk/fruit/strawberries/grow-your-own — primary source: full sun and some shade, late summer/autumn planting, crown at soil surface (avoid rot or drying), 20cm spacing in containers, water in morning at base avoiding crown and fruit, container liquid feeding roughly fortnightly in growing season, ripe berries don't ripen after picking, propagation via runners in late summer, grey mould, bird protection, distinguish pruning treatment of summer-fruiting/perpetual types, replant after ~3–4 years.
+RHS https://www.rhs.org.uk/education-learning/school-gardening/resources/food-growing/growing-fruit-in-containers — selection of suitable container varieties, extended harvest through combining types, feeding and watering container-grown strawberries, replacing plants roughly every 3 years.
+RHS https://www.rhs.org.uk/container-gardening/growing-plants-in-containers — containers need greater attention for water, feed, drainage and winter root exposure.
+No first-hand growing trials, verified yields or proprietary photos.
