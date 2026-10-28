@@ -3,6 +3,9 @@
 Rapporteer voor elk criterium PASS, FAIL of NOT_RUN:
 - [ ] Routing: juiste sectie en exacte twee hoofdskills geladen.
 - [ ] Analyse: huidige pagina, SERP/zoekintentie indien raadpleegbaar, overlap en beslissingsstatus.
+- [ ] SERP en cluster: werkelijke concurrentie/zoekdekking voor DEEP_REWRITE, hiaten expliciet (NOT_RUN blokkeert de inhoudelijke afronding).
+- [ ] SUBSTANCE: de volledige tekst behandelt de onderzochte gebruikersvragen praktisch en specifiek; aantoonbare inhoudelijke voor/na-delta, niet uitsluitend HTML-/stijlwijzigingen.
+- [ ] Geen template-dwang: geen automatisch zes kaarten, identieke H2's, kopieën van buurpagina's of verplichte woordquota.
 - [ ] Evidence: belangrijke claims afzonderlijk geverifieerd, bronnen + datum bewaard.
 - [ ] Horticulture NL: licht, pot, bodem, drainage, seizoen, weer en veiligheid voor zover relevant.
 - [ ] Content-and-copy en general-writing: aparte uitgevoerde redactiepassen.
