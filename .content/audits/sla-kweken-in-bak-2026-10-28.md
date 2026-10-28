@@ -1,0 +1,2 @@
+# AUDIT — Sla kweken in bak
+Next untreated guide in Groenten kweken according to category ordering after Tomaten. Existing branch article 9417 HTML chars; existing useful six cards, but separate type comparison outside main and two malformed breadcrumb anchors, short explanations on bolting and harvest. Decision DEEP_REWRITE; preserve URL, title, meta, H1, canonical, six-step tile functionality, guide links and sources.
