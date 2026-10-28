@@ -1,0 +1,2 @@
+# Brief — few hours of sun
+Dutch reader with shaded balcony. Segment by true sun duration instead of compass bearing: 4–5 hours leaf crops (lettuce, spinach, chard), 3 hours lower-yield trial, 1–2 hours low confidence, deep shade no reliable edible harvest. Distinguish fruiting crops, radish uncertainty, herb choices. Six practical steps, comparative table, watering and timing, symptom diagnostics, low-cost test and safety. No guaranteed yields, no unsupported light hacks or product upsell.
