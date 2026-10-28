@@ -1,21 +1,25 @@
-# Balkon Moestuin — werkregels
+# Balkon Moestuin — agent routing (NL)
 
-De methodologische skills onder `.agents/skills/` zijn overgenomen uit `MarcW88/bloc-notes-numerique`. Hun oorspronkelijke domein-specifieke voorbeelden gelden niet als kennis over tuinbouw; voor balkon-moestuin.nl moet elk dossier op zijn eigen bronnen worden onderzocht.
+Lees altijd eerst AGENTS.md, DESIGN.md, .agents/WORKFLOW.md, .agents/SECTION-MATRIX.md en .agents/QA-CHECKLIST.md. Gebruik uitsluitend statische HTML en CSS: geen Next.js, Node.js, TypeScript of runtime JavaScript.
 
 ## Routing
-- Startpagina en redactionele hubs: guide-analysis-workflow en guide-content-workflow, aangepast aan de rol van de landingspagina.
-- Teeltgidsen in `moestuin-beginnen`, `groenten-kweken`, `kruiden-kweken`, `fruit-kweken`, `balkon-inrichten`, `moestuin-verzorgen`, `zaaikalender`, `problemen`: dezelfde twee guide workflows.
-- Koopadvies in `beste-producten`: comparison-analysis-workflow en comparison-content-workflow.
+- Home en sectiehubs: guide-analysis-workflow → guide-content-workflow; navigatie en clusterstructuur.
+- moestuin-beginnen: guide workflows; starten, licht, oriëntatie en balkonveiligheid.
+- groenten-kweken: guide workflows; soortspecifieke teelt in pot.
+- kruiden-kweken: guide workflows; kruid, standplaats en oogst.
+- fruit-kweken: guide workflows; soorten, bestuiving en overwinteren.
+- balkon-inrichten: guide workflows; gewicht, wind, drainage, veiligheid.
+- moestuin-verzorgen: guide workflows; voeding, water, onderhoud.
+- zaaikalender: guide workflows; Nederlandse seizoenen en binnen/buiten.
+- problemen: guide workflows; symptomen, oorzaken en veilige correctie.
+- beste-producten: comparison-analysis-workflow → comparison-content-workflow; onafhankelijke productkeuze.
 
-## Verplichte volgorde, één pagina tegelijk
-1. Analyseer intentie, concurrentie, overlap en eigen toegevoegde waarde. Voor bestaande pagina: AUDIT.
-2. Verzamel actuele betrouwbare bronnen en registreer claims, beperkingen en onzekerheden in `.content/evidence/`.
-3. Leg het maatwerk-brief vast onder `.content/briefs/`.
-4. Redigeer met content-and-copy, daarna onafhankelijke passes humanizer, general-writing en anti-ai-slop.
-5. Controleer feiten, interne links, SEO-onpage, technisch gedrag, beeldbehoefte en editorial-qa.
-6. Leg de PUBLISH_REVIEW vast onder `.content/reviews/`.
-7. Wijzig uitsluitend de geselecteerde pagina, commit op main en vraag menselijke validatie. Ga nooit naar een volgende pagina zonder expliciete goedkeuring.
-8. Voorlopige gidsen blijven noindex en ontbreken uit de sitemap. Haal noindex niet weg zonder uitdrukkelijke toestemming.
+## Eén pagina tegelijk
+AUDIT → RESEARCH → EVIDENCE → BRIEF → DRAFT → EDIT → FACT_CHECK → SEO → VISUAL_QA → PUBLISH_REVIEW → HUMAN_APPROVAL.
+Verplicht: seo-keyword, content-and-copy, humanizer, general-writing, anti-ai-slop, fact-check, seo-onpage, seo-technical, editorial-qa en site-design-review volgens de relevante fase. Werkelijke uitvoering vastleggen in .content/audits, .content/evidence, .content/briefs en .content/reviews. Geen bestanden/skill-instructies als bewijs van uitvoering claimen. PASS, FAIL en NOT_RUN eerlijk onderscheiden. Screenshot-inspectie desktop/mobile vereist voor visuele PASS; Playwright zonder uitvoer = NOT_RUN.
 
-## Waarheidsgrens
-Geen verzonnen eigen ervaring, teeltresultaten, producttests, prijzen of productbeschikbaarheid. Claim niet dat een skill is uitgevoerd als alleen het SKILL.md-bestand is gekopieerd. Vermijd links naar lege gidsen alsof deze af zijn. Volledige redactionele afwerking en technische CI-validatie zijn aparte controles.
+## Redactionele waarheidsgrens
+Geen gefingeerde ervaringen, resultaten, tests, prijzen, actuele voorraad of bronnen. Nederlandse klimatologische en veiligheidscontext expliciet meewegen. Onzekere draagkracht en bevestiging nooit als veilig goedkeuren. Oude voorbeelden voor koffie en elektronische notitieblokken zijn niet toepasbaar.
+
+## Publicatie
+KEEP/LIGHT_UPDATE/DEEP_REWRITE/MERGE/NOINDEX uit de audit. MERGE of NOINDEX vereist voorafgaand menselijk besluit. Geen ongeautoriseerde indexatie, robots/sitemap-noindex-wijziging, merge, deploy of vervolgpagina. Vraag voor iedere pagina expliciete gebruikersvalidatie.
