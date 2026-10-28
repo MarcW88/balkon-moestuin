@@ -1,0 +1,27 @@
+{
+  "context": ".agents/site-context.shared.md",
+  "families": {
+    "guide": [
+      "guide-analysis-workflow",
+      "guide-content-workflow"
+    ],
+    "comparison": [
+      "comparison-analysis-workflow",
+      "comparison-content-workflow"
+    ],
+    "design": [
+      "site-design-review"
+    ]
+  },
+  "routes": {
+    "/moestuin-beginnen/": "guide",
+    "/groenten-kweken/": "guide",
+    "/kruiden-kweken/": "guide",
+    "/fruit-kweken/": "guide",
+    "/balkon-inrichten/": "guide",
+    "/moestuin-verzorgen/": "guide",
+    "/zaaikalender/": "guide",
+    "/problemen/": "guide",
+    "/beste-producten/": "comparison"
+  }
+}
