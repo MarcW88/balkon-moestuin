@@ -1,0 +1,5 @@
+# Verified horticultural evidence — 2026-10-28
+RHS https://www.rhs.org.uk/vegetables/radishes/grow-your-own (fetched during current editorial workflow): salad radish sow 1cm deep 2.5–5cm apart; about 15cm between traditional rows; sow spring/early summer/late summer; avoid hot dry periods; winter radish July/August about 2cm deep 15–20cm spacing; long daikon roots can exceed 30cm; moisture inconsistency causes splitting, roots may fail in drought; thin when crowded; harvest salad radish often 4–6 weeks but early crops can take 6–8 weeks; around 2.5cm root width for many round types; flea beetle, slugs, cabbage root fly risks.
+RHS https://www.rhs.org.uk/vegetables/containers (fetched): radish suitable for containers, root depth and drainage matter.
+RHS https://www.rhs.org.uk/education-learning/children-young-people/family-activities/grow-it/crunchy-radishes (fetched): quick growing outdoors, spring/summer, light shade and sowing procedure.
+No horticultural hands-on trials or GSC export; any claim beyond documentary research is qualified.
