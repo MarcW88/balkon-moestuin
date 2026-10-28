@@ -1,0 +1,4 @@
+# Evidence — 2026-10-28
+RHS https://www.rhs.org.uk/vegetables/lettuce/grow-your-own verified in current web search: sow ~1cm deep, from late March through late July for summer/autumn, later suitable protected crops, sow little and often fortnightly, lettuce container at least ~30cm wide/deep for heads, looseleaf ~15cm spacing versus hearting ~30cm, hot/dry conditions speed bolting, looseleaf ~4-6 weeks and heads ~10-14 weeks depending on conditions, liquid feed in containers occasionally through summer; slugs, poor germination in heat.
+RHS https://www.rhs.org.uk/vegetables/cut-come-again-salads verified: pick few outer leaves, leave inner growth, sow small batches every two weeks up to late August for salad leaves; suitable for containers.
+RHS https://www.rhs.org.uk/vegetables/containers retained original citation. No original harvest trials.
