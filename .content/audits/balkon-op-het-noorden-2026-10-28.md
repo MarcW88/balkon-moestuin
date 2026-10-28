@@ -1,0 +1,2 @@
+# Audit — Balkon op het noorden
+Section Moestuin beginnen, first guide. Original 8563 HTML characters, detached crop table outside main, empty plant-choice grid, limited practical guidance on measured light, three malformed breadcrumb anchors. Decision DEEP_REWRITE. Keep SEO metadata, all existing links and cautions on deep shade.
