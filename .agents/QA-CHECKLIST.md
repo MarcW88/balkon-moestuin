@@ -5,7 +5,11 @@ Rapporteer voor elk criterium PASS, FAIL of NOT_RUN:
 - [ ] Analyse: huidige pagina, SERP/zoekintentie indien raadpleegbaar, overlap en beslissingsstatus.
 - [ ] Evidence: belangrijke claims afzonderlijk geverifieerd, bronnen + datum bewaard.
 - [ ] Horticulture NL: licht, pot, bodem, drainage, seizoen, weer en veiligheid voor zover relevant.
-- [ ] Prose: content-and-copy, humanizer, general-writing, anti-ai-slop elk aantoonbaar uitgevoerd.
+- [ ] Content-and-copy en general-writing: aparte uitgevoerde redactiepassen.
+- [ ] HUMANIZER: eigen PASS/FAIL/NOT_RUN met volledige pagina-inspectie, concrete voorbeelden en fixes.
+- [ ] ANTI_AI_SLOP: eigen PASS/FAIL/NOT_RUN met bewijs van unieke waarde, variatie en geen boilerplate.
+- [ ] EDITORIAL_QA: eigen PASS/FAIL/NOT_RUN na laatste edits; controleert inhoud, claims, stijl en beide vorige gates.
+- [ ] Publicatie geblokkeerd tenzij alle drie redactionele gates aantoonbaar PASS zijn.
 - [ ] Affiliate (indien relevant): echte productgegevens, verificatie, beperkingen en transparantie.
 - [ ] SEO: canonical, metadata, h1, interne links, eerlijke structured data, indexatiestatus.
 - [ ] UX: echte desktop/mobile screenshotinspectie, overflow, kaarten, focus, contrast, CTA.
