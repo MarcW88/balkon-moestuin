@@ -12,11 +12,11 @@ Bestandsnamen met sectieprefix voor unieke slugs: bijv. `groenten-kweken--tomate
 1. ANALYSIS: bestaande pagina en cluster, SERP waar beschikbaar, cannibalisatie en besluit.
 2. RESEARCH: concrete informatiebehoeften, recente gezaghebbende bronnen; geen gefingeerd onderzoek.
 3. BRIEF: pagina-specifieke aanpak; geen uniforme template.
-4. EDIT: content-and-copy → humanizer → general-writing → anti-ai-slop (ieder afzonderlijk uitvoeren en noteren).
+4. EDIT: content-and-copy → HUMANIZER → general-writing → ANTI_AI_SLOP; voer iedere pass afzonderlijk uit op de volledige pagina. Registreer per gate datum, exacte problemen, voor/na-bewijs en resultaat. HUMANIZER mag pas PASS krijgen bij natuurlijke Nederlandse formulering zonder mechanische overgangen; ANTI_AI_SLOP pas PASS bij unieke paginawaarde, geen herhaalde templates of generieke blokken. Een eerdere PASS kan door latere wijziging ongeldig worden.
 5. FACT_CHECK: fact-check + Nederlandse tuinbouwspecifieke toets; onbekend = onzeker of verwijderen.
 6. SEO: seo-keyword, seo-onpage en seo-technical volgens relevante pagina-intentie.
 7. VISUAL_QA: site-design-review + echte screenshotinspectie desktop/mobile; als niet uitvoerbaar NOT_RUN.
-8. EDITORIAL_QA en PUBLISH_REVIEW: onafhankelijke controle; een eerdere editor mag zijn eigen fouten niet wegvinken.
+8. EDITORIAL_QA als derde, afzonderlijke redactionele gate op de volledige eindversie; hercontroleer ook HUMANIZER en ANTI_AI_SLOP na laatste correcties. PUBLISH_REVIEW mag alleen PASS als alle drie expliciet PASS zijn en bewijs per gate vastligt. Een eerdere editor mag eigen fouten niet stilzwijgend wegvinken.
 9. HUMAN_APPROVAL: handmatige vrijgave voor de pagina; volgende URL pas na aparte instemming.
 
 ## Stopvoorwaarden
