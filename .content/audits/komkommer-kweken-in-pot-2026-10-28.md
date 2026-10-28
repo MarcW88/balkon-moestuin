@@ -1,0 +1,2 @@
+# AUDIT — Komkommer kweken in pot
+2026-10-28. Baseline branch 10688 HTML characters. Main weaknesses: disconnected comparison and six-step tables outside <main>, empty six-step grid, detached generic FAQs, malformed breadcrumb closing anchors. Preserve title, description, canonical, H1, original internal targets, source acknowledgements and outdoor/greenhouse pollination distinction. Decision DEEP_REWRITE; do not touch any other page.
