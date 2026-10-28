@@ -1,0 +1,2 @@
+# Brief — kleine balkonmoestuin
+Dutch novice on limited floor area. Answer layout, usable circulation and door access, stable wind-safe vertical structures, water management without leaking to neighbors, structural loads including wet soil/people/furniture, sun mapping, manageable crop selection, appropriate pot/root volume, drainage, low budget and optional tables/reservoirs. Include three layout models, five-row crop table and six practical steps. Do not invent balcony weight limits or perform fictitious safety certification.
