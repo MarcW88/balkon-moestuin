@@ -1,8 +1,8 @@
 ---
 name: guide-analysis-workflow
-description: Workflow unique d'analyse des pages /guides/ de balkon-moestuin.nl. Audite une URL ou le cluster, contrôle intention, rôle pédagogique, frontières avec usages/comparatifs/marques, preuves, fraîcheur, valeur affiliée, industrialisation éditoriale et SEO, puis décide KEEP, LIGHT_UPDATE, DEEP_REWRITE, MERGE ou NOINDEX. En mode PUBLISH_REVIEW, sert de gate final avant validation humaine.
+description: Workflow unique d'analyse des pages /guides/ de bloc-notes-numeriques.fr. Audite une URL ou le cluster, contrôle intention, rôle pédagogique, frontières avec usages/comparatifs/marques, preuves, fraîcheur, valeur affiliée, industrialisation éditoriale et SEO, puis décide KEEP, LIGHT_UPDATE, DEEP_REWRITE, MERGE ou NOINDEX. En mode PUBLISH_REVIEW, sert de gate final avant validation humaine.
 metadata:
-  adapted_for: balkon-moestuin.nl
+  adapted_for: bloc-notes-numeriques.fr
   orchestration_target: ">=80% existing GitHub skills"
   custom_scope: "orchestration + guide integrity + category boundaries + cluster similarity"
 ---
@@ -11,7 +11,7 @@ metadata:
 
 ## Rôle
 
-C'est le **seul workflow d'analyse** à utiliser pour les URLs des sections éditoriales hors `/beste-producten/`.
+C'est le **seul workflow d'analyse** à utiliser pour les URLs sous `/guides/`.
 
 Il ne rédige pas la page. Il orchestre en priorité les skills spécialisés déjà présents dans le dépôt et ajoute uniquement les contrôles propres à un contenu qui doit **faire comprendre, faire décider ou permettre d'accomplir une tâche**.
 
@@ -41,7 +41,7 @@ Retourne une décision et un plan de correction **sans réécrire la page**. L'a
 
 ## `CLUSTER_AUDIT`
 
-Analyse plusieurs URLs horticoles ensemble afin de détecter :
+Analyse plusieurs URLs `/guides/` ensemble afin de détecter :
 
 - intentions ou tâches qui se chevauchent ;
 - guides qui devraient être fusionnés ;
@@ -419,11 +419,3 @@ Ne pas ajouter :
 - duplication des méthodes déjà maintenues dans les skills spécialisés.
 
 Sa valeur est l'orchestration, la décision et le contrôle inter-pages propre au cluster Guides.
-
-
-## Adaptation Balkon Moestuin (prioritaire)
-- Domaine: horticulture néerlandaise, rédaction NL-NL, climat néerlandais et risque de gel, pots, eau, drainage, stabilité et poids de balcon.
-- Source de vérité: fichiers statiques index.html et style.css. Aucun générateur, framework, JS/TS, quota de H2 ou six cartes obligatoires.
-- Les noms /guides, /usages, /comparatifs, /marques dans le référentiel sont des exemples; routing effectif selon AGENTS.md et SECTION-MATRIX.md. Les pages /beste-producten suivent les workflows comparaison.
-- Pour DEEP_REWRITE: SUBSTANCE_DRAFT développé après SERP et evidence, avec passages explicatifs en prose (pas rafales H2 de paragraphes courts). Une correction CSS ou HTML ne valide jamais la suffisance éditoriale.
-- Tout contrôle indisponible reste NOT_RUN et bloque la livraison. Séparer résultats des agents effectivement lancés des instructions simplement lues.
