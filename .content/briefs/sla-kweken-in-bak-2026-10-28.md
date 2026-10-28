@@ -1,0 +1,2 @@
+# Brief — lettuce in container
+Dutch balcony beginner, intent: choose loose-leaf / hearting / baby-leaf lettuce, select container, thin and stagger sowings, protect from excessive summer heat, water, feed, harvest repeatedly, diagnose failures. Keep original six-step cards with better specificity, table next to variety choice and one useful troubleshooting table. Avoid invented harvest yields and rigid schedules.
