@@ -1,0 +1,2 @@
+# Brief — Northern balcony
+Help Dutch reader distinguish orientation vs actual usable direct sunlight, choose leafy crops for 3–5 hours of sun or bright part shade, distinguish radish and demanding fruiting vegetables, daylight seasonality, safe container placement, drainage, stagger sowing and two-pot low-cost experiment. Move comparison table into main, six practical steps and readable explanatory text. Don't promise harvest under deep shade.
