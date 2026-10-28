@@ -1,0 +1,2 @@
+# Brief — Bieslook
+Intent: grow and repeatedly harvest chives in balcony container in Dutch climate. Distinguish A. schoenoprasum (round hollow mild onion) and A. tuberosum (flat mild garlic). Process: suitable pot and sun/part shade; seed 0.5–1cm or potplant; evenly moist soil; cut near base; flowers; divide 3–4 years; winter dormancy; disease triage. No padded step template, no fabricated hands-on claims. Useful tables only.
