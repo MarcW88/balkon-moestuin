@@ -1,26 +1,29 @@
-# Workflow contract — bewijsbare uitvoering
+# Balkon Moestuin — afdwingbare onderzoeks- en productieketen
 
-## Contract en artefacten
-Voor iedere geselecteerde URL:
-- `.content/audits/<slug>.md`: URL, datum, status, intentie, overlap, KEEP/LIGHT_UPDATE/DEEP_REWRITE/MERGE/NOINDEX.
-- `.content/evidence/<slug>.md`: claim, bronlink, publicatie/update datum waar bekend, relevante Nederlandse context, verificatiestatus, onzekerheid en checked-on datum.
-- `.content/briefs/<slug>.md`: doelgroep, zoekintentie, onderscheidende waarde, format en uit te werken vragen, intern-linkplan, visuals.
-- `.content/reviews/<slug>.md`: afzonderlijke gates met PASS/FAIL/NOT_RUN, bewijs en wijzigingen; expliciet HUMAN_APPROVAL_PENDING.
-Bestandsnamen met sectieprefix voor unieke slugs: bijv. `groenten-kweken--tomaten-kweken-in-pot.md`. Maak directories pas bij een echte run.
+Dit contract herstelt de inhoudelijke workflow geïnspireerd door bloc-notes-numerique, aspirateurs-chantier en behandeling van complexe onderwerpen op traitement-air. Files in .agents zijn INSTRUCTIES, geen autonome agents.
 
-## Gates (in deze volgorde)
-1. ANALYSIS: bestaande pagina en cluster, SERP waar beschikbaar, cannibalisatie en besluit.
-2. RESEARCH: concrete informatiebehoeften, recente gezaghebbende bronnen; geen gefingeerd onderzoek.
-3. BRIEF: pagina-specifieke aanpak; geen uniforme template.
-4. EDIT: content-and-copy → HUMANIZER → general-writing → ANTI_AI_SLOP; voer iedere pass afzonderlijk uit op de volledige pagina. Registreer per gate datum, exacte problemen, voor/na-bewijs en resultaat. HUMANIZER mag pas PASS krijgen bij natuurlijke Nederlandse formulering zonder mechanische overgangen; ANTI_AI_SLOP pas PASS bij unieke paginawaarde, geen herhaalde templates of generieke blokken. Een eerdere PASS kan door latere wijziging ongeldig worden.
-5. FACT_CHECK: fact-check + Nederlandse tuinbouwspecifieke toets; onbekend = onzeker of verwijderen.
-6. SEO: seo-keyword, seo-onpage en seo-technical volgens relevante pagina-intentie.
-7. VISUAL_QA: site-design-review + echte screenshotinspectie desktop/mobile; als niet uitvoerbaar NOT_RUN.
-8. EDITORIAL_QA als derde, afzonderlijke redactionele gate op de volledige eindversie; hercontroleer ook HUMANIZER en ANTI_AI_SLOP na laatste correcties. PUBLISH_REVIEW mag alleen PASS als alle drie expliciet PASS zijn en bewijs per gate vastligt. Een eerdere editor mag eigen fouten niet stilzwijgend wegvinken.
-9. HUMAN_APPROVAL: handmatige vrijgave voor de pagina; volgende URL pas na aparte instemming.
+## Verplichte volgorde: één URL
+1. PRECHECK: juiste branch, originele bronfile, routing, volledige skills; geen automatische volgende pagina.
+2. AUDIT: inhoudelijk tekort, zoekintentie, concurrenten/SERP, cluster, KEEP/LIGHT_UPDATE/DEEP_REWRITE/MERGE/NOINDEX. Audit bevat een expliciete lijst ontbrekende vragen.
+3. RESEARCH: onderzoek elke materiële lacune. Als deep rewrite zonder echte informatie-/SERP-verkenning nodig is: markeer BLOCKED_RESEARCH, geen schijnreview.
+4. EVIDENCE: controleer claims met precieze bronpassages/links, datum, voorwaarden en NL-context.
+5. BRIEF: origineel plan uit lezersvragen en bewijs, niet uit een vast aantal kaarten, H2's, tabellen of woorden.
+6. SUBSTANCE_DRAFT: schrijf VOLLEDIGE operationeel nuttige tekst met content-and-copy. Controleer dat alle relevante hiaten zijn opgelost, niet alleen lege grids.
+7. FACT_CHECK, interne links en inhoudelijke vergelijking met buurpagina's.
+8. HUMANIZER + general-writing + ANTI_AI_SLOP: drie aparte passes met concrete voor/na voorbeelden. Anti-AI-Slop kan expliciet FAIL geven wegens inhoudelijke oppervlakkigheid.
+9. SEO, technische validatie, onafhankelijke EDITORIAL_QA, Playwright desktop/mobile en handmatige screenshotinspectie. Afwezige tools = NOT_RUN.
+10. guide-analysis-workflow / PUBLISH_REVIEW + HUMAN_APPROVAL. Slechts bij alle echte PASS READY_FOR_HUMAN_VALIDATION; anders FAIL — KEEP_NOINDEX.
 
-## Stopvoorwaarden
-Geen betrouwbare bronnen voor belangrijke claims; brandveiligheid/gewicht/constructieve zekerheid onbewezen; onduidelijke affiliate herkomst; verlopen prijzen; niet-werkende interne links; ontbrekende benodigde skill; onvoldoende bewijs van QA of screenshotinspectie.
+## Artefacten
+.content/audits/<section>--<slug>.md (gaps en decision)
+.content/evidence/<section>--<slug>.md (claim per bron)
+.content/briefs/<section>--<slug>.md (reader task, coverage, opbouw)
+.content/reviews/<section>--<slug>.md (inhoudelijke delta, QA, exact tools/evidence, PASS/FAIL/NOT_RUN)
 
-## Activatie en bewijs
-De router wordt geactiveerd doordat de uitvoerende agent AGENTS.md leest. `SKILL.md` is instructie, geen autonome daemon, trigger of bewijs van uitvoering. GitHub push op zichzelf voert geen skills uit. Gebruik de QA-checklist van `.agents/QA-CHECKLIST.md` bij iedere pagina. Noteer handmatig wat daadwerkelijk gedaan is en welke tools zijn gebruikt.
+## Verboden shortcut
+- Geen LIGHT_UPDATE alleen omdat wat HTML ontbreekt: audit oordeelt over inhoudelijke taakdekking.
+- Geen automatische zes-stappenstructuur.
+- Geen "Humanizer PASS" bij een handvol cosmetische zinswijzigingen of generieke korte teksten.
+- Geen "Anti-AI-Slop PASS" als de pagina leeg, ongedifferentieerd of inhoudelijk onvoldoende is.
+- Geen verzonnen externe onafhankelijke reviewer of Playwright.
+- Geen nieuwe pagina, merge, deploy, robots/sitemap wijziging zonder aparte expliciete toestemming.
