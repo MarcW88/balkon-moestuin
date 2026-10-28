@@ -1,0 +1,2 @@
+# Brief — balcony garden starter essentials
+Dutch beginner. Clearly distinguish must-have pots/drainage, container compost, seeds/plants and water, from optional saucers/tools/stakes/fertiliser/irrigation. Contrast crops/space, sun and seasonal fit, reuse safely, avoid invented budgets, give six-step starter plan and three-container example, avoid upselling. Preserve nine-item selection table and all original links; source-based claims and transparency.
