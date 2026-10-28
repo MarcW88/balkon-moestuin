@@ -1,0 +1,2 @@
+# Audit — Blauwe bessen kweken in pot
+Section Fruit: Aardbeien previously approved, next untouched Blauwe bessen. Baseline 9529 HTML chars; empty choice and step placeholders, detached choice table outside main, overly segmented FAQ. DEEP_REWRITE. Preserve SEO metadata, existing internal and source links, compare compact vs adult pot, rainwater, self-fertility, pruning and winter.
