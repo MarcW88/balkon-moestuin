@@ -11,13 +11,15 @@ Decision: FAIL — KEEP_NOINDEX (testpilot, geen toestemming om te publiceren).
 | Research and evidence | PASS (scoped) | RHS brondocumenten onderzocht; .content/evidence dossier |
 | Brief | PASS | .content/briefs dossier |
 | Edit / content-and-copy | PASS (scoped) | gerichte correctie HTML, rassenkeuze, belasting en vorstrisico |
-| Humanizer/general-writing/anti-ai-slop | PASS (manual scoped review) | passages gecontroleerd op natuurlijk Nederlands en niet-generieke tips; geen volledige herredactie |
+| HUMANIZER | NOT_RUN | Geen afzonderlijke volledige-pagina pass met before/after bewijs bij eerdere pilot |
+| ANTI_AI_SLOP | NOT_RUN | Geen afzonderlijke volledige-pagina structuur- en waardecontrole met bewijs bij eerdere pilot |
+| General-writing | PASS (scoped) | Beperkte formuleringstoets, geen integrale pass |
 | Horticultural fact-check | PASS (scoped) | RHS claims vergeleken, veiligheidsgrens expliciet |
 | SEO onpage | PASS (static partial) | canonical, title, H1 en aanwezige interne links in HTML gecontroleerd; live links niet getest |
 | SEO technical | NOT_RUN | geen live crawl / validatie van alle targets, schema, sitemap of browser |
 | Visual Playwright desktop | NOT_RUN | GitHub clone geblokkeerd door DNS-resolutie in uitvoeromgeving |
 | Visual Playwright mobile | NOT_RUN | idem; geen screenshot of visuele inspectie |
-| Editorial QA | PASS (scoped) | leesbaarheid, intentie en feitelijke beperkingen bekeken; externe volledige QA ontbreekt |
+| EDITORIAL_QA | NOT_RUN | Eerdere beperkte review is onvoldoende voor onafhankelijke volledige-pagina PASS |
 | Full cluster audit | NOT_RUN | geen volledige SERP-/pagina-overlapanalyse |
 | Human approval | PENDING | expliciete validatie vereist |
 
