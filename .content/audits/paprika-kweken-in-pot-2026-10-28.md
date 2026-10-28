@@ -1,0 +1,2 @@
+# Audit — Paprika kweken in pot
+Baseline 10,627 HTML chars on editorial branch. Standalone short H2 advice, detached variety table after </main>, empty choices block, malformed breadcrumb anchors. Keep H1, title/meta/canonical, 6 original step cards, all internal href and three RHS sources. Decision DEEP_REWRITE. Crop requires warmth and bright light, important for Dutch outdoor growing.
