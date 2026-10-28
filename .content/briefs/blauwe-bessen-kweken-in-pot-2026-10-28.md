@@ -1,0 +1,2 @@
+# Brief — blueberries
+NL balcony beginner. Core constraints: peat-free ericaceous compost pH 4.5–5.5, young container >=30 cm, grown bush 45–50 cm, rainwater preferred, sun/partial shade, optional second overlapping cultivar for improved cross-pollination, careful planting, monthly ericaceous feed if needed, repot every ~2 years, prune only older wood from third year, ripeness and birds, winter root protection. Explicit triage table and useful six steps. No invented trials/yield guarantees.
