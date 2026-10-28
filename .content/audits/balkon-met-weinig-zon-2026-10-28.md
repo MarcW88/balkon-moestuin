@@ -1,0 +1,2 @@
+# Audit — Balkon met weinig zon
+Original 7244 HTML chars: short general recommendations, empty selection block, only three basic steps, little actionable differentiation between 1–2, 3–5 hours and deep shade. Two malformed breadcrumb anchor closings inherited. Keep exact title, meta description, canonical and H1; preserve all previous source/internal link targets. Decision DEEP_REWRITE, strictly one page.
