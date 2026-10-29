@@ -1,0 +1,2 @@
+# Audit page principale Moestuin verzorgen
+2026-10-29, base main. Original HTML 2427 chars, title générique, meta « Water geven, voeding, potgrond en dagelijkse verzorging », H1 non orienté requête, quatre cartes dotées de descriptions génériques répétitives, aucune explication approfondie ni sources ou diagnostic. Garder URL canonique, 4 sous-guides et tous les href existants. Optimiser comme hub utile plutôt que dupliquer guides spécialisés.
