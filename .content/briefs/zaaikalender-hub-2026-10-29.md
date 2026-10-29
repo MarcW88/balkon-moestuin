@@ -1,0 +1,2 @@
+# Brief — Zaaikalender hub
+Objective: transform navigational stub into genuinely useful Dutch balcony sowing hub, without replicating 12 monthly guides. Differentiate month cards, introductory four-season orientation, indoor vs sheltered vs outdoor sowing, microclimate, container examples, weather caveats and source transparency. Preserve original 12 URL targets, site nav, legal footer and canonical. Hub intent: general zaaikalender balkon; monthly intent remains wat zaaien in [maand]. Branch only, no merge/deploy.
