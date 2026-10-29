@@ -1,0 +1,2 @@
+# Static QA — Balkon inrichten hub
+Content commit 419d6c762027814f66648faac75ce4e4bef4e953. 2472→9411 HTML chars. Manual language and anti-repetition pass. All old hrefs preserved, all four cluster child guides linked, one H1, canonical unchanged, skip-link and targeted main added. Static balance of html/head/body/main/section/div/a/nav/h1/h2/h3/ol/li passes. Not run: actual browser Playwright, full HTML5 validation, WCAG contrast checks, public HTTP verification; no merge/deploy. Only hub modified.
