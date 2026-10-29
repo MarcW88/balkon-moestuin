@@ -1,0 +1,6 @@
+# Evidence — gewicht balkonmoestuin — 2026-10-29
+1. Milieu Centraal, https://www.milieucentraal.nl/huis-en-tuin/tuin/stappenplan-groen-balkon/ (updated 30 June 2026, checked 29 October): sample filled pots approx 1.2kg at 10cm; approx 12kg at 20–30cm; approx 62kg at 40–50cm; full 100L water butt ~110kg including illustrative 10kg barrel. Must count wet soil, rainwater, people and furniture. It gives a conditional 250kg/m² example for post-1992 buildings but this is NOT a building-specific safety assurance.
+2. RHS, https://www.rhs.org.uk/garden-design/roof-gardens-balconies (checked 29 October): check structural strength and approvals; full containers and users count; suspended balcony load restrictions; surveyor or structural engineer; wind and drainage relevant.
+3. RHS, https://www.rhs.org.uk/garden-inspiration/garden-types/balconies-roof-gardens: similar balcony checks and lightweight container tradeoffs; do not transfer UK standards to Dutch buildings.
+4. Reasoned engineering caution, not a numerical engineering specification: a gross mass divided by total balcony area cannot certify localized effects at feet, cantilevers or connections. Only competent assessment using building information can.
+No building inspection, tested product, safety certification, or universal allowable load.
