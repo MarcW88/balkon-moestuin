@@ -1,0 +1,2 @@
+# Audit — Wat zaaien in maart
+Original HTML 9976 characters; empty table placeholder and six-step grid, crop comparison table outside main, useful but brief advice. Preserve SEO and original URLs; correct misleading early tomato guidance with precise outside versus greenhouse distinction. DEEP_REWRITE only March; no changes to other months or index.
