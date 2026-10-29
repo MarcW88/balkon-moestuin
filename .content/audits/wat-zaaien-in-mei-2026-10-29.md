@@ -1,0 +1,2 @@
+# Audit – Wat zaaien in mei
+Baseline HTML 10582 chars. Existing useful May advice and internal links, but crop table outside closing main, empty crop placeholder, empty 6-step grid, over-simplified 'after mid-May' bean advice. Scope only May guide, preserve SEO and links.
