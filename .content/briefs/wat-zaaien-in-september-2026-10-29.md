@@ -1,0 +1,2 @@
+# Brief — September sowing on a Netherlands balcony
+Explain early September autumn spinach/radish/rocket, September lamb's lettuce and winter purslane, winter lettuce varieties and onion sets vs sowing, garlic later, decreasing daylight, container drainage, winter harvest sometimes spring instead. Practical two-box plan, six steps, table in main, previous/next month links, clear original-source disclosures. No guaranteed harvests or invented trials.
