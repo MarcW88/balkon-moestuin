@@ -1,0 +1,2 @@
+# Brief — August sowing on Dutch balconies
+Answer what to sow early vs late August: rocket, mizuna, pak choi/tatsoi, turnips, spinach, lamb's lettuce, winter purslane. Provide cooling/bolting/seedbed moisture caveats, delay late beans/courgettes, small-space succession and two-pot starter plan. Restore table into main, six practical steps, clear transition to September, sources and transparency. Do not invent harvest claims, preserve page metadata and old links.
