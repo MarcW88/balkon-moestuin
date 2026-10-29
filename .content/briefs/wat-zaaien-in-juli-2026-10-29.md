@@ -1,0 +1,2 @@
+# Editorial brief — Wat zaaien in juli
+Dutch balcony reader; practical July to autumn transition. Distinguish mid/late summer leaf sowings, pak choi and Asian brassicas in cooler weather, turnips July-mid August, quick crops and unreliable July bean sowing. Explain drought, bolting, seedbed moisture, small container constraints, reuse of crop space, six-step workflow, compact two-crop example, bridge to August. Avoid universal fixed dates or guaranteed results, preserve SEO and all old links.
