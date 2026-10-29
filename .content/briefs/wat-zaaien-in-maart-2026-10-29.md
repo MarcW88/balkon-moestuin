@@ -1,0 +1,2 @@
+# Brief — Maart
+NL balcony beginners. Explain direct outside sowing of radish lettuce spinach peas broad beans carrots beetroot in suitable mild weather vs indoor tomatoes end March/early April for outdoors and peppers/aubergines earlier warm/bright. Delay cucumber for outside to late April. Soil/drainage, frost, seedling problems, successional sowing, three-pot example. Visible accessible table and six actual steps. Preserve metadata all old URLs; no unwarranted guarantees.
