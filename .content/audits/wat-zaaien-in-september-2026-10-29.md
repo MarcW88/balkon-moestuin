@@ -1,0 +1,2 @@
+# Audit — September
+Original 10281 HTML characters, useful existing article but empty overview and six-step grid; eight-row table incorrectly after main; need more differentiated winter lettuce varieties, rainfall drainage and realistic winter growth expectations. Scope only September article; preserve metadata, H1, links.
