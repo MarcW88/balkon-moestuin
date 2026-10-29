@@ -1,0 +1,2 @@
+# Audit — July balcony sowing
+Original 9784 HTML characters. Existing practical guide and sources, but an empty crop overview placeholder, empty six-step grid, and an eight-row table outside main. Missing robust heat-specific lettuce germination guidance and sample succession. Only July page scoped; preserve all metadata and old destinations.
