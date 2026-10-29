@@ -1,0 +1,2 @@
+# Audit — August calendar
+Original 9864 HTML chars; empty overview placeholder and six-step grid, eight-row table incorrectly after main, generally good autumn advice but limited specific pot succession and hot seedbed troubleshooting. Scope August guide only. Preserve SEO and all existing hrefs.
