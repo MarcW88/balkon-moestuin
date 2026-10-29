@@ -1,0 +1,2 @@
+# Audit — Moestuin in bakken
+Initial 9 214 HTML chars, SEO title/meta/canonical/H1 useful; four-column container table incorrectly after </main>, untranslated headers name/for/advantage/watch, empty comparison placeholder and empty six-step grid. General advice good; missing crop-specific starter example and grow bag discussion. Scope only this article; preserve every original href.
