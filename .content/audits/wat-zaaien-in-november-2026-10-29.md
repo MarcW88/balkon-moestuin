@@ -1,0 +1,2 @@
+# Audit — November sowing guide
+Original 10101 HTML characters. Existing guide has helpful winter crop caveats, but crop overview placeholder and six-step grid were empty; table of seven crops outside main. Typo 'semis', ambiguous early carrots suggestion. Scope November guide only. Preserve SEO and original hrefs.
