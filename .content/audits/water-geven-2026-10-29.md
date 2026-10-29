@@ -1,0 +1,2 @@
+# Audit — Water geven
+Initial HTML 9572 chars. Good basic advice and contextual links but empty condition summary container, empty six-step grid and 5-row comparison table outside main with lowercase nonscoped headers. Risk of generalities, weak diagnosis of hydrophobic compost. Preserve title/meta/canonical/H1 and original links. Scope only water-geven page.
