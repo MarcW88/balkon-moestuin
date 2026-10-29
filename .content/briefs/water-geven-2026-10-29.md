@@ -1,0 +1,2 @@
+# Brief — Planten op balkon water geven
+Dutch balcony gardeners, realistic no fixed schedule. Teach moisture check, pot material/location and plant stage, gradual soil-level watering, stop before/as first drainage appears, avoid standing saucers, hydrophobic compost recovery, differential diagnosis of wilting in wet soil, seasonal and vacation considerations. Six actionable steps and 5-row scenario table within main. Preserve SEO/hrefs. Manual natural-language Humanizer/anti-AI-slop cleanup; no invented measurements or one-size-fits-all litres.
