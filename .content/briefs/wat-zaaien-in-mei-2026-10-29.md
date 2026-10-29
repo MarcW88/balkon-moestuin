@@ -1,0 +1,2 @@
+# Brief – May sowing balcony NL
+Separate cool-season direct sowing from frost-sensitive beans, cucurbits and transplants. Treat IJsheiligen as reminder not guaranteed last frost. Update beans outdoor window based on warmed soil and frost risk (often late May/early June). Provide visible eight-row crop matrix and six actual steps, hardening and failed germination troubleshooting. Preserve all existing hrefs, title/meta/H1/canonical. No invented trials.
