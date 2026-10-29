@@ -1,0 +1,4 @@
+# Evidence — 29 octobre 2026
+RHS https://www.rhs.org.uk/vegetables/containers : pots, troughs, growbags suitable; smaller pots risk insufficient moisture/nutrients; broad 45 cm depth/width recommendation for a generous general vegetable container is NOT a requirement for every herb or salad crop. Turfvrije potgrond, steady watering without waterlogging.
+RHS https://www.rhs.org.uk/container-gardening/growing-plants-in-containers : holes in container base essential; metal heats quickly, terracotta is porous, plastic lighter; larger containers tend to dry more slowly; tall narrow pots prone to wind. Gardeners should consider accessible care and drainage in wet months.
+RHS https://www.rhs.org.uk/education-learning/school-gardening/resources/getting-started/container-gardening : containers such as growbags usable, inspect drainage holes, stable supports. Balcony structural load needs building-specific structural confirmation, not unsupported kg/m² claims. No own tests.
