@@ -1,0 +1,37 @@
+name: Moestuin verzorgen visual QA
+on:
+  push:
+    branches:
+      - editorial/moestuin-verzorgen-hub-20261029
+    paths:
+      - 'moestuin-verzorgen/**'
+      - '.github/qa/moestuin-verzorgen-visual.cjs'
+      - '.github/workflows/moestuin-verzorgen-visual-qa.yml'
+  workflow_dispatch:
+jobs:
+  visual-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Start local static preview
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/moestuin-server.log 2>&1 &
+          for i in $(seq 1 30); do if curl -fsS http://127.0.0.1:8765/moestuin-verzorgen/ >/dev/null; then break; fi; sleep 1; done
+      - name: Check five pages at 375 and 1440 widths
+        run: node .github/qa/moestuin-verzorgen-visual.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: moestuin-verzorgen-playwright-results
+          path: artifacts/moestuin-verzorgen/
+          if-no-files-found: warn
