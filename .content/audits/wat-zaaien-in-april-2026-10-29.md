@@ -1,0 +1,2 @@
+# Audit — April sowing guide
+Baseline 10671 HTML chars. Existing 9-row crop table stranded after closing main, empty table placeholder and six-step grid, basic cultivation advice without enough container-specific tips and detailed seed troubleshooting. Preserve SEO and all original URL targets. Only April HTML scope.
