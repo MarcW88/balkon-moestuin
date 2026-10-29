@@ -1,0 +1,2 @@
+# Audit — December balcony sowing
+Original 9833 HTML characters. Useful cautious winter crop content but empty overview placeholder and six-step grid, existing six-row table outside main. Misleading implication that December is normal time for winter lettuce sowing; RHS generally recommends September/October. Need clarify sow vs plant, winter garlic, indoor edible cress and weatherproof containers. Scope December only; preserve SEO and all prior links.
