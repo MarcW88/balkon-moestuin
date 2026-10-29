@@ -1,0 +1,2 @@
+# Brief – January balcony sowing
+Dutch/NL beginner, realistic January guidance. Distinguish small edible cress/microgreen trial from sustained indoor seedling care. Usually outdoor sowing on open balcony unsuitable. Under glass or indoors possible early salad/leaf crops, chillies only with warm bright setup, tomatoes preferably later. Emphasise daylight, clean free-draining trays, no frost, hardening off, avoid false precision. Convert dormant data table to visible comparison inside main, fill real six step cards, add next-month link, source disclosure.
