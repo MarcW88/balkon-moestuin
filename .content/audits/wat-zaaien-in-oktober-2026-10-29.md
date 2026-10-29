@@ -1,0 +1,2 @@
+# Audit — October sowing page
+Original length 10494 HTML chars; useful autumn information and sources but empty crop overview container and six-step grid, existing 7-row table outside the main element. Opportunity: clearer difference between sowing and planting, concrete garlic pot dimensions, realistic winter expectations, drainage/storm safety. Scope only October page; preserve all original SEO and link destinations.
