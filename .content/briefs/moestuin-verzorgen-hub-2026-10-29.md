@@ -1,0 +1,2 @@
+# Brief éditorial — Moestuin verzorgen
+Public néerlandophone, débutants jardinage en pot sur balcon néerlandais. Intention : comprendre entretien global, aiguillage vers eau, terreau, engrais, drainage. Réécriture naturelle sans jargon superflu, vrai diagnostic de problèmes fréquents, routine courte, saisonnalité, sécurité poids du balcon, FAQ introductive. SEO title/meta/H1 descriptifs, canonical inchangé, tous les anciens liens conservés, nouveaux liens contextuels vers problemen et zaaikalender. Source transparente et aucune expérience fictive.
