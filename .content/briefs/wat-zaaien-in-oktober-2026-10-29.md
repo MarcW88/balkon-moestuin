@@ -1,0 +1,2 @@
+# Brief — Wat zaaien in oktober
+Dutch balcony beginners. October sowing possibilities limited as light falls. Distinguish under-cover winter lettuce, autumn-sown broad beans/peas only mild sheltered contexts, planting garlic cloves and overwinter onion sets for next year. Practical crop table, six-step wind/drainage/planting plan, pot-depth and spacing sourced from RHS garlic; winter slow growth, harvest/cleanup, two-box plan, links Sept and Nov. No fixed frost guarantees. Preserve original SEO/hrefs and transparent citations.
