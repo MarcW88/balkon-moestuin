@@ -1,0 +1,2 @@
+# Audit — Wat zaaien in februari
+Baseline 9866 HTML chars. Original guide has helpful basics but empty crop container, empty six-step grid, 7-row table beyond </main>, weak distinctions protected versus outside balcony and greenhouse versus outside tomato start. Decision DEEP_REWRITE, only February, preserve original SEO and links. Do not modify calendar index or other months.
