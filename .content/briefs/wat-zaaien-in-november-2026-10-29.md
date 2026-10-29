@@ -1,0 +1,2 @@
+# Brief — Dutch balcony November sowing
+Explain limited November sowing and more planting/overwintering: broad beans only mild sheltered with suitable variety, winter lettuce under cold glass with caution, garlic cloves planted not sown, winter onions subject to label. Avoid implying carrot sowing is normal outdoors. Explain short days and delayed harvest, wet/windy containers and drainage, a modest two-box plan. Preserve metadata and links, restore seven-row table inside main, populate six actual instructions, add December link.
