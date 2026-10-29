@@ -1,0 +1,2 @@
+# Brief — June balcony sowing
+NL novice. Distinguish quick summer sowing of French/runner beans, beetroot, carrots, chard, radish, lettuce, herbs and selected outdoor cucumbers from usually earlier winter-brassica sowing. Practical heat/wind/moisture, space constraints, re-sowing and three-pot plan, no fixed yield claims. Restore 8-row crop table inside main, six real steps, preserve all original SEO and URLs; introduce July link.
