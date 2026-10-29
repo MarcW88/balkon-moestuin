@@ -1,0 +1,2 @@
+# Audit indeling
+Original 10336 HTML chars. SEO title, description, H1, canonical adequate. Main content helpful but grid six steps empty, two comparison placeholders empty, 2 tables rendered after </main> and headings lacking scope. Priorities: fill planning workflow, actual zone/type comparison tables, avoid unsafe blanket load assumptions, preserve all original links.

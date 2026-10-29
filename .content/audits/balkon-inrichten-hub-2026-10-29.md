@@ -1,0 +1,2 @@
+# Audit — Balkon inrichten / hub
+2026-10-29. Original 2472 HTML chars. Generic title/meta/H1 and four repeated descriptions; no practical guidance or sourcing. Relevant intended cluster: verticale-moestuin, moestuin-in-bakken, gewicht-balkonmoestuin, moestuin-op-balkon-indeling. Core risk: safety claims about balcony load cannot use generic kg/m² without building-specific structural data. Preserve canonical and all four links.

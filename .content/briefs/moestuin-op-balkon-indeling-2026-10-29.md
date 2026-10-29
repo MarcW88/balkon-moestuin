@@ -1,0 +1,2 @@
+# Brief indeling
+Readers: Dutch balcony growers. Practical step-by-step layout of balcony based on sun observation, access/escape, plant growth, drainage, wind stability, building-specific structural capacity. Six steps and 2 tables, with navigation accessible. Keep explicit warning that weight bearing requires owner/building records/structural engineer. Avoid inventing load figures. Distinguish location choices, light requirements, and practical maintenance. Maintain Dutch natural explanatory tone and existing SEO/canonicals.
