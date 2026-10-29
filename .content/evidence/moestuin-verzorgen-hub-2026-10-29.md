@@ -1,0 +1,6 @@
+# Evidence horticole — recherche du 29 octobre 2026
+Royal Horticultural Society, vegetables in containers https://www.rhs.org.uk/vegetables/containers : pot assez volumineux, terreau adéquat sans tourbe, arrosage régulier et éviter l'engorgement, fertilisation adaptée.
+RHS, growing plants in containers https://www.rhs.org.uk/container-gardening/growing-plants-in-containers : trous de drainage indispensables, arrosage plus fréquent au printemps et en été, exigences dépendant du contenant.
+RHS, how to water containers https://www.rhs.org.uk/container-gardening/how-to-water-containers : retirer l'eau des soucoupes et les retirer en hiver, evaporation et paillage.
+RHS, container maintenance https://www.rhs.org.uk/container-gardening/maintenance : plantes en pot demandent plus de suivi que pleine terre, protections en hiver.
+RHS, peat-free seed/cutting compost https://www.rhs.org.uk/soil-composts-mulches/using-peat-free-compost-for-seeds-and-cuttings : certains mélanges ont l'air secs en surface mais retiennent l'eau ; vérifier sous la surface. Pas de données d'essais propres au site. Sources britanniques contextualisées pour balcon néerlandais.
