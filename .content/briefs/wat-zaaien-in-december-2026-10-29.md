@@ -1,0 +1,2 @@
+# Brief — Wat zaaien in december
+Dutch balcony user. State outdoor winter seed sowing generally not practical; existing winter vegetables harvesting and caring, garlic and shallots planting in mild dry conditions, winter lettuce usually seeded earlier, early carrots not a practical December choice, cress/microgreens short indoor option. Practical six steps, comparison table within main, frost and drainage, two-pot example, source transparency. Preserve title/meta/H1/canonical and old hrefs.
