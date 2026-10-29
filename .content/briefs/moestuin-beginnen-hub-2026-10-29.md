@@ -1,0 +1,2 @@
+# Brief — 2026-10-29
+Search intent: begin a balcony vegetable garden. Target: moestuin beginnen balkon. Beginner-friendly six steps, practical crop/soil/light/water choices and building-specific load caution. Preserve five child links and design. Crosslink to Balkon inrichten and Moestuin verzorgen. Natural Dutch, no artificial anecdotes or unsupported claims.
