@@ -1,0 +1,2 @@
+# Audit – Wat zaaien in juni
+Original 10850 HTML chars. Valuable source-linked content but empty crop list container, empty six-step grid and crop table after closing main. Advice for boerenkool overly broad relative to RHS June calendar. Opportunity: more specific heat/seed-germination guidance and small-balkon crop succession. Scope only June.
