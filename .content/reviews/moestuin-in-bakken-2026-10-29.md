@@ -1,2 +1,9 @@
-# QA — Moestuin in bakken
-Branch editorial/balkon-inrichten-hub-20261029. Content commit a8da358c2f53c1fc5c352e0571af27a36eee2c32; 9214→12425 chars. Edited Dutch content, manual Humanizer / Anti-AI-Slop check, replaced empty grid with 6 specific steps, placed 4-row container comparison within main, translated 4 header names, added scope=col and scrollable region tabindex=0. Added safety, growbag, moisture diagnostic, crosslinks. GitHub readback confirms same title/meta/canonical/H1, all old hrefs, 6 tiles, 4 column scopes, table within main, skip-link target. Targeted HTML paired tags balanced before commit. Not run: strict HTML5 validation, browser Playwright screenshots, WCAG/Lighthouse and public HTTP checking; none should be claimed. No merge/deploy.
+# Review / QA — Moestuin in bakken (29 oktober 2026)
+- Bronpagina daadwerkelijk uit GitHub opgehaald op `editorial/balkon-inrichten-hub-20261029` (blob `80e1c02c880d1f712a6d8bbb3c634b294754e3c7`).
+- Humanizer / Anti-AI-Slop redactionele controle: concrete gebruikersvragen, praktische voorbeelden, geen kunstmatige ervaringen en geen schijnnauwkeurige maten per gewas.
+- Fact-check bronnen en restricties opgenomen in evidence.
+- Nieuwe tabel: thead, tbody, th scope=col, tekst voor alle cellen, focusbare scroll-regio met aria-label.
+- Statische inhoudscontrole in het mutatiescript: twee vervangingsankers gevonden, unieke H1 en canonical behouden, HTML secties met echte tekst.
+- GitHub-readback na commit: nog te verifiëren.
+- **Niet uitgevoerd:** Playwright desktop/mobile, browser screenshots, Lighthouse, volledige WCAG-audit of live preview van branch. Geen visuele QA claimen.
+- **Productie:** niet deployen, niet mergen.

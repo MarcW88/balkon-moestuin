@@ -1,2 +1,10 @@
-# Brief — Een moestuin in bakken op je balkon maken
-Audience: Dutch novice growing edible plants on balcony. Intent: choose suitable container based on plant roots, substrate, drainage, support, access, sun, structural weight and wind stability. Six operational steps and comparison of four container forms. Differentiate growing bags, salad planters, large tubs and elevated beds; realistic maintenance and no generic safety guarantee. Preserve existing SEO and links, enrich contextual links to compost, watering, drainage and growing potatoes in bags; natural Dutch, concise, evidence-grounded. Do not invent trials.
+# Brief — Moestuin in bakken (29 oktober 2026)
+- **Zoekintentie:** informatief en uitvoerend: welk type moestuinbak past op een Nederlands balkon en hoe richt ik die veilig in?
+- **Hoofdterm:** moestuin in bakken op balkon. **Nevenvragen:** hoe diep moet een moestuinbak zijn, welke potgrond, drainage, geschikte groenten, waterreservoir, gecombineerde teelt, gewicht.
+- **Publiek:** beginnende balkontuinder; beperkte ruimte, twijfel over zon en gewicht.
+- **Belofte:** keuzes kunnen maken vóór aanschaf, zonder universele afmetingen of veiligheidsclaims.
+- **Behoud:** bestaande title/description/canonical/H1, zes stappen, containervergelijking, bestaande links, layout.
+- **Uitbreiding:** gewas- en bakkeuze in kwalitatieve tabel; samenplanten met concreet voorbeeld; reservoir met overloop en watergewicht; onderhoud na seizoen.
+- **Stijl:** natuurlijk Nederlands, directe instructies, geen fictieve persoonlijke ervaring, geen verkooppraat of zinloze SEO herhaling.
+- **Fact-check:** RHS en Milieu Centraal; onderscheid algemene richtlijnen versus ras- en gebouwenafhankelijke adviezen.
+- **Acceptatie:** alleen doelpagina + vier documentatiebestanden; GitHub-readback, HTML en link checks; visuele QA apart en expliciet labelen.
