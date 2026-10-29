@@ -1,0 +1,2 @@
+# Brief — April sowing on Dutch balconies
+User expects outside vs indoor sowing by crop, late frost, windowsill limitations, suitable pot drainage and sizing, staggered small sowings, seedling problems, links to previous and next month. Restore original table inside main with Dutch scoped headings, six real cards. No false local weather predictions, product tests or invented exact prices. Existing title/meta/H1/canonical and internal links unchanged.
