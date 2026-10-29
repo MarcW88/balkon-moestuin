@@ -1,0 +1,2 @@
+# Audit – Wat zaaien in januari?
+First calendar detail page in Zaaikalender (12 monthly guides exist in index). Original 9179 HTML characters, empty crop overview container, empty 6-step grid, comparison table detached after closing main, limited explanation of microgreens and winter indoor seedling light. Decision DEEP_REWRITE with restrained fact-check, preserve title, meta, canonical, H1 and all old URLs. Main calendar landing page unchanged.
