@@ -1,0 +1,1 @@
+Review 2026-10-30: Retained substantive Dutch article, improved practical options, safe trellis advice, metadata and canonical. Added skip link, focusable scroll tables, footer navigation label. GitHub readback and static QA only. Browser/Playwright QA pending. No merge or deployment.

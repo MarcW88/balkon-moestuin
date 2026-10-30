@@ -1,0 +1,1 @@
+Review paprika kweken in pot 2026-10-30. Dutch prose retained and made more actionable; no AI filler or invented observations. Added internal link to balcony weight guide; H1, title, meta and canonical preserved. Static checks and GitHub readback required. Browser Playwright and screenshots pending until actually executed. No merge or deployment.

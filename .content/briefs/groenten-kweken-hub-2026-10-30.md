@@ -1,0 +1,2 @@
+# Editorial brief — groenten kweken hub — 2026-10-30
+Search intent: vegetables grown in pots on balconies. Keyword groenten kweken balkon; related tomaten pot, sla bak, paprika, komkommer, radijs, aardappel zak. Distinguish warm-season fruiting from cool-season leafy crops. User journey: sun, structural permission, choose crop and pot, care, six specific guides. Keep natural Dutch; no invented yields or universal safe load; preserve canonical and links. Change hub only, no children, no deployment.

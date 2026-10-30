@@ -1,0 +1,2 @@
+# Audit — groenten kweken hub — 2026-10-30
+Blob: 17038279f1871213c039472d663855db40d0fe0d. Original: generic one-line H1 and meta; six repetitive links to guides; no crop selection, root volume, watering, sunlight, safety or evidence. Canonical and six child routes valid. High SEO/user intent gap: users need to choose crops before navigating. Replaced placeholder with practical hub and table, preserving existing links and design patterns.

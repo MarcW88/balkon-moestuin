@@ -1,0 +1,1 @@
+Audit paprika kweken in pot 2026-10-30. Existing article comprehensive: cultivar comparison, six steps, temperature, sun, drainage, feed, flower set and harvest. Targeted change adds sow-vs-buy advice and structural safety. Two tables now keyboard focusable and main skip link added. Existing SEO metadata preserved.

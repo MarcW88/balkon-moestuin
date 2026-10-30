@@ -1,0 +1,1 @@
+Audit 2026-10-30 — radijs kweken in pot. Existing guide has thorough RHS-grounded sowing, thinning, water, harvest, radish types and diagnostic table. Gaps: crop and container decision could be immediate; balcony load and safe placement; skip link, keyboard-focusable scroll tables and footer label. Targeted edit preferred over redundant rewrite.

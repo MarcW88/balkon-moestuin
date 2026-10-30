@@ -1,0 +1,36 @@
+name: QA Groenten kweken Chromium
+on:
+  pull_request:
+    paths:
+      - 'groenten-kweken/**'
+      - '.qa/groenten-playwright.cjs'
+      - '.github/workflows/qa-groenten.yml'
+  workflow_dispatch:
+jobs:
+  rendered-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Playwright and Chromium
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Start static web server
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 &
+          sleep 3
+      - name: Run seven-page desktop and mobile checks
+        run: node .qa/groenten-playwright.cjs
+      - name: Upload screenshots and report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: groenten-qa-desktop-mobile
+          path: qa-artifacts/
+          if-no-files-found: warn

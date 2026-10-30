@@ -1,0 +1,1 @@
+Brief 2026-10-30: Intent sla kweken in bak on Dutch balcony. Distinguish pluksla, kropsla and baby leaf. Preserve detailed original Dutch editorial text, two tables and six steps. Add practical harvest choice, cautious fertilizer language and weight safety. No fabricated yields or product trials.
