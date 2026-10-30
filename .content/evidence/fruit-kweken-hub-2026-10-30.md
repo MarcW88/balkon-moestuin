@@ -1,0 +1,2 @@
+Evidence 2026-10-30 – RHS container fruit guidance
+https://www.rhs.org.uk/education-learning/school-gardening/resources/food-growing/growing-fruit-in-containers : strawberries in pots or baskets, blueberries need acidic compost, suitable cultivars and container sizing matter. https://www.rhs.org.uk/fruit/fruit-trees/containers : fruit pot choice, watering, drainage and need for adequate rooting room. Avoid universal claims about sunlight hours, yields, balcony load or container sizes for every variety.
