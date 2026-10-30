@@ -1,0 +1,2 @@
+# Review — 2026-10-29
+Humanizer and Anti-AI-Slop editorial pass: direct practical instructions instead of repetitive generic blurbs; no invented experience. Title, description and H1 revised, canonical preserved; five child URLs and CSS preserved. Six steps and contextual links added. Static structural checks performed before commit; GitHub readback after commit. Playwright desktop/mobile and visual screenshot inspection NOT performed, so browser QA remains outstanding. No merge/deployment.

@@ -1,0 +1,7 @@
+# Evidence — Balkon op het noorden — 2026-10-29
+- RHS, https://www.rhs.org.uk/garden-design/shade-gardening — leaf salads, lettuce, chard and spinach relatively tolerant of light shade; bright modules can help initial growth. Not a claim of success in deep shade.
+- RHS, https://www.rhs.org.uk/advice/beginners-guide/vegetable-basics/positioning-vegetables — most vegetables prefer sun; lettuce, peas, spinach can crop in lighter shade; fruiting crops suffer.
+- University of Maine Extension, https://extension.umaine.edu/gardening/2023/06/16/what-vegetables-and-fruits-will-grow-in-an-area-that-only-gets-three-to-five-hours-of-sunlight-a-day/ — 3–5 hours *direct sun* is a lower-bound trial for leafy crops, not equal to bright indirect daylight. Fruiting crops normally need substantially more sun. No promise of exact outcomes.
+- University of Maryland Extension, https://extension.umd.edu/resource/growing-vegetables-containers — approximately 3–5 hours direct sun for cool-season leafy crops, generally 6–8 for warm-season fruiting crops; north exposures cooler/shadier.
+- University of Maryland Extension, https://extension.umd.edu/resource/growing-vegetables-containers-and-salad-tables — sufficient drainage openings; gravel layer does not improve drainage; monitor moisture below surface before watering.
+Checked from publicly accessible sources 2026-10-29. No balcony observation, specific yield prediction, or structure certification.

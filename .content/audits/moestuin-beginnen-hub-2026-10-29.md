@@ -1,0 +1,2 @@
+# Audit — 2026-10-29
+Original hub offered five generic navigation cards, a slogan and no real first-step guidance. Metadata generic, limited semantic coverage, no safety, light, drainage, crop choice or care. Existing canonical and all five child links valid in repository. Add actionable content with existing CSS and semantic headings; avoid changing child pages.
