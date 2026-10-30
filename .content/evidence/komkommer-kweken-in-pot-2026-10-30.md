@@ -1,0 +1,1 @@
+Evidence 2026-10-30: https://www.rhs.org.uk/vegetables/cucumbers/grow-your-own : sow outdoor varieties indoors in late April, transplant after hardening when reliably warm, container >=30 cm wide/deep, buy plug plants as an alternative. Outdoor types require male and female pollination, many all-female greenhouse types should avoid it. Use specific cultivar advice.

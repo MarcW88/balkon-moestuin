@@ -1,0 +1,1 @@
+Brief 2026-10-30: Answer cucumber-in-pot balcony intent with cultivar-specific outdoor guidance, support, water and pollination. Preserve existing SEO and information. Add beginner choice and safety crosslinks. No fabricated harvest figures.
