@@ -41,3 +41,5 @@
  .footer .footer-bottom{padding-top:16px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.tile,.links a{transition:none}}
+
+.skip-link{position:absolute;left:-9999px;top:auto;z-index:9999}.skip-link:focus{left:1rem;top:1rem;padding:.75rem;background:white;color:#111;outline:3px solid var(--green)}
