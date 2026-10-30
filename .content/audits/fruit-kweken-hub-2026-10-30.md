@@ -1,0 +1,2 @@
+Audit 2026-10-30 – /fruit-kweken/
+Original hub: 2192 text characters, generic title and description, three link tiles, no decision guidance or skip link. Same HTML on main, shared-workflow and infrastructure branches. Guides intentionally left unchanged. Target: useful category navigation for fruit in balcony containers, no duplicate long-form guides.

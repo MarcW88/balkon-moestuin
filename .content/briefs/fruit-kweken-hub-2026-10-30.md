@@ -1,0 +1,2 @@
+Brief 2026-10-30 – Fruit kweken hub
+Search intent: fruit kweken balkon, fruit in pot, aardbeien, blauwe bessen and frambozen balcony suitability. Give quick decision table, container/sun/substrate distinctions, introduction to drainage and balcony load, relevant crosslinks, concise questions. Preserve three existing guide destinations; no commercial product claims.

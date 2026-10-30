@@ -1,0 +1,2 @@
+Review 2026-10-30
+SEO: focused title/description and canonical preserved; one H1. UX: comparison of three crops, explicit matching guides, contextual links for balcony load, small spaces and watering. A11y: skip link and keyboard-focusable table region. Fact-check: no exact universal pot volumes or growing yields. Humanizer/anti-slop: practical concise Dutch rather than generic statements. Three fruit guide HTML files unchanged. Playwright/rendered QA pending.
