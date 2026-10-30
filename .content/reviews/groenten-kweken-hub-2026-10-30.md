@@ -1,0 +1,2 @@
+# Review — groenten kweken hub — 2026-10-30
+Humanizer/Anti-AI-Slop: replaced generic filler with crop-specific practical comparisons and conditional decisions. Fact-check: sunshine ranges sourced; no universal guarantees; container drainage and wet weights. SEO title/meta/H1/canonical, six existing child URLs and links to related guides. A11y: skip link and keyboard-focusable region table with column scopes. Static checks and GitHub readback planned; browser Playwright desktop/mobile has not been performed, so full visual QA outstanding. No merge or deploy.
