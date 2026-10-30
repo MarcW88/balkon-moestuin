@@ -1,0 +1,1 @@
+Audit 2026-10-30: Lettuce container guide already substantive: lettuce types and distances, sowing, thinning, water, bolting, harvesting and diagnosis tables. Corrected missing direct harvest-method choice, overly rigid feeding cadence, balcony weight crosslink, skip link, keyboard-focusable tables and legal navigation label. SEO title and canonical retained.
