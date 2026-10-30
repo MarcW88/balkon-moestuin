@@ -1,0 +1,1 @@
+Review 2026-10-30. Humanized Dutch prose retained, SEO metadata preserved, internal safety link added, two focusable tables and skip link. Browser QA pending. No merge or deployment.

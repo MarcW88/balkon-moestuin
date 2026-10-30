@@ -1,0 +1,1 @@
+Brief 2026-10-30. Potato grow bags on Dutch balconies: early varieties, certified seed potato, drainage, earthing up, safe balcony weight and green tuber safety. Preserve detailed original Dutch copy and SEO metadata. No fabricated harvests.
