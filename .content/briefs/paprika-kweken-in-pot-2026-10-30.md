@@ -1,0 +1,1 @@
+Brief paprika kweken in pot 2026-10-30. Intent: practical growing sweet peppers in containers on Dutch balconies. Retain strong article. Clarify buying transplants versus indoor sowing, wind and balcony load, improve accessibility. No fabricated first-hand claims, yields, or fixed frost-free dates.
