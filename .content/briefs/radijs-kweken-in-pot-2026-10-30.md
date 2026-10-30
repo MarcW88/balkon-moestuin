@@ -1,0 +1,1 @@
+Brief 2026-10-30 — radijs kweken in pot. Reader intent: grow salad radishes in balcony containers. Preserve title, meta description, H1, canonical, comprehensive existing cultivar and problem comparisons. Add quick container-by-root-shape choice and secure balcony placement. Natural Dutch, no fabricated trials, rankings or yields.
