@@ -1,0 +1,30 @@
+name: QA all long guide navigation
+on:
+  pull_request:
+    paths:
+      - '**/*.html'
+      - 'style.css'
+      - '.qa/long-guide-global.cjs'
+      - '.github/workflows/qa-long-guide-global.yml'
+  workflow_dispatch:
+jobs:
+  all-guides:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 &
+          sleep 3
+      - run: node .qa/long-guide-global.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: long-guide-global-captures
+          path: qa-guide-global-artifacts/
