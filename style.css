@@ -55,3 +55,5 @@
 .long-guide h2[id^="guide-"]{scroll-margin-top:24px}
 .long-guide .section{padding-top:54px;padding-bottom:54px}
 @media(max-width:760px){.long-guide .guide-toc{padding:19px 20px;margin-bottom:8px}.long-guide .guide-toc ol{columns:1}.long-guide .section{padding-top:36px;padding-bottom:36px}}
+
+.long-guide .guide-toc a{overflow-wrap:anywhere}.long-guide h2{overflow-wrap:break-word}
